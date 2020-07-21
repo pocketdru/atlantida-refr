@@ -1,12 +1,24 @@
 
 import React from "react";
-import "./style.css";
+import logo from "./Icon_Logo.png";
+import "../style.css";
 
 function Nav() {
   return (
-    <nav className="nav">
-     <a className="nav-link active" href="/">Google Books</a>
-     <a className="nav-link" href="/saved">Saved</a>
+    <nav className="nav navbar d-flex">
+        <a className="navbar-brand" href="#">
+            <img src={logo} height="30" className="d-inline-block align-top" alt="" loading="lazy"/>
+        </a>
+        <a class="navbar-brand mr-5 ml-0">Atlantida</a>
+        <a className="nav-link" href="/">Home</a>
+        <a className="nav-link" href="/saved">About</a>
+        <a className="nav-link" href="/">Services</a>
+        <a className="nav-link" href="/saved">History</a>
+        <a className="nav-link" href="/saved">Team</a>
+        <a className="nav-link" href="/saved">Portfolio</a>
+        <a className="nav-link" href="/saved">Prices</a>
+        <a className="nav-link" href="/saved">Blog</a>
+        <a className="nav-link" href="/">Contact</a>
     </nav>
   );
 }

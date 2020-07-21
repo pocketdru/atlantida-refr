@@ -1,0 +1,15 @@
+@mixin nav-font-family(){
+    color: #aaaaaa;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    @include nav-font-family;
+}
+
+.nav-link {
+    @include nav-font-family;
+}

@@ -1,13 +1,16 @@
 
 import React, { Component } from "react";
-import Jumbotron from "../components/Jumbotron";
+import Nav from "../components/Nav";
 
 
 class Home extends Component {
-    return () {
-
+    render() {
+        return (
+        <div className="container">
+            <Nav/>
+        </div>
+        ) 
     }
-
 }
 
-  export default Books;
+  export default Home;
