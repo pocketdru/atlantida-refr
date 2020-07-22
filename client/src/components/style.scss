@@ -6,8 +6,13 @@
     text-transform: uppercase;
 }
 
+.nav {
+    height: 65px;
+}
+
 .navbar-brand {
     @include nav-font-family;
+    font-size: 18px;
 }
 
 .nav-link {

@@ -9,7 +9,7 @@ function Nav() {
         <a className="navbar-brand" href="#">
             <img src={logo} height="30" className="d-inline-block align-top" alt="" loading="lazy"/>
         </a>
-        <a class="navbar-brand mr-5 ml-0">Atlantida</a>
+        <a className="navbar-brand mr-5 ml-0">Atlantida</a>
         <a className="nav-link" href="/">Home</a>
         <a className="nav-link" href="/saved">About</a>
         <a className="nav-link" href="/">Services</a>
