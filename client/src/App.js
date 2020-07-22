@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div>
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>
