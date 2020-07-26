@@ -1,3 +1,6 @@
-
+.container-fluid .jumbotron {
+  background-image: url("Image.png");
+  background-color: none;
+  height: 635px; }
 
 /*# sourceMappingURL=style.css.map */

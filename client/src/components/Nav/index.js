@@ -1,8 +1,6 @@
-
 import React from "react";
 import logo from "./Icon_Logo.png";
-import "../style.css";
-import Jumbotron from "../Jumbotron";
+import "./style.css";
 
 function Nav() {
   return (
