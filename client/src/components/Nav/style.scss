@@ -1,7 +1,17 @@
+@media (max-width: 992px) {
+
+  }
+
+  // попробовать написать for each для каждого размера экрана 
+@function responsive-font() {
+    $font-size: calc(4px + .8vw);
+    @return $font-size;
+}
+
 @mixin nav-font-family(){
     color: #aaaaaa;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: responsive-font();
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -12,9 +22,8 @@
 
 .navbar-brand {
     @include nav-font-family;
-    font-size: 18px;
 }
 
-.nav-link {
+.navbar .nav-link {
     @include nav-font-family;
 }
