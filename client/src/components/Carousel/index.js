@@ -1,87 +1,67 @@
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
 import React from "react";
 import { useState } from 'react';
 
 
 function ControlledCarousel() {
+
     const [index, setIndex] = useState(0);
-    const [direction, setDirection] = useState(null);
   
     const handleSelect = (selectedIndex, e) => {
       setIndex(selectedIndex);
-      setDirection(e.direction);
     };
   
     return (
-      <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../src/components/Carousel/Image.png"
+            src="images/Image.png"
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Crate account</h3>
-            <p>To explore all the features of the photo editing.</p>
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../src/components/Carousel/Image.png"
+            src="images/img-2.png"
             alt="Second slide"
           />
   
           <Carousel.Caption>
-            <h3>Share your photos with your friends!</h3>
-            <p>After editing you can add your photo to the feed.</p>
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../src/components/Carousel/Image.png"
+            src="images/img-3.png"
             alt="Third slide"
           />
   
           <Carousel.Caption>
-            <h3>Big choise of filters</h3>
+            <h3>Third slide label</h3>
             <p>
-              Try all the photo filters yourself.
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../src/components/Carousel/Image.png"
-            alt="First slide"
+            src="images/img-4.png"
+            alt="Third slide"
           />
+  
           <Carousel.Caption>
-            <h3>Big choise of photo effects</h3>
-            <p>Try all the photo effects yourself.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="../src/components/Carousel/Image.png"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>Create account</h3>
-            <p>To start edit today.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="../src/components/Carousel/Image.png"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-          <h3>Explore all the features and effects.</h3>
-          <p>You can crop, shrink, add an effect, apply filter, change the size.</p>
+            <h3>Third slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

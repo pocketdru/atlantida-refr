@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
+import Carousel from "../Carousel";
 
 function Jumbotron() {
   return (
     <div className="container-fluid ">
         <div className="jumbotron jumbotron-fluid">
-        <div className="container">
-            <h1 className="display-4">Fluid jumbotron</h1>
-            <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <div className="container-fluid">
+            <Carousel/>
         </div>
         </div>
     </div>
