@@ -1,23 +1,39 @@
-@media (max-width: 992px) {
+$screen-sizes: 1200px, 991px, 768px;
 
-  }
+// @media (max-width: 1200px) {
+//     html {
+//         font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+//     }
+//   }
+
+//   @media (max-width: 991px) {
+//     html {
+//         font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+//     }
+//   }
 
   // попробовать написать for each для каждого размера экрана 
-@function responsive-font() {
-    $font-size: calc(4px + .8vw);
-    @return $font-size;
-}
+// @function responsive-font() {
+//     $font-size: calc(4px + .8vw);
+//     @return $font-size;
+// }
 
 @mixin nav-font-family(){
+    @media (max-width: 1200px) {
+        font-size: calc(100vw / 120);
+    }
+    @media (max-width: 991px) {
+        font-size: calc(100vw / 120);
+    }
     color: #aaaaaa;
     font-family: Montserrat;
-    font-size: responsive-font();
+    // font-size: $font-size;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .nav {
-    height: 65px;
+    height: calc(100vw / 20);
 }
 
 .navbar-brand {

@@ -1,18 +1,28 @@
 .nav {
-  height: 65px; }
+  height: calc(100vw / 20); }
 
 .navbar-brand {
   color: #aaaaaa;
   font-family: Montserrat;
-  font-size: calc(4px + .8vw);
   font-weight: 400;
   text-transform: uppercase; }
+  @media (max-width: 1200px) {
+    .navbar-brand {
+      font-size: calc(100vw / 120); } }
+  @media (max-width: 991px) {
+    .navbar-brand {
+      font-size: calc(100vw / 120); } }
 
 .navbar .nav-link {
   color: #aaaaaa;
   font-family: Montserrat;
-  font-size: calc(4px + .8vw);
   font-weight: 400;
   text-transform: uppercase; }
+  @media (max-width: 1200px) {
+    .navbar .nav-link {
+      font-size: calc(100vw / 120); } }
+  @media (max-width: 991px) {
+    .navbar .nav-link {
+      font-size: calc(100vw / 120); } }
 
 /*# sourceMappingURL=style.css.map */
