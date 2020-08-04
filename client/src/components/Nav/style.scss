@@ -1,29 +1,11 @@
 $screen-sizes: 1200px, 991px, 768px;
 
-// @media (max-width: 1200px) {
-//     html {
-//         font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-//     }
-//   }
-
-//   @media (max-width: 991px) {
-//     html {
-//         font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-//     }
-//   }
-
-  // попробовать написать for each для каждого размера экрана 
-// @function responsive-font() {
-//     $font-size: calc(4px + .8vw);
-//     @return $font-size;
-// }
-
 @mixin nav-font-family(){
     @media (max-width: 1200px) {
-        font-size: calc(100vw / 120);
+        font-size: calc(100vw / 96.5);
     }
     @media (max-width: 991px) {
-        font-size: calc(100vw / 120);
+        font-size: calc(100vw / 96.5);
     }
     color: #aaaaaa;
     font-family: Montserrat;
@@ -33,7 +15,6 @@ $screen-sizes: 1200px, 991px, 768px;
 }
 
 .nav {
-    height: calc(100vw / 20);
 }
 
 .navbar-brand {
