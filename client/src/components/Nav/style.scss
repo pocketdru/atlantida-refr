@@ -5,7 +5,10 @@ $screen-sizes: 1200px, 991px, 768px;
         font-size: calc(100vw / 96.5);
     }
     @media (max-width: 991px) {
-        font-size: calc(100vw / 96.5);
+        font-size: calc(100vw / 80);
+    }
+    @media (max-width: 768px) {
+        font-size: calc(100vw / 65);
     }
     color: #aaaaaa;
     font-family: Montserrat;

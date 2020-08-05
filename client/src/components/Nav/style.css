@@ -8,7 +8,10 @@
       font-size: calc(100vw / 96.5); } }
   @media (max-width: 991px) {
     .navbar-brand {
-      font-size: calc(100vw / 96.5); } }
+      font-size: calc(100vw / 80); } }
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: calc(100vw / 65); } }
 
 .navbar .nav-link {
   color: #aaaaaa;
@@ -20,6 +23,9 @@
       font-size: calc(100vw / 96.5); } }
   @media (max-width: 991px) {
     .navbar .nav-link {
-      font-size: calc(100vw / 96.5); } }
+      font-size: calc(100vw / 80); } }
+  @media (max-width: 768px) {
+    .navbar .nav-link {
+      font-size: calc(100vw / 65); } }
 
 /*# sourceMappingURL=style.css.map */
