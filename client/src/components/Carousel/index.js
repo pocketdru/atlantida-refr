@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from "react";
 import { useState } from 'react';
-
+import "./style.css";
 
 function ControlledCarousel() {
 

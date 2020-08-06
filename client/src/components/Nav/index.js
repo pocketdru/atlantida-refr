@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "./Icon_Logo.png";
 import "./style.css";
-import Carousel from "react-bootstrap/esm/Carousel";
 
 function Nav() {
   return (
