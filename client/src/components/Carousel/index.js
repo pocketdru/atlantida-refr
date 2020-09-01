@@ -20,6 +20,10 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
+          <div className="holder clip">
+            <div className="ellipse ellipse1"></div>
+            <div className="ellipse ellipse2"></div>
+          </div>  
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
@@ -32,6 +36,10 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
+          <div className="holder clip">
+            <div className="ellipse ellipse1"></div>
+            <div className="ellipse ellipse2"></div>
+          </div>  
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
@@ -44,6 +52,10 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
+          <div className="holder clip">
+            <div className="ellipse ellipse1"></div>
+            <div className="ellipse ellipse2"></div>
+          </div>  
             <h3>Third slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
@@ -58,6 +70,10 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
+          <div className="holder clip">
+            <div className="ellipse ellipse1"></div>
+            <div className="ellipse ellipse2"></div>
+          </div>  
             <h3>Third slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
