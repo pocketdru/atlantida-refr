@@ -23,7 +23,7 @@ function ControlledCarousel() {
           <div className="holder clip">
             <div className="ellipse ellipse1"></div>
             <div className="ellipse ellipse2"></div>
-          </div>  
+          </div>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>

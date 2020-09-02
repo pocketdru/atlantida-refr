@@ -1,3 +1,6 @@
+.carousel-caption {
+  bottom: 50%; }
+
 .holder {
   position: relative;
   width: 200px;
@@ -5,11 +8,12 @@
 
 .clip {
   /* Clip edges, as some of the lines don't terminate nicely. */
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 0 auto; }
 
 .ellipse {
   position: absolute;
-  background: radial-gradient(ellipse, transparent, transparent 7px, black 7px, black 10px, transparent 11px);
+  background: radial-gradient(ellipse, transparent, transparent 7px, #ffffff 7px, #ffffff 10px, transparent 11px);
   background-size: 36px 40px;
   width: 200px;
   height: 20px; }
