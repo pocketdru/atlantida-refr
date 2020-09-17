@@ -1,5 +1,18 @@
+@font-face {
+  font-family: 'Amsdam';
+  src: url("../../fonts/AmsdamFF/Amsdam Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 .carousel-caption {
   bottom: 50%; }
+
+.carousel-caption h3 {
+  color: #ffffff;
+  font-family: Amsdam;
+  font-size: 55px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
 
 .holder {
   position: relative;
