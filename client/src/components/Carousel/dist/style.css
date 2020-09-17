@@ -17,6 +17,24 @@
   letter-spacing: 1px;
 }
 
+.loader {
+  width: 200px;
+  height: 50px;
+  background: #fff;
+}
+
+.loader:before {
+  content: attr(data-text);
+  position: relative;
+  top: -42px;
+  color: #fff;
+  font-size: 4em;
+  text-decoration-style: wavy;
+  text-decoration-color: #607d8b;
+  text-decoration-line: underline;
+  animation: animate 0.5s linear infinite;
+}
+
 .holder {
   position: relative;
   width: 200px;

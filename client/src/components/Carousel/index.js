@@ -20,10 +20,11 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-          <div className="holder clip">
+          {/* <div className="holder clip">
             <div className="ellipse ellipse1"></div>
             <div className="ellipse ellipse2"></div>
-          </div>--
+          </div> */}
+          <div className="loader" data-text="loaderloader"></div>
             <h3>We are Atlantida</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
