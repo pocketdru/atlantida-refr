@@ -24,7 +24,9 @@ function ControlledCarousel() {
             <div className="ellipse ellipse1"></div>
             <div className="ellipse ellipse2"></div>
           </div> */}
-          <div className="loader" data-text="loaderloader"></div>
+          <div className="loader-container">
+            <div className="loader" data-text="loaderloader"></div>
+          </div>
             <h3>We are Atlantida</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
@@ -41,6 +43,9 @@ function ControlledCarousel() {
             <div className="ellipse ellipse1"></div>
             <div className="ellipse ellipse2"></div>
           </div>  
+          <div className="loader-container">
+            <div className="loader" data-text="loaderloader"></div>
+          </div>
             <h3>We are Atlantida</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
@@ -57,6 +62,9 @@ function ControlledCarousel() {
             <div className="ellipse ellipse1"></div>
             <div className="ellipse ellipse2"></div>
           </div>  
+          <div className="loader-container">
+            <div className="loader" data-text="loaderloader"></div>
+          </div>
             <h3>We are Atlantida</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
@@ -75,6 +83,9 @@ function ControlledCarousel() {
             <div className="ellipse ellipse1"></div>
             <div className="ellipse ellipse2"></div>
           </div>  
+          <div className="loader-container">
+            <div className="loader" data-text="loaderloader"></div>
+          </div>
             <h3>We are Atlantida</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.

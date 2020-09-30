@@ -18,23 +18,40 @@
     letter-spacing: 1px;
 }
 
+.loader-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
 .loader {
     width: 200px;
     height: 50px;
-    // overflow: hidden;
-    background: #fff;
+    background: inherit;
+    overflow:hidden;
 }
 
-.loader:before {
+.loader::before {
     content: attr(data-text);
     position: relative;
     top: -42px;
     color: #fff;
+    width: calc(100% - 27px);
     font-size: 4em;
     text-decoration-style: wavy;
     text-decoration-color: #607d8b;
     text-decoration-line: underline;
-    animation: animate .5s linear infinite;
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        left: -3px;
+    }
+    100%{
+        left: 30px;
+    }
 }
 
 .holder {
