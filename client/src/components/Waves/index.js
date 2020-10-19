@@ -3,6 +3,13 @@ import "./style.css";
 
 class WavySvg extends Component {
 
+    render() {
+        return(
+            <div>
+                <svg></svg>
+            </div>
+        )
+    }
 }
 
-export default ControlledCarousel;
+export default WavySvg;
