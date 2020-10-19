@@ -21,12 +21,14 @@
   justify-content: center; }
 
 .loader {
+  will-change: transform;
   width: 200px;
   height: 50px;
   background: inherit;
   overflow: hidden; }
 
 .loader::before {
+  will-change: transform;
   content: attr(data-text);
   position: relative;
   top: -42px;
@@ -40,9 +42,9 @@
 
 @keyframes animate {
   0% {
-    left: -3px; }
+    left: 0px; }
   100% {
-    left: 30px; } }
+    left: -30px; } }
 .holder {
   position: relative;
   width: 200px;
