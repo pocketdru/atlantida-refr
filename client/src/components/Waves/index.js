@@ -8,12 +8,8 @@ class WavySvg extends Component {
     }
 
     constructor(props) {
-
         super(props)
-
-    
         this.bigAnimate = this.bigAnimate.bind(this);
-
         this.state = {
             path: "M10,10 L50,100 L90,50"
         };
@@ -25,7 +21,7 @@ class WavySvg extends Component {
             xs.push(i)
         }
 
-        function animate () {
+         this.animate = () => {
             let xs = [];
     
             for (var i=0; i <= 500; i++) {
@@ -41,17 +37,19 @@ class WavySvg extends Component {
                 return p[0] + "," + p[1]
             }).join(" L")
 
-            console.log("it works")
-            requestAnimationFrame(animate)
-            console.log(this)
+            this.setState({
+                path: newPath
+            })
+
+            console.log(this.state.path)
+            requestAnimationFrame(this.animate)
 
             return newPath;
 
 
         }
 
-        animate()
-        console.log(this)
+        this.animate()
     }
 
 
