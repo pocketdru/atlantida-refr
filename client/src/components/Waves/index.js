@@ -21,6 +21,8 @@ class WavySvg extends Component {
             xs.push(i)
         }
 
+        let t = 0;
+
          this.animate = () => {
             let xs = [];
     
@@ -29,8 +31,10 @@ class WavySvg extends Component {
             }
     
             let points = xs.map(x => {
+
+                let y = 200 + 20 * Math.sin((x + t)/15)
     
-                return [x, x]
+                return [x, y]
             })
     
             let newPath = "M" + points.map(p => {
@@ -41,7 +45,8 @@ class WavySvg extends Component {
                 path: newPath
             })
 
-            console.log(this.state.path)
+            t += 1;
+
             requestAnimationFrame(this.animate)
 
             return newPath;
