@@ -16,23 +16,19 @@ class WavySvg extends Component {
       }
 
     bigAnimate = () => {
-       let xs = [];
-        for (var i=0; i <= 500; i++) {
-            xs.push(i)
-        }
 
         let t = 0;
 
          this.animate = () => {
             let xs = [];
     
-            for (var i=0; i <= 500; i++) {
+            for (var i=0; i <= 300; i++) {
                 xs.push(i)
             }
     
             let points = xs.map(x => {
 
-                let y = 200 + 20 * Math.sin((x + t)/15)
+                let y = 20 + 2 * Math.sin((x + t)/2)
     
                 return [x, y]
             })

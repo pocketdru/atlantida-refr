@@ -1,11 +1,11 @@
 svg {
-    width: 600px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 path {
     stroke: red;
-    stroke-width: 10px;
+    stroke-width: 2px;
     stroke-linecap: round;
     fill: none;
 }

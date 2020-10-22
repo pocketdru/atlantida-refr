@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from "react";
+import WavySvg from "../Waves";
 import { useState } from 'react';
 import "./style.css";
 
@@ -20,14 +21,10 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-          {/* <div className="holder clip">
-            <div className="ellipse ellipse1"></div>
-            <div className="ellipse ellipse2"></div>
-          </div> */}
-          <div>
-            
-          </div>
+            <WavySvg/>
             <h3>We are Atlantida</h3>
+            <WavySvg/>
+
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -39,13 +36,6 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
-          <div className="holder clip">
-            <div className="ellipse ellipse1"></div>
-            <div className="ellipse ellipse2"></div>
-          </div>  
-          <div className="loader-container">
-            <div className="loader" data-text="loaderloader"></div>
-          </div>
             <h3>We are Atlantida</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
@@ -56,15 +46,7 @@ function ControlledCarousel() {
             src="images/img-3.png"
             alt="Third slide"
           />
-  
           <Carousel.Caption>
-          <div className="holder clip">
-            <div className="ellipse ellipse1"></div>
-            <div className="ellipse ellipse2"></div>
-          </div>  
-          <div className="loader-container">
-            <div className="loader" data-text="loaderloader"></div>
-          </div>
             <h3>We are Atlantida</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
@@ -79,13 +61,6 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
-          <div className="holder clip">
-            <div className="ellipse ellipse1"></div>
-            <div className="ellipse ellipse2"></div>
-          </div>  
-          <div className="loader-container">
-            <div className="loader" data-text="loaderloader"></div>
-          </div>
             <h3>We are Atlantida</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
