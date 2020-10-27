@@ -21,6 +21,9 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
+          <p className="caption">
+            Design Studio and Digital Agency
+            </p>
             <WavySvg/>
             <h3>We are Atlantida</h3>
             <WavySvg/>
@@ -36,6 +39,9 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
+          <p className="caption">
+            Design Studio and Digital Agency
+            </p>
           <WavySvg/>
             <h3>We are Atlantida</h3>
             <WavySvg/>
@@ -49,6 +55,9 @@ function ControlledCarousel() {
             alt="Third slide"
           />
           <Carousel.Caption>
+          <p className="caption">
+            Design Studio and Digital Agency
+            </p>
           <WavySvg/>
             <h3>We are Atlantida</h3>
             <WavySvg/>
@@ -65,6 +74,9 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
+          <p className="caption">
+            Design Studio and Digital Agency
+            </p>
           <WavySvg/>
             <h3>We are Atlantida</h3>
             <WavySvg/>
