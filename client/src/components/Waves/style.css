@@ -1,10 +1,11 @@
 svg {
     width: 700px;
-    height: 23px;
+    height: 9px;
+vertical-align: super;
 }
 
 path {
-    stroke: red;
+    stroke: #ffffff;
     stroke-width: 2px;
     stroke-linecap: round;
     fill: none;

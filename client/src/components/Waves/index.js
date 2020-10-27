@@ -28,7 +28,7 @@ class WavySvg extends Component {
     
             let points = xs.map(x => {
 
-                let y = 20 + 2 * Math.sin((x + t)/2)
+                let y = 5 + 2 * Math.sin((x + t)/2)
     
                 return [x, y]
             })
