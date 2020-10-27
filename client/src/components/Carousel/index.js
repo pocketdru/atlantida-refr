@@ -36,7 +36,9 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
+          <WavySvg/>
             <h3>We are Atlantida</h3>
+            <WavySvg/>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -47,7 +49,9 @@ function ControlledCarousel() {
             alt="Third slide"
           />
           <Carousel.Caption>
+          <WavySvg/>
             <h3>We are Atlantida</h3>
+            <WavySvg/>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
@@ -61,7 +65,9 @@ function ControlledCarousel() {
           />
   
           <Carousel.Caption>
+          <WavySvg/>
             <h3>We are Atlantida</h3>
+            <WavySvg/>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>

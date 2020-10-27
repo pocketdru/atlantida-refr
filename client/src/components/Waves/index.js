@@ -22,7 +22,7 @@ class WavySvg extends Component {
          this.animate = () => {
             let xs = [];
     
-            for (var i=0; i <= 300; i++) {
+            for (var i=0; i <= 700; i++) {
                 xs.push(i)
             }
     
