@@ -3,11 +3,10 @@ import "./style.css";
 
 function Board() {
   return (
-    <div className="container-fluid ">
-        <div className="jumbotron jumbotron-fluid">
-        <div className="container-fluid">
-
-        </div>
+    <div className="container">
+        <div className="row">
+            <div className="col-md-12 board">
+            </div>
         </div>
     </div>
   );
