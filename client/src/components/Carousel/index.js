@@ -28,7 +28,7 @@ function ControlledCarousel() {
             <h3>We are Atlantida</h3>
             <WavySvg/>
 
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -45,7 +45,7 @@ function ControlledCarousel() {
           <WavySvg/>
             <h3>We are Atlantida</h3>
             <WavySvg/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -61,9 +61,7 @@ function ControlledCarousel() {
           <WavySvg/>
             <h3>We are Atlantida</h3>
             <WavySvg/>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -80,9 +78,7 @@ function ControlledCarousel() {
           <WavySvg/>
             <h3>We are Atlantida</h3>
             <WavySvg/>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
