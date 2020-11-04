@@ -3,9 +3,9 @@ import "./style.css";
 
 function Board() {
   return (
-    <div className="container">
+    <div className="container-fluid board">
         <div className="row">
-            <div className="col-md-12 board">
+            <div className="col-md-12 board-img">
             </div>
         </div>
     </div>

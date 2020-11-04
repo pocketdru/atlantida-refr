@@ -1,8 +1,12 @@
 .board {
+  background-color: #e3e3e3; }
+
+.board-img {
   color: red;
   height: 300px; }
 
-.board {
-  background-image: url("/images/board-1.png"); }
+.board-img {
+  background-image: url("/images/board-1.png");
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
