@@ -3,7 +3,7 @@ import "./style.css";
 
 function Board() {
   return (
-    <div className="container-fluid board">
+    <div className="container board">
         <div className="row">
             <div className="col-md-12 board-img">
             </div>

@@ -4,7 +4,7 @@ import Carousel from "../Carousel";
 
 function Jumbotron() {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid">
         <div className="jumbotron jumbotron-fluid">
         <div className="container-fluid">
             <Carousel/>
