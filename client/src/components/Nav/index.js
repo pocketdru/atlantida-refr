@@ -4,7 +4,7 @@ import "./style.css";
 
 function Nav() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid nav-background">
       <div className="row"> 
       <div className="col-md-12 col-lg-12 col-sm-12">
       <nav className="nav navbar nav-pills flex-column flex-sm-row">
