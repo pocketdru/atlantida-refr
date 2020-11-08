@@ -41,3 +41,7 @@
   background-color: #e3e3e3;
 /* pay attenrion at nav */
 }
+
+.container-fluid {
+  padding: 0;
+}

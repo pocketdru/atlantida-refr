@@ -1,22 +1,25 @@
 .nav {
   background-color: #ffffff;
   padding-left: 6em;
-  padding-right: 6em; }
+  padding-right: 6em;
+}
 
 .navbar-brand {
   color: #aaaaaa;
   font-family: Montserrat;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .navbar .nav-link {
   color: #aaaaaa;
   font-family: Montserrat;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 @media (max-width: 576px) {
   .nav .navbar-brand {
-    margin-right: 0px; } }
-
-/*# sourceMappingURL=style.css.map */
+    margin-right: 0px;
+  }
+}
