@@ -21,13 +21,13 @@ $screen-sizes: 1200px, 991px, 768px;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-
+    background-color: #ffffff;
 }
 
 .nav {
-    background-color: #ffffff;
-    padding-left: 6em;
-    padding-right: 6em;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .navbar-brand {

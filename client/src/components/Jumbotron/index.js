@@ -5,7 +5,7 @@ import Carousel from "../Carousel";
 function Jumbotron() {
   return (
     <div className="container-fluid">
-        <div className="jumbotron jumbotron-fluid p-0">
+        <div className="jumbotron jumbotron-fluid p-0 mb-5">
         <div className="container-fluid">
             <Carousel/>
         </div>
