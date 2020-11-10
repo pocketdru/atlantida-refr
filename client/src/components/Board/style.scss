@@ -1,13 +1,34 @@
+@mixin board-font-family(){
+    color: #3e3d3d;
+    font-weight: 400;
+}
+
+@mixin buttons-style() {
+    
+}
+
 .board {
     background-color: #e3e3e3;
 }
 
-.board-img {
-    color: red;
-    height: 300px;
+.board .card-title {
+    @include board-font-family;
+    font-family: Amsdam;
+    text-transform: uppercase;
+    letter-spacing: 0.44px;
 }
 
-.board-img {
-    background-image: url("/images/board-1.png");
-    background-repeat: no-repeat;
+.board .card path {
+    stroke: #3e3d3d;
+}
+
+.board .card svg {
+    width: inherit;
+}
+
+.board .card .card-text {
+    @include board-font-family;
+    font-family: "Crimson Text - Roman";
+    text-align: left;
+    letter-spacing: 1.4px;
 }
