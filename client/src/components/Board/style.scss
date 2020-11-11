@@ -4,11 +4,16 @@
 }
 
 @mixin buttons-style() {
-    
+    width: 120px;
+    padding: 0px 10px;
 }
 
 .board {
     background-color: #e3e3e3;
+}
+
+.board .card-body {
+    text-align: center;
 }
 
 .board .card-title {
@@ -31,4 +36,36 @@
     font-family: "Crimson Text - Roman";
     text-align: left;
     letter-spacing: 1.4px;
+}
+
+.board .card .btn {
+    text-align: center;
+}
+
+.board .card .btn-outline-primary {
+    @include buttons-style;
+    background-color: #3e3d3d;
+    color: #cecece;
+    border: #3e3d3d;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color:#aaaaaa;;
+    border-color: #3e3d3d;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: none;
+}
+
+.board .card .btn-outline-secondary {
+    @include buttons-style;
+    background-color: #ffffff;
+    color: #3e3d3d;
+    border-color: #3e3d3d;
 }
