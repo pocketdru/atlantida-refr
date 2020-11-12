@@ -1,12 +1,15 @@
 .checkbox {
-  height: 270px; }
+  height: 270px;
+}
 
 .checkbox .card {
-  background-color: inherit; }
+  background-color: inherit;
+}
 
 .checkbox .card-img-top {
   height: 40px;
-  width: 40px; }
+  width: 40px;
+}
 
 .checkbox .card-title {
   color: #3e3d3d;
@@ -16,6 +19,5 @@
   font-style: normal;
   text-align: left;
   text-transform: uppercase;
-  letter-spacing: 1.47px; }
-
-/*# sourceMappingURL=style.css.map */
+  letter-spacing: 1.47px;
+}

@@ -1,3 +1,27 @@
+@mixin checkbox-title() {
+    color: #3e3d3d;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.47px;
+    }
+
 .checkbox {
     height: 270px;
+}
+
+.checkbox .card {
+    background-color: inherit;
+}
+
+.checkbox .card-img-top {
+    height: 40px;
+    width: 40px;
+}
+
+.checkbox .card-title {
+    @include checkbox-title;
 }
