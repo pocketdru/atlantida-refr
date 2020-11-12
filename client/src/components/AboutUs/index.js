@@ -5,8 +5,8 @@ import Checkbox from "../Checkbox";
 
 function AboutUs() {
   return (
-    <div className="container board">
-        <div className="row">
+    <div className="container">
+        <div className="row board">
           <div className="col-md-12">
             <div className="card">
               <img src="/images/board-1.png" className="card-img-top" alt="..."/>

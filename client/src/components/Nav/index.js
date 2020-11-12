@@ -8,7 +8,7 @@ function Nav() {
       <div className="row"> 
       <div className="col-md-12 col-lg-12 col-sm-12">
       <nav className="nav navbar nav-pills flex-column flex-sm-row">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/saved">
                 <img src={logo} height="30" className="d-inline-block align-top" alt="" loading="lazy"/>
             </a>
             <a className="navbar-brand flex-sm-fill text-sm-center">Atlantida</a>    
