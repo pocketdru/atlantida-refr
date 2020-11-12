@@ -28,11 +28,12 @@
   text-align: center; }
 
 .board .card .btn-outline-primary {
-  width: 120px;
-  padding: 0px 10px;
+  width: 140px;
+  padding: 7px 20px;
+  border-color: #3e3d3d;
+  border-radius: 0;
   background-color: #3e3d3d;
-  color: #cecece;
-  border: #3e3d3d; }
+  color: #cecece; }
 
 .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
@@ -46,10 +47,11 @@
   box-shadow: none; }
 
 .board .card .btn-outline-secondary {
-  width: 120px;
-  padding: 0px 10px;
+  width: 140px;
+  padding: 7px 20px;
+  border-color: #3e3d3d;
+  border-radius: 0;
   background-color: #ffffff;
-  color: #3e3d3d;
-  border-color: #3e3d3d; }
+  color: #3e3d3d; }
 
 /*# sourceMappingURL=style.css.map */
