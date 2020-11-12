@@ -6,7 +6,7 @@ function Board() {
   return (
     <div className="container board">
         <div className="row">
-          <div className="colm-md-12">
+          <div className="col-md-12">
             <div className="card">
               <img src="/images/board-1.png" className="card-img-top" alt="..."/>
               <div className="card-body">
