@@ -21,9 +21,7 @@ function AboutUs() {
           </div>
           </div>
         </div>
-        <div className="row">
-          <Checkbox/>
-        </div>
+        <Checkbox/>
     </div>
   );
 }
