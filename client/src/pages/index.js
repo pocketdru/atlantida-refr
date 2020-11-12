@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
 import Jumbotron from "../components/Jumbotron";
-import Board from "../components/Board";
+import AboutUs from "../components/AboutUs";
 import Services from "../components/Services";
 
 class Home extends Component {
@@ -10,7 +10,7 @@ class Home extends Component {
         <div>
             <Nav/>
             <Jumbotron/>
-            <Board/>
+            <AboutUs/>
             <Services/>
         </div>
         ) 

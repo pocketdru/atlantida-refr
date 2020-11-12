@@ -1,8 +1,9 @@
 import React from "react";
 import "./style.css";
 import WavySvg from "../Waves";
+import Checkbox from "../Checkbox";
 
-function Board() {
+function AboutUs() {
   return (
     <div className="container board">
         <div className="row">
@@ -20,8 +21,11 @@ function Board() {
           </div>
           </div>
         </div>
+        <div className="row">
+          <Checkbox/>
+        </div>
     </div>
   );
 }
 
-export default Board;
+export default AboutUs;
