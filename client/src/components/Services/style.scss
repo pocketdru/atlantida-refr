@@ -1,3 +1,21 @@
+@mixin services-font(){
+    color: #ffffff;
+    font-family: Amsdam;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.44px;
+}
+
 .services {
-    background-image: url("../../");
+
+}
+
+.services h2 {
+    @include services-font();
+    font-size: 32px;
+}
+
+.services svg {
+    width: inherit;
 }
