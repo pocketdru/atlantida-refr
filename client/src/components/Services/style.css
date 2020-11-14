@@ -1,4 +1,13 @@
-.services {
-  background-image: url("/client/public/images/services/Background.png"); }
+.services h2 {
+  color: #ffffff;
+  font-family: Amsdam;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+  font-size: 32px; }
+
+.services svg {
+  width: inherit; }
 
 /*# sourceMappingURL=style.css.map */

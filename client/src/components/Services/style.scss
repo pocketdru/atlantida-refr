@@ -1,17 +1,17 @@
-.services {
-    background-image: url("/client/public/images/services/Background.png");
-}
-
-@mixin services-text-style {
+@mixin services-font(){
     color: #ffffff;
     font-family: Amsdam;
     font-size: 20px;
     font-weight: 400;
-    font-style: normal;
     text-transform: uppercase;
     letter-spacing: 0.44px;
 }
 
-.services h1 {
+.services h2 {
+    @include services-font();
+    font-size: 32px;
+}
 
+.services svg {
+    width: inherit;
 }
