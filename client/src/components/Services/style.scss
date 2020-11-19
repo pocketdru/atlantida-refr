@@ -7,6 +7,10 @@
     letter-spacing: 0.44px;
 }
 
+.services {
+    background-image: url("/images/services/Background.png");
+}
+
 .services h2 {
     @include services-font();
     font-size: 32px;
