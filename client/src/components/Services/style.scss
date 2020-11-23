@@ -7,6 +7,14 @@
     letter-spacing: 0.44px;
 }
 
+@mixin card-text() {
+    color: #cfcfcf;
+    font-family: "Crimson Text - Roman";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+}
+
 .services {
     background-image: url("/images/services/Background.png");
 }
@@ -18,4 +26,19 @@
 
 .services svg {
     width: inherit;
+}
+
+.services .card {
+    background: inherit;
+}
+
+.services .card-text {
+    @include card-text();
+}
+
+.services .card .card-title {
+    @include card-text();
+    font-family: Montserrat;
+    letter-spacing: 1.47px;
+    font-size: 16px;
 }

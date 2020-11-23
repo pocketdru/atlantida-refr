@@ -6,16 +6,57 @@ function Services() {
   return (
     <section className="services">
       <div className="container pt-5 pb-5">
-          <div className=" row card bg-dark text-white">
+          <div className="row">
             <div className="col-md-12">
-          <div className="card-img-overlay">
-            <h2 className="card-title text-center">Services
-                <span><WavySvg/></span></h2>
-            <p className="card-text text-center">Donec aliquet, ipsum ut lobortis facilisis, nisi ligula aliquam odio, ut vehicula odio lorem in erat. Quisque quam ipsum, commodo non condimentum a, fermentum id sapien. Pellentesque sit amet sem neque. </p>
+              <div className="row">
+                <div className="col-md-12">
+                  <div className>
+                    <h2 className="card-title text-center">Services
+                      <span><WavySvg/></span></h2>
+                      <p className="card-text text-center">Donec aliquet, ipsum ut lobortis facilisis, nisi ligula aliquam odio, ut vehicula odio lorem in erat. Quisque quam ipsum, commodo non condimentum a, fermentum id sapien. Pellentesque sit amet sem neque. </p>
+                  </div>
+                </div>
+              </div>
+              <div className="row mt-5">
+                <div className="col-sm-3">
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">GRAPHIC<br/>DESIGN</h5>
+                      <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">WEBSITE <br/>DESIGN</h5>
+                      <p className="card-text">Nunc non sem vitae neque tristique pellentesque. Donec vitae vehicula mauris. Proin elementum mauris ut ante tristique rutrum. Quisque tristique, dui iaculis commodo consectetur, libero nibh tincidunt tortor, in sollicitudin arcu tellus non puruslibero nibh tincidunt tortor, in sollicitudin arcu.</p>
+                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">SEO &amp; <br/> ANALITYCS</h5>
+                      <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">WORDPRESS <br/> PROGRAMING</h5>
+                      <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
-        </div>
-          <div className="row"></div>
       </div>
     </section>
   );

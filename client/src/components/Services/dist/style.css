@@ -15,3 +15,26 @@
 .services svg {
   width: inherit;
 }
+
+.services .card {
+  background: inherit;
+}
+
+.services .card-text {
+  color: #cfcfcf;
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+}
+
+.services .card .card-title {
+  color: #cfcfcf;
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  font-family: Montserrat;
+  letter-spacing: 1.47px;
+  font-size: 16px;
+}
