@@ -36,14 +36,35 @@
 }
 
 .services .card:before {
-        content: '';
-        height: 25px;
-        width: 25px;
+        content: '';;
         position: absolute;
         top: -20px;
         left: 40%;
         margin: 10px;
-        background: url("/images/services/Idea.png");
+}
+
+.services .card-1::before {
+    background: url("/images/services/Idea.png");
+    width: 26px;
+    height: 25px;
+}
+
+.services .card-2::before {
+    background: url("/images/services/Monitor.png");
+    width: 27px;
+    height: 21px;
+}
+
+.services .card-3::before {
+    background: url("/images/services/Combo_chart.png");
+    width: 24px;
+    height: 22px;
+}
+
+.services .card-4::before {
+    background: url("/images/services/Icon.png");
+    width: 21px;
+    height: 21px;
 }
 
 .services .card-text {
