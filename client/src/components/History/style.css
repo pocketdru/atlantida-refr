@@ -23,4 +23,21 @@
 .history path {
   stroke: #3e3d3d; }
 
+.history .scheme-title {
+  font-family: "Crimson Text - Roman";
+  font-size: 13px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  font-family: Montserrat;
+  letter-spacing: 1.47px;
+  font-size: 16px;
+  border: 1px solid #3e3d3d;
+  border-radius: 100%;
+  text-align: center;
+  width: 4vw;
+  height: 4vw;
+  margin: 1.75rem auto;
+  line-height: 4vw; }
+
 /*# sourceMappingURL=style.css.map */
