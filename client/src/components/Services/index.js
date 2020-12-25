@@ -25,6 +25,10 @@ function Services() {
                       <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                       <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
+                    <div className="title-border title-border-top-left"></div>
+                    <div className="title-border title-border-bottom-left"></div>
+                    <div className="title-border title-border-top-right"></div>
+                    <div className="title-border title-border-bottom-right"></div>
                   </div>
                 </div>
                 <div className="col-sm-3">

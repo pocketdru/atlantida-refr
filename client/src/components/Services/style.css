@@ -14,10 +14,19 @@
   width: inherit; }
 
 .services .card {
+  border: none;
   background: inherit;
-  border: 1px solid #d8d8d8;
-  border-radius: 0;
-  border-image: url("/images/services/Idea.png") 4 round; }
+  border-radius: 0; }
+
+.services .card:before {
+  content: '';
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: -20px;
+  left: 40%;
+  margin: 10px;
+  background: url("/images/services/Idea.png"); }
 
 .services .card-text {
   color: #cfcfcf;
@@ -35,5 +44,36 @@
   font-family: Montserrat;
   letter-spacing: 1.47px;
   font-size: 16px; }
+
+.title-border {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 71px;
+  border: 2px solid #d8d8d8; }
+
+.title-border-top-left {
+  border-right: none;
+  border-bottom: 2px solid #d8d8d8; }
+
+.title-border-top-right {
+  left: auto;
+  right: 0;
+  border-left: none;
+  border-bottom: 2px solid #d8d8d8; }
+
+.title-border-bottom-left {
+  width: 100%;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid #d8d8d8; }
+
+.title-border-bottom-right {
+  width: 100%;
+  left: auto;
+  right: 0;
+  border-left: none;
+  border-top: none;
+  border-bottom: 2px solid #d8d8d8; }
 
 /*# sourceMappingURL=style.css.map */

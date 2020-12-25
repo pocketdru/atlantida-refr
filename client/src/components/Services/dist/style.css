@@ -17,10 +17,20 @@
 }
 
 .services .card {
+  border: none;
   background: inherit;
-  border: 1px solid #d8d8d8;
   border-radius: 0;
-  border-image: url("/images/services/Idea.png") 4 round;
+}
+
+.services .card:before {
+  content: "";
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: -10px;
+  left: 40%;
+  margin: 10px;
+  background: url("/images/services/Idea.png");
 }
 
 .services .card-text {
@@ -40,4 +50,38 @@
   font-family: Montserrat;
   letter-spacing: 1.47px;
   font-size: 16px;
+}
+
+.title-border {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 71px;
+  border: 1px solid #d8d8d8;
+}
+
+.title-border-top-left {
+  border-right: none;
+}
+
+.title-border-top-right {
+  left: auto;
+  right: 0;
+  border-left: none;
+}
+
+.title-border-bottom-left {
+  width: 100px;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.title-border-bottom-right {
+  width: 100px;
+  left: auto;
+  right: 0;
+  border-left: none;
+  border-top: none;
+  border-bottom: 1px solid #d8d8d8;
 }
