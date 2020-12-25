@@ -10,7 +10,7 @@
 @mixin card-text() {
     color: #cfcfcf;
     font-family: "Crimson Text - Roman";
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
     font-weight: 400;
     letter-spacing: 1.4px;
@@ -33,6 +33,7 @@
     border: none;
     background: inherit;
     border-radius: 0;
+    height: 100%;
 }
 
 .services .card:before {
@@ -67,6 +68,10 @@
     height: 21px;
 }
 
+.card-body {
+    padding: 2em;
+}
+
 .services .card-text {
     @include card-text();
 }
@@ -76,6 +81,8 @@
     font-family: Montserrat;
     letter-spacing: 1.47px;
     font-size: 16px;
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
 }
 
 .title-border {
