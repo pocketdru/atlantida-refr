@@ -1,3 +1,26 @@
+.history {
+  background-color: #ededed; }
 
+.history h2 {
+  color: #3e3d3d;
+  font-family: Amsdam;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+  font-size: 32px; }
+
+.history p {
+  font-family: "Crimson Text - Roman";
+  font-size: 13px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1.4px; }
+
+.history svg {
+  width: inherit; }
+
+.history path {
+  stroke: #3e3d3d; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+.history {
+    background-color: #ededed;
+}
+
+@mixin services-font(){
+    color: #3e3d3d;    
+    font-family: Amsdam;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.44px;
+}
+
+@mixin card-text() {
+    font-family: "Crimson Text - Roman";
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+}
+
+.history h2 {
+    @include services-font();
+    font-size: 32px;
+}
+
+.history p {
+    @include card-text();
+}
+
+.history svg {
+    width: inherit;
+}
+
+.history path {
+    stroke: #3e3d3d;
+}
