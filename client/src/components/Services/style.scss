@@ -10,7 +10,8 @@
 @mixin card-text() {
     color: #cfcfcf;
     font-family: "Crimson Text - Roman";
-    font-size: 14px;
+    font-size: 11px;
+    text-align: center;
     font-weight: 400;
     letter-spacing: 1.4px;
 }
@@ -31,7 +32,6 @@
 .services .card {
     border: none;
     background: inherit;
-    // border: 3px solid #d8d8d8;
     border-radius: 0;
 }
 
@@ -39,7 +39,7 @@
         content: '';;
         position: absolute;
         top: -20px;
-        left: 40%;
+        left: 41%;
         margin: 10px;
 }
 
@@ -87,12 +87,14 @@
 }
 
 .title-border-top-left {
+    width: 40%;
     border-right: none;
     border-bottom: 2px solid #d8d8d8;
 
 }
 
 .title-border-top-right {
+    width: 40%;
     left: auto;
     right: 0;
     border-left: none;

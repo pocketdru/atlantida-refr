@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import WavySvg from "../Waves";
+import Border from "./Border";
 
 function Services() {
   return (
@@ -10,7 +11,7 @@ function Services() {
             <div className="col-md-12">
               <div className="row">
                 <div className="col-md-12">
-                  <div className>
+                  <div>
                     <h2 className="card-title text-center">Services
                       <span><WavySvg/></span></h2>
                       <p className="card-text text-center">Donec aliquet, ipsum ut lobortis facilisis, nisi ligula aliquam odio, ut vehicula odio lorem in erat. Quisque quam ipsum, commodo non condimentum a, fermentum id sapien. Pellentesque sit amet sem neque. </p>
@@ -25,10 +26,7 @@ function Services() {
                       <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                       <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div className="title-border title-border-top-left"></div>
-                    <div className="title-border title-border-bottom-left"></div>
-                    <div className="title-border title-border-top-right"></div>
-                    <div className="title-border title-border-bottom-right"></div>
+                    <Border/>
                   </div>
                 </div>
                 <div className="col-sm-3">
@@ -38,6 +36,7 @@ function Services() {
                       <p className="card-text">Nunc non sem vitae neque tristique pellentesque. Donec vitae vehicula mauris. Proin elementum mauris ut ante tristique rutrum. Quisque tristique, dui iaculis commodo consectetur, libero nibh tincidunt tortor, in sollicitudin arcu tellus non puruslibero nibh tincidunt tortor, in sollicitudin arcu.</p>
                       <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
+                    <Border/>
                   </div>
                 </div>
                 <div className="col-sm-3">
@@ -47,6 +46,7 @@ function Services() {
                       <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                       <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
+                    <Border/>
                   </div>
                 </div>
                 <div className="col-sm-3">
@@ -56,6 +56,7 @@ function Services() {
                       <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                       <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
+                    <Border/>
                   </div>
                 </div>
               </div>
