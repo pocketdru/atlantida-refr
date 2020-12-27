@@ -25,9 +25,9 @@ function History() {
                                 <div className="card">
                                     <img src="/images/history/Border-1.png" className="card-img" alt="..."/>
                                     <div className="card-img-overlay">
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p className="card-text">Last updated 3 mins ago</p>
+                                        <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
+                                        <p className="card-text date">07 October 2015</p>
+                                        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                                     </div>
                                 </div>
                             </div>

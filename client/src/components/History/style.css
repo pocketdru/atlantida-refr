@@ -13,7 +13,6 @@
 .history p {
   font-family: "Crimson Text - Roman";
   font-size: 13px;
-  text-align: center;
   font-weight: 400;
   letter-spacing: 1.4px; }
 
@@ -24,14 +23,11 @@
   stroke: #3e3d3d; }
 
 .history .scheme-title {
-  font-family: "Crimson Text - Roman";
-  font-size: 13px;
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 1.4px;
+  color: #3e3d3d;
   font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
   letter-spacing: 1.47px;
-  font-size: 16px;
   border: 1px solid #3e3d3d;
   border-radius: 100%;
   text-align: center;
@@ -39,5 +35,27 @@
   height: 4vw;
   margin: 1.75rem auto;
   line-height: 4vw; }
+
+.history .card {
+  background-color: inherit;
+  border: none; }
+
+.history .card .card-title {
+  color: #3e3d3d;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  text-transform: uppercase;
+  margin-bottom: 0px; }
+
+.history .card .date {
+  color: #3e3d3d;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  text-align: left;
+  font-size: 12px; }
 
 /*# sourceMappingURL=style.css.map */
