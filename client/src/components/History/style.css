@@ -11,6 +11,7 @@
   font-size: 32px; }
 
 .history p {
+  color: #3e3d3d;
   font-family: "Crimson Text - Roman";
   font-size: 13px;
   font-weight: 400;
@@ -57,5 +58,8 @@
   letter-spacing: 1.47px;
   text-align: left;
   font-size: 12px; }
+
+.history .card #white {
+  color: #e4e4e4; }
 
 /*# sourceMappingURL=style.css.map */

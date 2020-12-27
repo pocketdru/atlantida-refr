@@ -12,6 +12,7 @@
 }
 
 @mixin card-text() {
+    color: #3e3d3d;
     font-family: "Crimson Text - Roman";
     font-size: 13px;
     font-weight: 400;
@@ -70,4 +71,8 @@
     @include history-title();
     text-align: left;
     font-size: 12px;
+}
+
+.history .card #white {
+    color: #e4e4e4;
 }
