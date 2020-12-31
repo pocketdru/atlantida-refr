@@ -61,6 +61,45 @@
     border: none;
 }
 
+// .history .card::after {
+//     display: inline-block;
+//     width: 0;
+//     height: 158px;
+//     content: '';
+//     position:relative; left:125px; top:1px;
+//     outline: 1px dashed #0b0000;
+// }
+
+// .history .card::after:nth-child(1) {
+//     display: inline-block;
+//     width: 0;
+//     height: 158px;
+//     content: '';
+//     position:relative; left:125px; top:1px;
+//     outline: 1px dashed #0b0000;
+// }
+
+// .history .card:nth-child(even)::after{
+//     display: inline-block;
+//     width: 0;
+//     height: 158px;
+//     content: '';
+//     position:relative; left:125px; top:1px;
+//     outline: 1px dashed #0b0000;
+// }
+
+
+
+.history .card:nth-of-type(n+2)::after {
+    display: inline-block;
+    width: 0;
+    height: 158px;
+    content: '';
+    position:relative; left:125px; top:1px;
+    outline: 1px dashed #0b0000;
+}
+
+
 .history .card .card-title {
     @include history-title();
     text-transform: uppercase;

@@ -32,7 +32,7 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="card">
+                                <div className="card mt-5">
                                     <img src="/images/history/Border-2.png" className="card-img" alt="..."/>
                                     <div className="card-img-overlay pl-5">
                                         <h5 className="card-title">Nam tincidunt, lacus sit amet ultrices </h5>
@@ -42,7 +42,7 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="card">
+                                <div className="card mt-4">
                                     <img src="/images/history/Border-1.png" className="card-img" alt="..."/>
                                     <div className="card-img-overlay pr-5">
                                         <h5 className="card-title">Donec quis faucibus lorem</h5>
@@ -52,7 +52,7 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="card">
+                                <div className="card mt-5">
                                     <img src="/images/history/Border-3.png" className="card-img" alt="..."/>
                                     <div className="card-img-overlay pl-5">
                                         <h5 className="card-title" id="white">Nunc efficitur laoreet turpis sed auctor.</h5>
@@ -76,7 +76,7 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="card">
+                                <div className="card mt-5">
                                     <img src="/images/history/Border-2.png" className="card-img" alt="..."/>
                                     <div className="card-img-overlay pl-5">
                                         <h5 className="card-title">Nam tincidunt, lacus sit amet ultrices </h5>
