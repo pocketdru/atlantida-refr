@@ -90,20 +90,41 @@
 
 
 
-.history .card:nth-of-type(n+2)::after {
+// .history .col-md-6:nth-of-type(n+1)::after {
+//     display: inline-block;
+//     width: 0;
+//     height: 158px;
+//     content: '';
+//     position:relative; left:125px; top:1px;
+//     outline: 1px dashed #0b0000;
+// }
+
+
+.history .col-md-6:nth-of-type(even) .card::after {
     display: inline-block;
     width: 0;
-    height: 158px;
+    height: 204px;
     content: '';
-    position:relative; left:125px; top:1px;
-    outline: 1px dashed #0b0000;
+    position: relative;
+    left: 102.5%;
+    top: -204px;
+    outline: 1px solid #3e3d3d;
 }
 
+.history .col-md-6:nth-of-type(odd) .card::after {
+    display: inline-block;
+    width: 0;
+    height: 204px;
+    content: '';
+    position: relative;
+    right: 3%;
+    top: -204px;
+    outline: 1px solid #3e3d3d;
+}
 
 .history .card .card-title {
     @include history-title();
     text-transform: uppercase;
-    margin-bottom: 0px;
 }
 
 .history .card .date {

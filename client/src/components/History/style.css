@@ -41,15 +41,25 @@
   background-color: inherit;
   border: none; }
 
-.history .card:nth-of-type(n+2)::after {
+.history .col-md-6:nth-of-type(even) .card::after {
   display: inline-block;
   width: 0;
-  height: 158px;
+  height: 204px;
   content: '';
   position: relative;
-  left: 125px;
-  top: 1px;
-  outline: 1px dashed #0b0000; }
+  left: 102.5%;
+  top: -204px;
+  outline: 1px solid #3e3d3d; }
+
+.history .col-md-6:nth-of-type(odd) .card::after {
+  display: inline-block;
+  width: 0;
+  height: 204px;
+  content: '';
+  position: relative;
+  right: 3%;
+  top: -204px;
+  outline: 1px solid #3e3d3d; }
 
 .history .card .card-title {
   color: #3e3d3d;
@@ -57,8 +67,7 @@
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1.47px;
-  text-transform: uppercase;
-  margin-bottom: 0px; }
+  text-transform: uppercase; }
 
 .history .card .date {
   color: #3e3d3d;
