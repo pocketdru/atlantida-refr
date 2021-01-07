@@ -41,14 +41,13 @@
   background-color: inherit;
   border: none; }
 
-.history .col-md-6:nth-of-type(even) .card::after {
+.history div.col-md-6:nth-of-type(even) .card::after {
   display: inline-block;
   width: 0;
   height: 204px;
   content: '';
-  position: relative;
-  left: 102.5%;
-  top: -204px;
+  position: absolute;
+  left: -2.5%;
   outline: 1px solid #3e3d3d; }
 
 .history .col-md-6:nth-of-type(odd) .card::after {
@@ -56,9 +55,8 @@
   width: 0;
   height: 204px;
   content: '';
-  position: relative;
-  right: 3%;
-  top: -204px;
+  position: absolute;
+  right: -3%;
   outline: 1px solid #3e3d3d; }
 
 .history .card .card-title {

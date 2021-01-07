@@ -18,9 +18,10 @@ function History() {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-12">
-                                <h2 className="scheme-title">2020</h2>
-                            </div>
+                                <div className="col-md-12">
+                                    <h2 className="scheme-title">2020</h2>
+                                </div>
+                            <div className="row">
                             <div className="col-md-6">
                                 <div className="card">
                                     <img src="/images/history/Border-1.png" className="card-img" alt="..."/>
@@ -62,26 +63,29 @@ function History() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-12">
-                                <h2 className="scheme-title">2019</h2>
                             </div>
-                            <div className="col-md-6">
-                                <div className="card">
-                                    <img src="/images/history/Border-1.png" className="card-img" alt="..."/>
-                                    <div className="card-img-overlay pr-5">
-                                        <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
-                                        <p className="card-text data">07 October 2019</p>
-                                        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                <div className="col-md-12">
+                                    <h2 className="scheme-title">2019</h2>
+                                </div>
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <div className="card">
+                                        <img src="/images/history/Border-1.png" className="card-img" alt="..."/>
+                                        <div className="card-img-overlay pr-5">
+                                            <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
+                                            <p className="card-text data">07 October 2019</p>
+                                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="card mt-5">
-                                    <img src="/images/history/Border-2.png" className="card-img" alt="..."/>
-                                    <div className="card-img-overlay pl-5">
-                                        <h5 className="card-title">Nam tincidunt, lacus sit amet ultrices </h5>
-                                        <p className="card-text data">05 June 2019</p>
-                                        <p className="card-text">In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque turpis, ut gravida eros tortor non arcu. In eget arcu ante. Curabitur lacinia ultricies ante, eget mattis orci vestibulum sit amet. Donec quis faucibus lorem.</p>
+                                <div className="col-md-6">
+                                    <div className="card mt-5">
+                                        <img src="/images/history/Border-2.png" className="card-img" alt="..."/>
+                                        <div className="card-img-overlay pl-5">
+                                            <h5 className="card-title">Nam tincidunt, lacus sit amet ultrices </h5>
+                                            <p className="card-text data">05 June 2019</p>
+                                            <p className="card-text">In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque turpis, ut gravida eros tortor non arcu. In eget arcu ante. Curabitur lacinia ultricies ante, eget mattis orci vestibulum sit amet. Donec quis faucibus lorem.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
