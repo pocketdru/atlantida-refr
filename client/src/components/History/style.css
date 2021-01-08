@@ -59,6 +59,29 @@
   right: -3%;
   outline: 1px solid #3e3d3d; }
 
+  .history div.col-md-6:nth-of-type(even) .card::before {
+  position: absolute;
+  left: -4.5%;
+  top: 3%;
+  width: 1.5vw;
+  height: 1.5vw;
+  content: '';
+  background-color: #3e3d3d;
+  border-radius: 50%;
+  display: inline-block; 
+}
+
+.history div.col-md-6:nth-of-type(odd) .card::before {
+  position: absolute;
+  right: -4.8%;
+  top: 3%;
+  width: 1.5vw;
+  height: 1.5vw;
+  content: '';
+  background-color: #3e3d3d;
+  border-radius: 50%;
+  display: inline-block; }
+
 .history .card .card-title {
   color: #3e3d3d;
   font-family: Montserrat;

@@ -61,45 +61,6 @@
     border: none;
 }
 
-// .history .card::after {
-//     display: inline-block;
-//     width: 0;
-//     height: 158px;
-//     content: '';
-//     position:relative; left:125px; top:1px;
-//     outline: 1px dashed #0b0000;
-// }
-
-// .history .card::after:nth-child(1) {
-//     display: inline-block;
-//     width: 0;
-//     height: 158px;
-//     content: '';
-//     position:relative; left:125px; top:1px;
-//     outline: 1px dashed #0b0000;
-// }
-
-// .history .card:nth-child(even)::after{
-//     display: inline-block;
-//     width: 0;
-//     height: 158px;
-//     content: '';
-//     position:relative; left:125px; top:1px;
-//     outline: 1px dashed #0b0000;
-// }
-
-
-
-// .history .col-md-6:nth-of-type(n+1)::after {
-//     display: inline-block;
-//     width: 0;
-//     height: 158px;
-//     content: '';
-//     position:relative; left:125px; top:1px;
-//     outline: 1px dashed #0b0000;
-// }
-
-
 .history div.col-md-6:nth-of-type(even) .card::after {
     display: inline-block;
     width: 0;
@@ -119,6 +80,15 @@
     right: -3%;
     outline: 1px solid #3e3d3d;
 }
+
+.history .card::before {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 
 .history .card .card-title {
     @include history-title();
