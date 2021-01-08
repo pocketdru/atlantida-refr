@@ -34,7 +34,7 @@
   text-align: center;
   width: 4vw;
   height: 4vw;
-  margin: 1.75rem auto;
+  margin: auto;
   line-height: 4vw; }
 
 .history .card {
@@ -44,7 +44,7 @@
 .history div.col-md-6:nth-of-type(even) .card::after {
   display: inline-block;
   width: 0;
-  height: 204px;
+  height: 100%;
   content: '';
   position: absolute;
   left: -2.5%;
@@ -53,7 +53,7 @@
 .history .col-md-6:nth-of-type(odd) .card::after {
   display: inline-block;
   width: 0;
-  height: 204px;
+  height: 100%;
   content: '';
   position: absolute;
   right: -3%;
