@@ -19,7 +19,7 @@ function Services() {
                 </div>
               </div>
               <div className="row mt-5">
-                <div className="col-sm-3">
+                <div className="col-sm-6 col-md-3">
                   <div className="card card-1">
                     <div className="card-body">
                       <h5 className="card-title">GRAPHIC<br/>DESIGN</h5>
@@ -28,7 +28,7 @@ function Services() {
                     <Border/>
                   </div>
                 </div>
-                <div className="col-sm-3">
+                <div className="col-sm-6 col-md-3">
                   <div className="card card-2">
                     <div className="card-body">
                       <h5 className="card-title">WEBSITE <br/>DESIGN</h5>
@@ -37,7 +37,7 @@ function Services() {
                     <Border/>
                   </div>
                 </div>
-                <div className="col-sm-3">
+                <div className="col-sm-6 col-md-3">
                   <div className="card card-3">
                     <div className="card-body">
                       <h5 className="card-title">SEO &amp; <br/> ANALITYCS</h5>
@@ -46,7 +46,7 @@ function Services() {
                     <Border/>
                   </div>
                 </div>
-                <div className="col-sm-3">
+                <div className="col-sm-6 col-md-3">
                   <div className="card card-4">
                     <div className="card-body">
                       <h5 className="card-title">WORDPRESS <br/> PROGRAMING</h5>

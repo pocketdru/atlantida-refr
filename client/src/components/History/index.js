@@ -21,7 +21,7 @@ function History() {
                                 <div className="col-md-12">
                                     <h2 className="scheme-title">2020</h2>
                                 </div>
-                            <div className="row">
+                            <div className="row pt-5">
                             <div className="col-md-6">
                                 <div className="card">
                                     <img src="/images/history/Border-1.png" className="card-img" alt="..."/>
@@ -43,7 +43,7 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="card mt-4">
+                                <div className="card mt">
                                     <img src="/images/history/Border-1.png" className="card-img" alt="..."/>
                                     <div className="card-img-overlay pr-5">
                                         <h5 className="card-title">Donec quis faucibus lorem</h5>
@@ -64,7 +64,7 @@ function History() {
                                 </div>
                             </div>
                             </div>
-                                <div className="col-md-12">
+                                <div className="col-md-12 mt-5 mb-5 pt-2">
                                     <h2 className="scheme-title">2019</h2>
                                 </div>
                             <div className="row">
@@ -89,7 +89,7 @@ function History() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-12">
+                            <div className="col-md-12 mt-5">
                                 <h2 className="scheme-title">2019</h2>
                             </div>
                         </div>
