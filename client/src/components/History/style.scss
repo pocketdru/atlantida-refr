@@ -27,6 +27,25 @@
     letter-spacing: 1.47px;
 }
 
+@mixin dots () {
+    position: absolute;
+    top: 3%;
+    width: 1.5vw;
+    height: 1.5vw;
+    content: '';
+    background-color: #3e3d3d;
+    border-radius: 50%;
+    display: inline-block; 
+}
+
+@mixin lines {
+    display: inline-block;
+    width: 0;
+    content: '';
+    position: absolute;
+    outline: 1px solid #3e3d3d; 
+}
+
 .history h2 {
     @include services-font();
     font-size: 32px;
@@ -62,47 +81,27 @@
 }
 
 .history div.col-md-6:nth-of-type(even) .card::after {
-    display: inline-block;
-    width: 0;
-    height: 120%;
-    content: '';
-    position: absolute;
+   @include lines();
+    height: 120.5%;
     left: -0.87rem;
     outline: 1px solid #3e3d3d; }
   
   .history .col-md-6:nth-of-type(odd) .card::after {
-    display: inline-block;
-    width: 0;
+    @include lines();
     height: 120%;
-    content: '';
-    position: absolute;
     right: -1rem;
-    top: -23%;
-    outline: 1px solid #3e3d3d; 
+    top: -36%;
   }
 
 .history div.col-md-6:nth-of-type(even) .card::before {
-    position: absolute;
+    @include dots();
     left: -1.35rem;
-    top: 3%;
-    width: 1.5vw;
-    height: 1.5vw;
-    content: '';
-    background-color: #3e3d3d;
-    border-radius: 50%;
-    display: inline-block; 
   }
   
   .history div.col-md-6:nth-of-type(odd) .card::before {
-    position: absolute;
+   @include dots();
     right: -1.55rem;
-    top: 3%;
-    width: 1.5vw;
-    height: 1.5vw;
-    content: '';
-    background-color: #3e3d3d;
-    border-radius: 50%;
-    display: inline-block; }
+   }
 
 .history .card .card-title {
     @include history-title();

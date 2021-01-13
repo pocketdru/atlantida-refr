@@ -64,7 +64,7 @@ function History() {
                                 </div>
                             </div>
                             </div>
-                                <div className="col-md-12 mt-5 mb-5 pt-2">
+                                <div className="col-md-12 mt-4 mb-5 pt-2">
                                     <h2 className="scheme-title">2019</h2>
                                 </div>
                             <div className="row">
@@ -89,7 +89,7 @@ function History() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-12 mt-5">
+                            <div className="col-md-12 mt-2 pt-1">
                                 <h2 className="scheme-title">2019</h2>
                             </div>
                         </div>
