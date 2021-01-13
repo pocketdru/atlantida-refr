@@ -62,7 +62,7 @@
 
 .history div.col-md-6:nth-of-type(even) .card::before {
   position: absolute;
-  left: -4.5%;
+  left: -1.35rem;
   top: 3%;
   width: 1.5vw;
   height: 1.5vw;
@@ -73,7 +73,7 @@
 
 .history div.col-md-6:nth-of-type(odd) .card::before {
   position: absolute;
-  right: -4.8%;
+  right: -1.55rem;
   top: 3%;
   width: 1.5vw;
   height: 1.5vw;
