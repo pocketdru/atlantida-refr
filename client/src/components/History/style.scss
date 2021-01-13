@@ -64,31 +64,45 @@
 .history div.col-md-6:nth-of-type(even) .card::after {
     display: inline-block;
     width: 0;
-    height: 204px;
+    height: 120%;
     content: '';
     position: absolute;
-    left: -2.5%;
-    outline: 1px solid #3e3d3d;
-}
-
-.history .col-md-6:nth-of-type(odd) .card::after {
+    left: -0.87rem;
+    outline: 1px solid #3e3d3d; }
+  
+  .history .col-md-6:nth-of-type(odd) .card::after {
     display: inline-block;
     width: 0;
-    height: 204px;
+    height: 120%;
     content: '';
     position: absolute;
-    right: -3%;
-    outline: 1px solid #3e3d3d;
-}
+    right: -1rem;
+    top: -23%;
+    outline: 1px solid #3e3d3d; 
+  }
 
-.history .card::before {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
+.history div.col-md-6:nth-of-type(even) .card::before {
+    position: absolute;
+    left: -4.5%;
+    top: 3%;
+    width: 1.5vw;
+    height: 1.5vw;
+    content: '';
+    background-color: #3e3d3d;
     border-radius: 50%;
-    display: inline-block;
-}
-
+    display: inline-block; 
+  }
+  
+  .history div.col-md-6:nth-of-type(odd) .card::before {
+    position: absolute;
+    right: -4.8%;
+    top: 3%;
+    width: 1.5vw;
+    height: 1.5vw;
+    content: '';
+    background-color: #3e3d3d;
+    border-radius: 50%;
+    display: inline-block; }
 
 .history .card .card-title {
     @include history-title();

@@ -34,7 +34,7 @@
   text-align: center;
   width: 4vw;
   height: 4vw;
-  margin: auto;
+  margin: 1.75rem auto;
   line-height: 4vw; }
 
 .history .card {
@@ -47,7 +47,7 @@
   height: 120%;
   content: '';
   position: absolute;
-  left: -2.5%;
+  left: -0.87rem;
   outline: 1px solid #3e3d3d; }
 
 .history .col-md-6:nth-of-type(odd) .card::after {
@@ -56,12 +56,11 @@
   height: 120%;
   content: '';
   position: absolute;
-  right: -3%;
+  right: -1rem;
   top: -23%;
-  outline: 1px solid #3e3d3d; 
-}
+  outline: 1px solid #3e3d3d; }
 
-  .history div.col-md-6:nth-of-type(even) .card::before {
+.history div.col-md-6:nth-of-type(even) .card::before {
   position: absolute;
   left: -4.5%;
   top: 3%;
@@ -70,8 +69,7 @@
   content: '';
   background-color: #3e3d3d;
   border-radius: 50%;
-  display: inline-block; 
-}
+  display: inline-block; }
 
 .history div.col-md-6:nth-of-type(odd) .card::before {
   position: absolute;
