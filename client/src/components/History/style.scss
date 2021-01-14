@@ -95,12 +95,12 @@
 
 .history div.col-md-6:nth-of-type(even) .card::before {
     @include dots();
-    left: -1.35rem;
+    left: -1.65rem;
   }
   
   .history div.col-md-6:nth-of-type(odd) .card::before {
    @include dots();
-    right: -1.55rem;
+    right: -1.7rem;
    }
 
 .history .card .card-title {
