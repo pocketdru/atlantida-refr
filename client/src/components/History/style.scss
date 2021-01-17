@@ -20,7 +20,6 @@
 }
 
 @mixin history-title () {
-    color: #3e3d3d;
     font-family: Montserrat;
     font-size: 15px;
     font-weight: 400;
@@ -70,20 +69,21 @@
     text-align: center;
     width: 4vw;
     height: 4vw;
-    margin: 1.75rem auto;
+    margin: auto;
     line-height: 4vw;
 }
 
 .history .card
 {
     background-color: inherit;
-    border: none;
+    border: 1.5px solid #3e3d3d;
+    border-radius: 0;
 }
 
 .history div.col-md-6:nth-of-type(even) .card::after {
    @include lines();
     height: 120.5%;
-    left: -0.87rem;
+    left: -1rem;
     outline: 1px solid #3e3d3d; }
   
   .history .col-md-6:nth-of-type(odd) .card::after {
@@ -95,7 +95,7 @@
 
 .history div.col-md-6:nth-of-type(even) .card::before {
     @include dots();
-    left: -1.65rem;
+    left: -1.7rem;
   }
   
   .history div.col-md-6:nth-of-type(odd) .card::before {
@@ -114,6 +114,7 @@
     font-size: 12px;
 }
 
-.history .card #white {
+.history .container .row .col-md-12 .col-md-6 #white {
     color: #e4e4e4;
+    background-color: #3e3d3d;
 }
