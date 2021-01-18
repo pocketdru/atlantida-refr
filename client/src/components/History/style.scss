@@ -76,20 +76,20 @@
 .history .card
 {
     background-color: inherit;
-    border: 2px solid #3e3d3d;
+    border: 0.125rem solid #3e3d3d;
     border-radius: 0;
 }
 
 .history div.col-md-6:nth-of-type(even) .card::after {
    @include lines();
     height: 120.5%;
-    left: -1.064rem;
+    left: -1.0625rem;
  }
   
   .history .col-md-6:nth-of-type(odd) .card::after {
     @include lines();
     height: 120%;
-    right: -1.061rem;
+    right: -1.0625rem;
     top: -36%;
   }
 
