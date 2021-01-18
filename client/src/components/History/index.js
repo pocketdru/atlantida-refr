@@ -18,12 +18,12 @@ function History() {
                             </div>
                         </div>
                         <div className="row">
-                                <div className="col-md-12">
-                                    <h2 className="scheme-title mt-5">2020</h2>
+                                <div className="col-md-12 mt-3 mb-4">
+                                    <h2 className="scheme-title">2020</h2>
                                 </div>
-                            <div className="row pt-5">
+                            <div className="row">
                             <div className="col-md-6">
-                                <div className="card">
+                                <div className="card mt-3">
                                     <div className="card-body pr-5">
                                         <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
                                         <p className="card-text date">07 October 2020</p>
@@ -60,12 +60,12 @@ function History() {
                                 </div>
                             </div>
                             </div>
-                                <div className="col-md-12 mt-4 mb-4">
+                                <div className="col-md-12 mt-5 mb-4">
                                     <h2 className="scheme-title">2019</h2>
                                 </div>
                             <div className="row">
                                 <div className="col-md-6">
-                                    <div className="card">
+                                    <div className="card mt-3">
                                         <div className="card-body pr-5">
                                             <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
                                             <p className="card-text data">07 October 2019</p>
@@ -83,7 +83,7 @@ function History() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-12 mt-2 pt-1">
+                            <div className="col-md-12 mt-4 pt-1">
                                 <h2 className="scheme-title">2019</h2>
                             </div>
                         </div>

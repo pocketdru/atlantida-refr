@@ -1,5 +1,6 @@
 .history {
-  background-color: #ededed; }
+  background-color: #ededed;
+}
 
 .history h2 {
   color: #3e3d3d;
@@ -8,20 +9,24 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.44px;
-  font-size: 32px; }
+  font-size: 32px;
+}
 
 .history p {
   color: #3e3d3d;
   font-family: "Crimson Text - Roman";
   font-size: 13px;
   font-weight: 400;
-  letter-spacing: 1.4px; }
+  letter-spacing: 1.4px;
+}
 
 .history svg {
-  width: inherit; }
+  width: inherit;
+}
 
 .history path {
-  stroke: #3e3d3d; }
+  stroke: #3e3d3d;
+}
 
 .history .scheme-title {
   font-family: Montserrat;
@@ -34,61 +39,68 @@
   width: 4vw;
   height: 4vw;
   margin: auto;
-  line-height: 4vw; }
+  line-height: 4vw;
+}
 
 .history .card {
   background-color: inherit;
   border: 0.125rem solid #3e3d3d;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 .history div.col-md-6:nth-of-type(even) .card::after {
   display: inline-block;
   width: 0;
   height: 100%;
-  content: '';
+  content: "";
   position: absolute;
   outline: 1px solid #3e3d3d;
   left: -1.0625rem;
-  top: 17%; }
+  top: 17%;
+}
 
 .history .col-md-6:nth-of-type(odd) .card::after {
   display: inline-block;
   width: 0;
   height: 100%;
-  content: '';
+  content: "";
   position: absolute;
   outline: 1px solid #3e3d3d;
   right: -1.0625rem;
-  top: -17%; }
+  top: -17%;
+}
 
 .history div.col-md-6:nth-of-type(even) .card::before {
   position: absolute;
   top: 3%;
   width: 1.5vw;
   height: 1.5vw;
-  content: '';
+  content: "";
   background-color: #3e3d3d;
   border-radius: 50%;
   display: inline-block;
-  left: -1.7rem; }
+  left: -1.7rem;
+}
 
 .history div.col-md-6:nth-of-type(odd) .card::before {
   position: absolute;
   top: 3%;
   width: 1.5vw;
   height: 1.5vw;
-  content: '';
+  content: "";
   background-color: #3e3d3d;
   border-radius: 50%;
   display: inline-block;
-  right: -1.7rem; }
+  right: -1.7rem;
+}
 
 .history .card .card-title {
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1.47px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .history .card .date {
   font-family: Montserrat;
@@ -96,10 +108,10 @@
   font-weight: 400;
   letter-spacing: 1.47px;
   text-align: left;
-  font-size: 12px; }
+  font-size: 12px;
+}
 
 .history .container .row .col-md-12 .col-md-6 #white {
   color: #e4e4e4;
-  background-color: #3e3d3d; }
-
-/*# sourceMappingURL=style.css.map */
+  background-color: #3e3d3d;
+}

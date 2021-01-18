@@ -40,6 +40,7 @@
 @mixin lines {
     display: inline-block;
     width: 0;
+    height: 100%;
     content: '';
     position: absolute;
     outline: 1px solid #3e3d3d; 
@@ -82,15 +83,14 @@
 
 .history div.col-md-6:nth-of-type(even) .card::after {
    @include lines();
-    height: 120.5%;
     left: -1.0625rem;
+    top: 17%;
  }
   
   .history .col-md-6:nth-of-type(odd) .card::after {
     @include lines();
-    height: 120%;
     right: -1.0625rem;
-    top: -36%;
+    top: -17%;
   }
 
 .history div.col-md-6:nth-of-type(even) .card::before {
