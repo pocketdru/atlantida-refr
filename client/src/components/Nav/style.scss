@@ -1,15 +1,6 @@
 $screen-sizes: 1200px, 991px, 768px;
 
 @mixin nav-font-family(){
-    // @media (max-width: 1200px) {
-    //     font-size: calc(100vw / 90);
-    // }
-    // @media (max-width: 991px) {
-    //     font-size: calc(100vw / 60);
-    // }
-    // @media (max-width: 768px) {
-    //     font-size: calc(100vw / 65);
-    // }
     color: #aaaaaa;
     font-family: Montserrat;
     // font-size: $font-size;
