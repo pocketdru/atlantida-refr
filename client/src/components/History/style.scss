@@ -127,6 +127,14 @@
     }
 }    
 
+@media (max-width: 1440px) {
+    .history .scheme-title {
+        width: 3vw;
+        height: 3vw;
+        line-height: 3vw;
+    }
+}   
+
 @media (max-width: 1280px) {
     .history .scheme-title {
         width: 3vw;
