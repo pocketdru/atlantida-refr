@@ -4,6 +4,7 @@ import Jumbotron from "../components/Jumbotron";
 import AboutUs from "../components/AboutUs";
 import Services from "../components/Services";
 import History from "../components/History";
+import OurTeam from "../components/OurTeam";
 
 class Home extends Component {
     render() {
@@ -14,6 +15,7 @@ class Home extends Component {
             <AboutUs/>
             <Services/>
             <History/>
+            <OurTeam/>
         </div>
         ) 
     }
