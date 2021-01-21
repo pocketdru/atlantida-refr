@@ -152,7 +152,19 @@
     line-height: 6vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 640px) {
+  .history .col-md-6:nth-of-type(odd) .card::after, .history div.col-md-6:nth-of-type(even) .card::after {
+    top: 0px;
+  }
+}
+@media (max-width: 540px) {
+  .history .scheme-title {
+    width: 10vw;
+    height: 10vw;
+    line-height: 10vw;
+  }
+}
+@media (max-width: 414px) {
   .history .scheme-title {
     width: 12vw;
     height: 12vw;

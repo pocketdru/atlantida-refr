@@ -1,5 +1,6 @@
 .services {
-  background-image: url("/images/services/Background.png"); }
+  background-image: url("/images/services/Background.png");
+  background-size: cover; }
 
 .services h2 {
   color: #ffffff;

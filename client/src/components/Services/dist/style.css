@@ -1,5 +1,6 @@
 .services {
   background-image: url("/images/services/Background.png");
+  background-size: cover;
 }
 
 .services h2 {
@@ -20,23 +21,50 @@
   border: none;
   background: inherit;
   border-radius: 0;
+  height: 100%;
 }
 
 .services .card:before {
   content: "";
-  height: 25px;
-  width: 25px;
   position: absolute;
-  top: -10px;
-  left: 40%;
+  top: -20px;
+  left: 41%;
   margin: 10px;
+}
+
+.services .card-1::before {
   background: url("/images/services/Idea.png");
+  width: 26px;
+  height: 25px;
+}
+
+.services .card-2::before {
+  background: url("/images/services/Monitor.png");
+  width: 27px;
+  height: 21px;
+}
+
+.services .card-3::before {
+  background: url("/images/services/Combo_chart.png");
+  width: 24px;
+  height: 22px;
+}
+
+.services .card-4::before {
+  background: url("/images/services/Icon.png");
+  width: 21px;
+  height: 21px;
+}
+
+.card-body {
+  padding: 2em;
 }
 
 .services .card-text {
   color: #cfcfcf;
   font-family: "Crimson Text - Roman";
-  font-size: 14px;
+  font-size: 13px;
+  text-align: center;
   font-weight: 400;
   letter-spacing: 1.4px;
 }
@@ -44,12 +72,15 @@
 .services .card .card-title {
   color: #cfcfcf;
   font-family: "Crimson Text - Roman";
-  font-size: 14px;
+  font-size: 13px;
+  text-align: center;
   font-weight: 400;
   letter-spacing: 1.4px;
   font-family: Montserrat;
   letter-spacing: 1.47px;
   font-size: 16px;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .title-border {
@@ -57,31 +88,35 @@
   top: 0;
   bottom: 0;
   width: 71px;
-  border: 1px solid #d8d8d8;
+  border: 2px solid #d8d8d8;
 }
 
 .title-border-top-left {
+  width: 40%;
   border-right: none;
+  border-bottom: 2px solid #d8d8d8;
 }
 
 .title-border-top-right {
+  width: 40%;
   left: auto;
   right: 0;
   border-left: none;
+  border-bottom: 2px solid #d8d8d8;
 }
 
 .title-border-bottom-left {
-  width: 100px;
+  width: 100%;
   border-right: none;
   border-top: none;
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 2px solid #d8d8d8;
 }
 
 .title-border-bottom-right {
-  width: 100px;
+  width: 100%;
   left: auto;
   right: 0;
   border-left: none;
   border-top: none;
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 2px solid #d8d8d8;
 }
