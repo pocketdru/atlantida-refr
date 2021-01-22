@@ -23,7 +23,7 @@ function History() {
                                 </div>
                             <div className="row">
                             <div className="col-md-6">
-                                <div className="card mt-3">
+                                <div className="card mt-3 mr-4">
                                     <div className="arrow"></div>
                                     <div className="card-body pr-5">
                                         <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
@@ -33,7 +33,8 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="card mt-5">
+                                <div className="card mt-5 ml-4">
+                                    <div className="arrow"></div>
                                     <div className="card-body pl-5">
                                         <h5 className="card-title">Nam tincidunt, lacus sit amet ultrices </h5>
                                         <p className="card-text date">05 June 2020</p>
@@ -42,7 +43,8 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="card mt-4">
+                                <div className="card mt-4 mr-4">
+                                    <div className="arrow"></div>
                                     <div className="card-body pr-5">
                                         <h5 className="card-title">Donec quis faucibus lorem</h5>
                                         <p className="card-text data">07 May 2020</p>
@@ -51,7 +53,8 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-6 pt-4">
-                                <div className="card mt-5" id="white">
+                                <div className="card mt-5 ml-4" id="white">
+                                    <div className="arrow"></div>
                                     <div className="card-body pl-5">
                                         <h5 className="card-title">Nunc efficitur laoreet turpis sed auctor.</h5>
                                         <p className="card-text data" id="white">02 April 2020</p>
@@ -66,7 +69,8 @@ function History() {
                                 </div>
                             <div className="row">
                                 <div className="col-md-6">
-                                    <div className="card mt-3">
+                                    <div className="card mt-3 mr-4">
+                                        <div className="arrow"></div>
                                         <div className="card-body pr-5">
                                             <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
                                             <p className="card-text data">07 October 2019</p>
@@ -75,7 +79,8 @@ function History() {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="card mt-5">
+                                    <div className="card mt-5 ml-4">
+                                        <div className="arrow"></div>
                                         <div className="card-body pl-5">
                                             <h5 className="card-title">Nam tincidunt, lacus sit amet ultrices </h5>
                                             <p className="card-text data">05 June 2019</p>
