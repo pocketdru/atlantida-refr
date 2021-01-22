@@ -24,6 +24,7 @@ function History() {
                             <div className="row">
                             <div className="col-md-6">
                                 <div className="card mt-3">
+                                    <div className="arrow"></div>
                                     <div className="card-body pr-5">
                                         <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
                                         <p className="card-text date">07 October 2020</p>

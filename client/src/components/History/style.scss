@@ -103,6 +103,17 @@
     right: -1.8rem;
    }
 
+.card .arrow {
+    width: 9px;
+    height: 9px;
+    left: 60px;
+    top: -7px;
+    border-top: 1px solid #3e3d3d;
+    border-left: 1px solid #3e3d3d;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
 .history .card .card-title {
     @include history-title();
     text-transform: uppercase;
