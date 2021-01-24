@@ -5,7 +5,7 @@ import WavySvg from "../Waves";
 function History() {
     return (
         <section className="history">
-            <div className="container pt-3 pb-5">
+            <div className="container pt-5 pb-5">
                 <div className="row">
                     <div className="col-md-12">
                         <div className="row">
@@ -90,7 +90,7 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-12 mt-4 pt-1">
-                                <h2 className="scheme-title">2019</h2>
+                                <img src="/images/history/Start.png" className="scheme-title scheme-title-img p-3"/>
                             </div>
                         </div>
                     </div>

@@ -36,6 +36,10 @@
   margin: auto;
   line-height: 4vw; }
 
+.history .scheme-title-img {
+  background-color: #3e3d3d;
+  display: block; }
+
 .history .card {
   background-color: inherit;
   border: 0.125rem solid #3e3d3d;
@@ -135,9 +139,9 @@
     line-height: 2.5vw; } }
 @media (max-width: 1440px) {
   .history .scheme-title {
-    width: 3vw;
-    height: 3vw;
-    line-height: 3vw; } }
+    width: 4vw;
+    height: 4vw;
+    line-height: 4vw; } }
 @media (max-width: 1280px) {
   .history .scheme-title {
     width: 3vw;
