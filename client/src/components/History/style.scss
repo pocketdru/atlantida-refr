@@ -57,20 +57,20 @@
     outline: 1px solid #3e3d3d; 
 }
 
-.history h2 {
+.history h2, .ourteam h2 {
     @include services-font();
     font-size: 32px;
 }
 
-.history p {
+.history p, .ourteam p {
     @include card-text();
 }
 
-.history svg {
+.history svg, .ourteam svg {
     width: inherit;
 }
 
-.history path {
+.history path, .ourteam path {
     stroke: #3e3d3d;
 }
 

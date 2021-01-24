@@ -1,7 +1,7 @@
 .history {
   background-color: #ededed; }
 
-.history h2 {
+.history h2, .ourteam h2 {
   color: #3e3d3d;
   font-family: Amsdam;
   font-size: 20px;
@@ -10,17 +10,17 @@
   letter-spacing: 0.44px;
   font-size: 32px; }
 
-.history p {
+.history p, .ourteam p {
   color: #3e3d3d;
   font-family: "Crimson Text - Roman";
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 1.4px; }
 
-.history svg {
+.history svg, .ourteam svg {
   width: inherit; }
 
-.history path {
+.history path, .ourteam path {
   stroke: #3e3d3d; }
 
 .history .scheme-title {
