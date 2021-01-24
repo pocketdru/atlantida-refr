@@ -94,13 +94,13 @@
 
 .history div.col-md-6:nth-of-type(even) .card::after {
    @include lines();
-    left: -2.55rem;
+    left: -2.5625rem;
     top: 17%;
  }
   
   .history .col-md-6:nth-of-type(odd) .card::after {
     @include lines();
-    right: -2.55rem;
+    right: -2.5625rem;
     top: -17%;
   }
 

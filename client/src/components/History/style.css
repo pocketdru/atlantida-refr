@@ -48,7 +48,7 @@
   content: '';
   position: absolute;
   outline: 1px solid #3e3d3d;
-  left: -2.55rem;
+  left: -2.5625rem;
   top: 17%; }
 
 .history .col-md-6:nth-of-type(odd) .card::after {
@@ -58,7 +58,7 @@
   content: '';
   position: absolute;
   outline: 1px solid #3e3d3d;
-  right: -2.55rem;
+  right: -2.5625rem;
   top: -17%; }
 
 .history div.col-md-6:nth-of-type(even) .card::before {

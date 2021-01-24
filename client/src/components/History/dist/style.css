@@ -55,7 +55,7 @@
   content: "";
   position: absolute;
   outline: 1px solid #3e3d3d;
-  left: -1.0625rem;
+  left: -2.5625rem;
   top: 17%;
 }
 
@@ -66,7 +66,7 @@
   content: "";
   position: absolute;
   outline: 1px solid #3e3d3d;
-  right: -1.0625rem;
+  right: -2.5625rem;
   top: -17%;
 }
 
@@ -79,7 +79,7 @@
   background-color: #3e3d3d;
   border-radius: 50%;
   display: inline-block;
-  left: -1.8rem;
+  left: -3.3rem;
 }
 
 .history div.col-md-6:nth-of-type(odd) .card::before {
@@ -91,18 +91,33 @@
   background-color: #3e3d3d;
   border-radius: 50%;
   display: inline-block;
-  right: -1.8rem;
+  right: -3.3rem;
 }
 
-.card .arrow {
-  width: 9px;
-  height: 9px;
-  left: 60px;
-  top: -7px;
-  border-top: 1px solid #3e3d3d;
-  border-left: 1px solid #3e3d3d;
+.history div.col-md-6:nth-of-type(odd) .arrow {
+  overflow: overlay;
+  width: 12px;
+  background: #ededed;
+  height: 12px;
+  top: 16px;
+  border-top: 2px solid #3e3d3d;
+  border-left: 2px solid #3e3d3d;
   position: absolute;
-  transform: rotate(45deg);
+  transform: rotate(135deg);
+  right: -7px;
+}
+
+.history div.col-md-6:nth-of-type(even) .arrow {
+  overflow: overlay;
+  width: 12px;
+  background: #ededed;
+  height: 12px;
+  top: 16px;
+  border-top: 2px solid #3e3d3d;
+  border-left: 2px solid #3e3d3d;
+  position: absolute;
+  transform: rotate(315deg);
+  left: -7px;
 }
 
 .history .card .card-title {
@@ -124,6 +139,9 @@
 
 .history .container .row .col-md-12 .col-md-6 #white {
   color: #e4e4e4;
+  background-color: #3e3d3d;
+}
+.history .container .row .col-md-12 .col-md-6 #white .arrow {
   background-color: #3e3d3d;
 }
 
