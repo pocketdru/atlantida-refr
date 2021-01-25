@@ -1,3 +1,8 @@
-.ourTeam .card-img-top {
-    display: block;
+.ourteam .card-img-overlay {
+    background: rgba(246, 246, 246, 0.8);
+}
+
+.ourteam .card-text {
+    border-bottom: 2px solid #515151;
+    width: inherit;
 }
