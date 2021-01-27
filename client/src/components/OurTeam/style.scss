@@ -2,7 +2,14 @@
     background: rgba(246, 246, 246, 0.8);
 }
 
+.ourteam .card-title {
+    position: absolute;
+    top: 100px;
+}
+
 .ourteam .card-text {
     border-bottom: 2px solid #515151;
     width: inherit;
+    position: absolute;
+    bottom: 80px;
 }
