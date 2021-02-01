@@ -1,3 +1,7 @@
+@mixin icon() {
+    color:#3e3d3d;
+}
+
 .ourteam .card-img-overlay {
     background: rgba(246, 246, 246, 0.8);
 }
@@ -13,3 +17,4 @@
     position: relative;
     top: 15rem;
 }
+

@@ -2,8 +2,9 @@ import React from "react";
 import "./style.css";
 import WavySvg from "../Waves";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faBehance } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -30,7 +31,9 @@ function OurTeam () {
                                     <div className="card-img-overlay m-2">
                                         <h5 className="card-title">Jilia Smith</h5>
                                         <p className="card-text">Designer</p>               
-                                        <FontAwesomeIcon icon={faFacebookF} style={{ color: 'red' }} />
+                                        <FontAwesomeIcon icon={faFacebookSquare} />
+                                        <FontAwesomeIcon icon={faTwitter} />
+                                        <FontAwesomeIcon icon={faBehance} />
                                     </div>
                                 </div>
                             </div>
@@ -40,6 +43,9 @@ function OurTeam () {
                                     <div className="card-img-overlay m-2">
                                         <h5 className="card-title">Jilia Smith</h5>
                                         <p className="card-text">Designer</p>
+                                        <FontAwesomeIcon icon={faFacebookSquare} />
+                                        <FontAwesomeIcon icon={faTwitter} />
+                                        <FontAwesomeIcon icon={faBehance} />
                                     </div>
                                 </div>
                             </div>
@@ -49,6 +55,9 @@ function OurTeam () {
                                     <div className="card-img-overlay m-2">
                                         <h5 className="card-title">Jilia Smith</h5>
                                         <p className="card-text">Designer</p>
+                                        <FontAwesomeIcon icon={faFacebookSquare} />
+                                        <FontAwesomeIcon icon={faTwitter} />
+                                        <FontAwesomeIcon icon={faBehance} />
                                     </div>
                                 </div>
                             </div>
