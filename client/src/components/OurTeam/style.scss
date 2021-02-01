@@ -1,5 +1,6 @@
 @mixin icon() {
     color:#3e3d3d;
+
 }
 
 .ourteam .card-img-overlay {
@@ -18,3 +19,11 @@
     top: 15rem;
 }
 
+.svg-inline--fa {
+    @include icon();
+    position: relative;
+}
+
+.svg-inline--fa:nth-child(n+2) {
+    border-right: 1px solid black;
+}
