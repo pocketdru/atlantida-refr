@@ -1,7 +1,12 @@
 import React from "react";
 import "./style.css";
 import WavySvg from "../Waves";
-import { func } from "prop-types";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+
+
+
 
 function OurTeam () {
     return (
@@ -24,7 +29,8 @@ function OurTeam () {
                                     <img src="/images/ourTeam/Image_1.png" className="card-img-top" alt="..."/>
                                     <div className="card-img-overlay m-2">
                                         <h5 className="card-title">Jilia Smith</h5>
-                                        <p className="card-text">Designer</p>
+                                        <p className="card-text">Designer</p>               
+                                        <FontAwesomeIcon icon={faFacebookF} style={{ color: 'red' }} />
                                     </div>
                                 </div>
                             </div>

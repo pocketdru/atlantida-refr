@@ -8,6 +8,17 @@
   src: url("../../fonts/CrimsonTextRoman/crimsontext-roman.ttf") format("truetype");
   font-weight: bold;
   font-style: italic; }
+.carousel svg {
+  width: 700px;
+  height: 9px;
+  vertical-align: super; }
+
+.carousel path {
+  stroke: #ffffff;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  fill: none; }
+
 .carousel-caption {
   bottom: 50%; }
 

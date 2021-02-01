@@ -1,10 +1,10 @@
-svg {
-    width: 700px;
+.card-title  svg {
+    width: inherit;
     height: 9px;
-vertical-align: super;
+    vertical-align: super;
 }
 
-path {
+.card-title  path {
     stroke: #ffffff;
     stroke-width: 2px;
     stroke-linecap: round;

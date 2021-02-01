@@ -17,9 +17,6 @@
   font-weight: 400;
   letter-spacing: 1.4px; }
 
-.history svg, .ourteam svg {
-  width: inherit; }
-
 .history path, .ourteam path {
   stroke: #3e3d3d; }
 
