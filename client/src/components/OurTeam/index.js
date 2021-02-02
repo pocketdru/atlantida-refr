@@ -1,10 +1,7 @@
 import React from "react";
 import "./style.css";
 import WavySvg from "../Waves";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faBehance } from "@fortawesome/free-brands-svg-icons";
+import Icons from "../Icons";
 
 
 
@@ -31,9 +28,7 @@ function OurTeam () {
                                     <div className="card-img-overlay m-2">
                                         <h5 className="card-title">Jilia Smith</h5>
                                         <p className="card-text">Designer</p>               
-                                        <FontAwesomeIcon icon={faFacebookSquare} />
-                                        <FontAwesomeIcon icon={faTwitter} />
-                                        <FontAwesomeIcon icon={faBehance} />
+                                        <Icons/>
                                     </div>
                                 </div>
                             </div>
@@ -43,9 +38,7 @@ function OurTeam () {
                                     <div className="card-img-overlay m-2">
                                         <h5 className="card-title">Jilia Smith</h5>
                                         <p className="card-text">Designer</p>
-                                        <FontAwesomeIcon icon={faFacebookSquare} />
-                                        <FontAwesomeIcon icon={faTwitter} />
-                                        <FontAwesomeIcon icon={faBehance} />
+                                        <Icons/>
                                     </div>
                                 </div>
                             </div>
@@ -55,9 +48,7 @@ function OurTeam () {
                                     <div className="card-img-overlay m-2">
                                         <h5 className="card-title">Jilia Smith</h5>
                                         <p className="card-text">Designer</p>
-                                        <FontAwesomeIcon icon={faFacebookSquare} />
-                                        <FontAwesomeIcon icon={faTwitter} />
-                                        <FontAwesomeIcon icon={faBehance} />
+                                        <Icons/>
                                     </div>
                                 </div>
                             </div>

@@ -11,11 +11,7 @@
   position: relative;
   top: 15rem; }
 
-.svg-inline--fa {
-  color: #3e3d3d;
-  position: relative; }
-
-.svg-inline--fa:nth-child(n+2) {
-  border-right: 1px solid black; }
+.ourteam .svg-inline--fa {
+  color: #3e3d3d; }
 
 /*# sourceMappingURL=style.css.map */
