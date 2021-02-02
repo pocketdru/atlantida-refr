@@ -3,15 +3,19 @@
 
 .ourteam .card .card-title {
   position: relative;
-  top: 15rem; }
+  top: 17rem; }
 
 .ourteam .card .card-text {
   border-bottom: 2px solid #515151;
   width: inherit;
   position: relative;
-  top: 15rem; }
+  top: 17rem; }
 
 .ourteam .svg-inline--fa {
   color: #3e3d3d; }
+
+.ourteam .icons {
+  position: relative;
+  top: 17rem; }
 
 /*# sourceMappingURL=style.css.map */
