@@ -1,3 +1,5 @@
+@import "../History/style.scss";
+
 .ourteam .card-img-overlay {
     background: rgba(246, 246, 246, 0.8);
 }
@@ -5,13 +7,17 @@
 .ourteam .card .card-title {
     position: relative;
     top: 17rem;
+    @include history-title();
 }
 
 .ourteam .card .card-text {
     border-bottom: 2px solid #515151;
     width: inherit;
     position: relative;
-    top: 17rem;
+    top: 16.5rem;
+    @include card-text();
+    font-style: italic;
+    padding-bottom: 1rem;
 }
 
 .ourteam .svg-inline--fa {
@@ -20,5 +26,5 @@
 
 .ourteam .icons {
     position: relative;
-    top: 17rem;
+    top: 16.5rem;
 }

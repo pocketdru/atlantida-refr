@@ -1,9 +1,10 @@
-.svg-inline--fa {
-  position: relative; }
+.ourteam .svg-inline--fa {
+  position: relative;
+  width: 1.5rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem; }
 
 .svg-inline--fa:nth-child(n+2) {
-  border-left: 1px solid #3e3d3d;
-  margin-right: 0.5rem;
-  margin-left: 0.5rem; }
+  border-left: 1px solid #3e3d3d; }
 
 /*# sourceMappingURL=style.css.map */
