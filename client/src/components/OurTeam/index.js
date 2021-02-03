@@ -18,6 +18,7 @@ function OurTeam () {
                                     <h2 className="card-title text-center">Our Team
                                     <span><WavySvg/></span></h2>
                                     <p className="card-text text-center">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. </p>
+                                    <p className="card-text text-center"><i>Hover the cards below</i></p>
                                 </div>
                             </div>
                         </div>

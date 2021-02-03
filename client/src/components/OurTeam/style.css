@@ -168,8 +168,12 @@
     width: 12vw;
     height: 12vw;
     line-height: 12vw; } }
+.ourteam .card:hover .card-img-overlay {
+  display: block; }
+
 .ourteam .card-img-overlay {
-  background: rgba(246, 246, 246, 0.8); }
+  background: rgba(246, 246, 246, 0.8);
+  display: none; }
 
 .ourteam .card .card-title {
   position: relative;
@@ -191,6 +195,9 @@
   letter-spacing: 1.4px;
   font-style: italic;
   padding-bottom: 1rem; }
+
+.ourteam .card-text i {
+  border-bottom: 1px solid #515151; }
 
 .ourteam .svg-inline--fa {
   color: #3e3d3d; }
