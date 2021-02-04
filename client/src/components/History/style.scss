@@ -5,8 +5,8 @@
 @mixin services-font(){
     color: #3e3d3d;    
     font-family: Amsdam;
-    font-size: 20px;
     font-weight: 400;
+    font-size: 32px;
     text-transform: uppercase;
     letter-spacing: 0.44px;
 }
@@ -59,14 +59,13 @@
 
 .history h2, .ourteam h2 {
     @include services-font();
-    font-size: 32px;
 }
 
 .history p, .ourteam p {
     @include card-text();
 }
 
-.history path, .ourteam path {
+.history path, .ourteam path, .portfolio path {
     stroke: #3e3d3d;
 }
 

@@ -4,11 +4,10 @@
 .history h2, .ourteam h2 {
   color: #3e3d3d;
   font-family: Amsdam;
-  font-size: 20px;
   font-weight: 400;
+  font-size: 32px;
   text-transform: uppercase;
-  letter-spacing: 0.44px;
-  font-size: 32px; }
+  letter-spacing: 0.44px; }
 
 .history p, .ourteam p {
   color: #3e3d3d;
@@ -17,7 +16,7 @@
   font-weight: 400;
   letter-spacing: 1.4px; }
 
-.history path, .ourteam path {
+.history path, .ourteam path, .portfolio path {
   stroke: #3e3d3d; }
 
 .history .scheme-title {

@@ -1,4 +1,9 @@
 @import "../History/style.scss";
 
-.portfolio 
+.portfolio h2 {
+    @include services-font();
+}
 
+.portfolio p {
+    @include card-text();
+}

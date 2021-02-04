@@ -1,34 +1,185 @@
-/*
-Error: Invalid CSS after ".portfolio": expected "{", was ""
-        on line 5 of /my projects/atlantida-refr/client/src/components/Portfolio/style.scss
+.history {
+  background-color: #ededed; }
 
-1: @import "../History/style.scss";
-2: 
-3: .portfolio
+.history h2, .ourteam h2 {
+  color: #3e3d3d;
+  font-family: Amsdam;
+  font-weight: 400;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.44px; }
 
-Backtrace:
-/my projects/atlantida-refr/client/src/components/Portfolio/style.scss:5
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \".portfolio\": expected \"{\", was \"\"\A         on line 5 of /my projects/atlantida-refr/client/src/components/Portfolio/style.scss\A \A 1: @import \"../History/style.scss\";\A 2: \A 3: .portfolio"; }
+.history p, .ourteam p {
+  color: #3e3d3d;
+  font-family: "Crimson Text - Roman";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.4px; }
+
+.history path, .ourteam path, .portfolio path {
+  stroke: #3e3d3d; }
+
+.history .scheme-title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  border: 1px solid #3e3d3d;
+  border-radius: 100%;
+  text-align: center;
+  width: 4vw;
+  height: 4vw;
+  margin: auto;
+  line-height: 4vw; }
+
+.history .scheme-title-img {
+  background-color: #3e3d3d;
+  display: block; }
+
+.history .card {
+  background-color: inherit;
+  border: 0.125rem solid #3e3d3d;
+  border-radius: 0; }
+
+.history div.col-md-6:nth-of-type(even) .card::after {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  content: '';
+  position: absolute;
+  outline: 1px solid #3e3d3d;
+  left: -2.5625rem;
+  top: 17%; }
+
+.history .col-md-6:nth-of-type(odd) .card::after {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  content: '';
+  position: absolute;
+  outline: 1px solid #3e3d3d;
+  right: -2.5625rem;
+  top: -17%; }
+
+.history div.col-md-6:nth-of-type(even) .card::before {
+  position: absolute;
+  top: 3%;
+  width: 1.5rem;
+  height: 1.5rem;
+  content: '';
+  background-color: #3e3d3d;
+  border-radius: 50%;
+  display: inline-block;
+  left: -3.3rem; }
+
+.history div.col-md-6:nth-of-type(odd) .card::before {
+  position: absolute;
+  top: 3%;
+  width: 1.5rem;
+  height: 1.5rem;
+  content: '';
+  background-color: #3e3d3d;
+  border-radius: 50%;
+  display: inline-block;
+  right: -3.3rem; }
+
+.history div.col-md-6:nth-of-type(odd) .arrow {
+  overflow: overlay;
+  width: 12px;
+  background: #ededed;
+  height: 12px;
+  top: 16px;
+  border-top: 2px solid #3e3d3d;
+  border-left: 2px solid #3e3d3d;
+  position: absolute;
+  transform: rotate(135deg);
+  right: -7px; }
+
+.history div.col-md-6:nth-of-type(even) .arrow {
+  overflow: overlay;
+  width: 12px;
+  background: #ededed;
+  height: 12px;
+  top: 16px;
+  border-top: 2px solid #3e3d3d;
+  border-left: 2px solid #3e3d3d;
+  position: absolute;
+  transform: rotate(315deg);
+  left: -7px; }
+
+.history .card .card-title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  text-transform: uppercase; }
+
+.history .card .date {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  text-align: left;
+  font-size: 12px; }
+
+.history .container .row .col-md-12 .col-md-6 #white {
+  color: #e4e4e4;
+  background-color: #3e3d3d; }
+  .history .container .row .col-md-12 .col-md-6 #white .arrow {
+    background-color: #3e3d3d; }
+
+@media (max-width: 2560px) {
+  .history .scheme-title {
+    width: 2.5vw;
+    height: 2.5vw;
+    line-height: 2.5vw; } }
+@media (max-width: 1440px) {
+  .history .scheme-title {
+    width: 4vw;
+    height: 4vw;
+    line-height: 4vw; } }
+@media (max-width: 1280px) {
+  .history .scheme-title {
+    width: 3vw;
+    height: 3vw;
+    line-height: 3vw; } }
+@media (max-width: 768px) {
+  .history .col-md-6:nth-of-type(odd) .card::after {
+    top: -13%; }
+
+  .history div.col-md-6:nth-of-type(even) .card::after {
+    top: 12%; }
+
+  .history .scheme-title {
+    width: 6vw;
+    height: 6vw;
+    line-height: 6vw; } }
+@media (max-width: 640px) {
+  .history .col-md-6:nth-of-type(odd) .card::after, .history div.col-md-6:nth-of-type(even) .card::after {
+    top: 0px; } }
+@media (max-width: 540px) {
+  .history .scheme-title {
+    width: 10vw;
+    height: 10vw;
+    line-height: 10vw; } }
+@media (max-width: 414px) {
+  .history .scheme-title {
+    width: 12vw;
+    height: 12vw;
+    line-height: 12vw; } }
+.portfolio h2 {
+  color: #3e3d3d;
+  font-family: Amsdam;
+  font-weight: 400;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.44px; }
+
+.portfolio p {
+  color: #3e3d3d;
+  font-family: "Crimson Text - Roman";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.4px; }
+
+/*# sourceMappingURL=style.css.map */
