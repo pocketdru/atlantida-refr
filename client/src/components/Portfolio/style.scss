@@ -7,3 +7,16 @@
 .portfolio p {
     @include card-text();
 }
+
+.portfolio .d-grid .btn {
+    background-color: #e3e3e3;
+    border: 2px solid #3e3d3d;
+    border-radius: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.portfolio .d-grid .btn:hover {
+    background-color: #3e3d3d;
+    color: #e3e3e3;
+}
