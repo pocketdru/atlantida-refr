@@ -7,3 +7,12 @@
     height: 400px;
 }
 
+@mixin gallery-heights {
+     .gallery:nth-child(n+2) .img-fluid:nth-child(1)  {
+        height: 30%!!important
+    }
+}
+
+.portfolio {
+    @include gallery-heights();
+}
