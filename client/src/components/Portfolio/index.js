@@ -30,11 +30,7 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <Gallery/>
-                    </div>
-                </div>
+                <Gallery/>
             </div>
         </section>
     )
