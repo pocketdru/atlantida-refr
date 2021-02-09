@@ -1,22 +1,29 @@
 .portfolio .gallery .img-fluid {
   overflow: hidden;
-  width: 18rem; }
+  width: 18rem;
+}
 
 .portfolio .gallery .col-md-3:nth-child(4n+1) .img-fluid:nth-child(odd) {
-  height: 60% !important; }
+  height: 60% !important;
+}
 .portfolio .gallery .col-md-3:nth-child(4n+1) .img-fluid:nth-child(even) {
-  height: 40% !important; }
+  height: 40% !important;
+}
 .portfolio .gallery .col-md-3:nth-child(4n+2) .img-fluid:nth-child(odd) {
-  height: 45% !important; }
+  height: 45% !important;
+}
 .portfolio .gallery .col-md-3:nth-child(4n+2) .img-fluid:nth-child(even) {
-  height: 55% !important; }
+  height: 55% !important;
+}
 .portfolio .gallery .col-md-3:nth-child(4n+3) .img-fluid:nth-child(odd) {
-  height: 35% !important; }
+  height: 35% !important;
+}
 .portfolio .gallery .col-md-3:nth-child(4n+3) .img-fluid:nth-child(even) {
-  height: 65% !important; }
+  height: 65% !important;
+}
 .portfolio .gallery .col-md-3:nth-child(4n+4) .img-fluid:nth-child(odd) {
-  height: 65% !important; }
+  height: 65% !important;
+}
 .portfolio .gallery .col-md-3:nth-child(4n+4) .img-fluid:nth-child(even) {
-  height: 35% !important; }
-
-/*# sourceMappingURL=style.css.map */
+  height: 35% !important;
+}

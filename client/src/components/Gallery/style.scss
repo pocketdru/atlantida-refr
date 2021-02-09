@@ -3,13 +3,30 @@
     width: 18rem;
 }
 
-.gallery {
-    height: 400px;
-}
-
 @mixin gallery-heights {
-     .gallery:nth-child(n+2) .img-fluid:nth-child(1)  {
-        height: 30%!!important
+    .gallery .col-md-3:nth-child(4n+1) .img-fluid:nth-child(odd)  {
+        height: 60%!important;
+    }
+    .gallery .col-md-3:nth-child(4n+1) .img-fluid:nth-child(even) {
+        height: 40%!important;
+    }
+    .gallery .col-md-3:nth-child(4n+2) .img-fluid:nth-child(odd)  {
+        height: 45%!important;
+    }
+    .gallery .col-md-3:nth-child(4n+2) .img-fluid:nth-child(even) {
+        height: 55%!important;
+    }
+    .gallery .col-md-3:nth-child(4n+3) .img-fluid:nth-child(odd)  {
+        height: 35%!important;
+    }
+    .gallery .col-md-3:nth-child(4n+3) .img-fluid:nth-child(even) {
+        height: 65%!important;
+    }
+    .gallery .col-md-3:nth-child(4n+4) .img-fluid:nth-child(odd)  {
+        height: 65%!important;
+    }
+    .gallery .col-md-3:nth-child(4n+4) .img-fluid:nth-child(even) {
+        height: 35%!important;
     }
 }
 
