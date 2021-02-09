@@ -2,17 +2,16 @@
   background-color: #ededed;
 }
 
-.history h2 {
+.history h2, .ourteam h2 {
   color: #3e3d3d;
   font-family: Amsdam;
-  font-size: 20px;
   font-weight: 400;
+  font-size: 32px;
   text-transform: uppercase;
   letter-spacing: 0.44px;
-  font-size: 32px;
 }
 
-.history p {
+.history p, .ourteam p {
   color: #3e3d3d;
   font-family: "Crimson Text - Roman";
   font-size: 13px;
@@ -20,11 +19,7 @@
   letter-spacing: 1.4px;
 }
 
-.history svg {
-  width: inherit;
-}
-
-.history path {
+.history path, .ourteam path, .portfolio path, .prices path {
   stroke: #3e3d3d;
 }
 

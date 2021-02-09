@@ -1,5 +1,9 @@
 @import "../History/style.scss";
 
+.portfolio {
+    background-color: #ffffff;
+}
+
 .portfolio h2 {
     @include services-font();
 }
@@ -9,7 +13,7 @@
 }
 
 .portfolio .d-grid .btn {
-    background-color: #e3e3e3;
+    background-color: inherit;
     border: 2px solid #3e3d3d;
     border-radius: 0;
     padding-top: 4px;

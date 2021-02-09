@@ -6,7 +6,7 @@ import Gallery from "../Gallery";
 function Portfolio() {
     return (
         <section className="portfolio">
-            <div className="container pt-5 pb-5">
+            <div className="container-fluid pt-5">
                 <div className="row">
                     <div className="col-md-12">
                         <div className="row">

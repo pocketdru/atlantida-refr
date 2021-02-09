@@ -1,0 +1,10 @@
+@import "../History/style.scss";
+
+.prices h2 {
+    @include services-font();
+}
+
+.prices p {
+    @include card-text();
+}
+

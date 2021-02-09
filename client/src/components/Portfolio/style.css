@@ -16,7 +16,7 @@
   font-weight: 400;
   letter-spacing: 1.4px; }
 
-.history path, .ourteam path, .portfolio path {
+.history path, .ourteam path, .portfolio path, .prices path {
   stroke: #3e3d3d; }
 
 .history .scheme-title {
@@ -167,6 +167,9 @@
     width: 12vw;
     height: 12vw;
     line-height: 12vw; } }
+.portfolio {
+  background-color: #ffffff; }
+
 .portfolio h2 {
   color: #3e3d3d;
   font-family: Amsdam;
@@ -183,7 +186,7 @@
   letter-spacing: 1.4px; }
 
 .portfolio .d-grid .btn {
-  background-color: #e3e3e3;
+  background-color: inherit;
   border: 2px solid #3e3d3d;
   border-radius: 0;
   padding-top: 4px;

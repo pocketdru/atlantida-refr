@@ -1,6 +1,6 @@
 .portfolio .gallery .img-fluid {
   overflow: hidden;
-  width: 18rem; }
+  width: 30rem; }
 
 .portfolio .gallery .col-md-3:nth-child(4n+1) .img-fluid:nth-child(odd) {
   height: 60% !important; }
