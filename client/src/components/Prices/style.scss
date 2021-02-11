@@ -8,3 +8,14 @@
     @include card-text();
 }
 
+.prices .scheme-title-img {
+    @include scheme-title();
+    @include title-scheme-img();
+    border: 2px solid #3e3d3d;
+    width: 3vw;
+    height: 3vw;
+}
+
+#test {
+    margin: auto;
+}

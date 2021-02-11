@@ -57,6 +57,19 @@
     outline: 1px solid #3e3d3d; 
 }
 
+@mixin title-scheme-img {
+    display: block;
+}
+
+@mixin scheme-title {
+    border-radius: 100%;
+    text-align: center;
+    width: 4vw;
+    height: 4vw;
+    margin: auto;
+    line-height: 4vw;
+}
+
 .history h2, .ourteam h2 {
     @include services-font();
 }
@@ -71,18 +84,13 @@
 
 .history .scheme-title {
     @include history-title();
+    @include scheme-title();
     border: 1px solid #3e3d3d;
-    border-radius: 100%;
-    text-align: center;
-    width: 4vw;
-    height: 4vw;
-    margin: auto;
-    line-height: 4vw;
 }
 
 .history .scheme-title-img {
+    @include title-scheme-img();
     background-color: #3e3d3d;
-    display: block;
 }
 
 .history .card
@@ -139,7 +147,6 @@
 .history .container .row .col-md-12 .col-md-6 #white {
     color: #e4e4e4;
     background-color: #3e3d3d;
-
     .arrow{
         background-color: #3e3d3d;
     }

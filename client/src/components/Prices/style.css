@@ -24,17 +24,17 @@
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1.47px;
-  border: 1px solid #3e3d3d;
   border-radius: 100%;
   text-align: center;
   width: 4vw;
   height: 4vw;
   margin: auto;
-  line-height: 4vw; }
+  line-height: 4vw;
+  border: 1px solid #3e3d3d; }
 
 .history .scheme-title-img {
-  background-color: #3e3d3d;
-  display: block; }
+  display: block;
+  background-color: #3e3d3d; }
 
 .history .card {
   background-color: inherit;
@@ -181,5 +181,20 @@
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 1.4px; }
+
+.prices .scheme-title-img {
+  border-radius: 100%;
+  text-align: center;
+  width: 4vw;
+  height: 4vw;
+  margin: auto;
+  line-height: 4vw;
+  display: block;
+  border: 2px solid #3e3d3d;
+  width: 3vw;
+  height: 3vw; }
+
+#test {
+  margin: auto; }
 
 /*# sourceMappingURL=style.css.map */
