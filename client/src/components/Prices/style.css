@@ -182,17 +182,12 @@
   font-weight: 400;
   letter-spacing: 1.4px; }
 
-.image-card {
-  height: 3vw;
-  width: 3vw;
-  line-height: 3vw;
-  margin: auto; }
-
 .prices .scheme-title-img {
   display: block;
   border: 2px solid #3e3d3d;
   border-radius: 100%;
-  height: inherit;
-  width: inherit; }
+  height: 3vw;
+  width: 3vw;
+  margin: auto; }
 
 /*# sourceMappingURL=style.css.map */
