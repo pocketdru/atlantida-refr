@@ -23,7 +23,7 @@ function Prices() {
                                 <div className="card-body">
                                     <h5 className="card-title">Basic</h5>
                                     <div className="scheme-title-img">
-                                        <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title scheme-title-img"/>        
+                                        <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title"/>        
                                     </div>  
                                     <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
@@ -34,8 +34,10 @@ function Prices() {
                                 <div className="card-body">
                                     <h5 className="card-title">Advanced</h5>
                                     <div className="scheme-title-img">
-                                        <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title scheme-title-img"/>        
-                                    </div>                                      <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <div className="line"></div>
+                                        <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title"/>        
+                                    </div>                                      
+                                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                                 </div>
                             </div>
@@ -44,8 +46,9 @@ function Prices() {
                                 <div className="card-body">
                                     <h5 className="card-title">Pro</h5>
                                     <div className="scheme-title-img">
-                                        <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title scheme-title-img"/>        
-                                    </div>                                      <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title"/>        
+                                    </div>                                      
+                                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                                 </div>
                             </div>

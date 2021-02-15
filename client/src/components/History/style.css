@@ -43,19 +43,19 @@
 
 .history div.col-md-6:nth-of-type(even) .card::after {
   display: inline-block;
-  height: 100%;
   content: '';
   position: absolute;
   outline: 1px solid #3e3d3d;
+  height: 100%;
   left: -2.5625rem;
   top: 17%; }
 
 .history .col-md-6:nth-of-type(odd) .card::after {
   display: inline-block;
-  height: 100%;
   content: '';
   position: absolute;
   outline: 1px solid #3e3d3d;
+  height: 100%;
   right: -2.5625rem;
   top: -17%; }
 
