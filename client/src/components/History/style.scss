@@ -50,7 +50,6 @@
 
 @mixin lines {
     display: inline-block;
-    width: 0;
     height: 100%;
     content: '';
     position: absolute;
@@ -93,8 +92,7 @@
     background-color: #3e3d3d;
 }
 
-.history .card
-{
+.history .card {
     background-color: inherit;
     border: 0.125rem solid #3e3d3d;
     border-radius: 0;

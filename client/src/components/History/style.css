@@ -43,7 +43,6 @@
 
 .history div.col-md-6:nth-of-type(even) .card::after {
   display: inline-block;
-  width: 0;
   height: 100%;
   content: '';
   position: absolute;
@@ -53,7 +52,6 @@
 
 .history .col-md-6:nth-of-type(odd) .card::after {
   display: inline-block;
-  width: 0;
   height: 100%;
   content: '';
   position: absolute;
