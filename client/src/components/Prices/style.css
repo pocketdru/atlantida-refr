@@ -165,24 +165,6 @@
 @media (max-width: 640px) {
   .history .col-md-6:nth-of-type(odd) .card::after, .history div.col-md-6:nth-of-type(even) .card::after {
     top: 0px; } }
-@media (max-width: 1440px) {
-  .prices .scheme-title-img .line {
-    top: 44%; } }
-@media (max-width: 1200px) {
-  .prices .scheme-title-img .line {
-    top: 40%; } }
-@media (max-width: 991px) {
-  .prices .scheme-title-img .line {
-    top: 34%; } }
-@media (max-width: 768px) {
-  .prices .scheme-title-img .line {
-    top: 48%; } }
-@media (max-width: 525px) {
-  .prices .scheme-title-img .line {
-    top: 44%; } }
-@media (max-width: 372px) {
-  .prices .scheme-title-img .line {
-    top: 40%; } }
 @media (max-width: 2560px) {
   .prices .scheme-title {
     width: 2.5vw;
@@ -253,7 +235,7 @@
   content: '';
   position: absolute;
   outline: 1px solid #3e3d3d;
-  top: 44%;
+  top: 18%;
   width: calc(100% - 4em);
   z-index: 1; }
 
