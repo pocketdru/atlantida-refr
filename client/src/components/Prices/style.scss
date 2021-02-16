@@ -44,7 +44,7 @@
     @include services-font();
 }
 
-.prices p {
+.prices p, .prices .list-group li {
     @include card-text();
 }
 
@@ -71,4 +71,34 @@
     top: 44%;
     width: calc(100% - 4em);
     z-index: 1;
+}
+
+.prices .card .card-text {
+    @include history-title();
+    text-align: center;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.prices .dollar {
+    position: relative;
+    font-size: 30px;
+    top: -35px;
+}
+
+.prices .list-group li {
+    font-style: italic;
+    text-align: center;
+    letter-spacing: normal;
+    border: none;
+    padding-top: 0px;
+}
+
+.prices .card .btn {
+    @include history-title();
+    display: block;
+    margin: auto;
+    border: 2px solid #3e3d3d;
+    border-radius: 0px;
+    padding: 0.25rem 1.5rem;
 }

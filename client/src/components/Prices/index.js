@@ -26,7 +26,16 @@ function Prices() {
                                         <div className="line"></div>
                                         <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title"/>        
                                     </div>  
-                                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><span className="dollar" >&#36;</span>10</p>
+                                    <ul className="list-group">
+                                        <li className="list-group-item">Full Access</li>
+                                        <li className="list-group-item">Unlimited Edition</li>
+                                        <li className="list-group-item">Full Backup</li>
+                                        <li className="list-group-item">Free Tea and Free Mockup</li>
+                                        <li className="list-group-item">Several Prices</li>
+                                    </ul>
+                                    <button type="button" className="btn mt-3">Sign Up</button>
+
                                 </div>
                                 </div>
                             </div>
@@ -38,7 +47,15 @@ function Prices() {
                                         <div className="line"></div>
                                         <img src="/images/prices/icon-2.png" alt="gallery-photo" className="scheme-title"/>        
                                     </div>                                      
-                                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><span className="dollar">&#36;</span>20</p>
+                                    <ul className="list-group">
+                                        <li className="list-group-item">Full Access</li>
+                                        <li className="list-group-item">Unlimited Edition</li>
+                                        <li className="list-group-item">Full Backup</li>
+                                        <li className="list-group-item">Free Tea and Free Mockup</li>
+                                        <li className="list-group-item">Several Prices</li>
+                                    </ul>
+                                    <button type="button" className="btn mt-3">Sign Up</button>
                                 </div>
                                 </div>
                             </div>
@@ -50,7 +67,15 @@ function Prices() {
                                         <div className="line"></div>
                                         <img src="/images/prices/icon-3.png" alt="gallery-photo" className="scheme-title"/>        
                                     </div>                                      
-                                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p className="card-text"><span className="dollar">&#36;</span>30</p>
+                                    <ul className="list-group">
+                                    <li className="list-group-item">Full Access</li>
+                                        <li className="list-group-item">Unlimited Edition</li>
+                                        <li className="list-group-item">Full Backup</li>
+                                        <li className="list-group-item">Free Tea and Free Mockup</li>
+                                        <li className="list-group-item">Several Prices</li>
+                                    </ul>
+                                    <button type="button" className="btn mt-3">Sign Up</button>
                                 </div>
                                 </div>
                             </div>

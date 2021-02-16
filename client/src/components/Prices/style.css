@@ -222,7 +222,7 @@
   text-transform: uppercase;
   letter-spacing: 0.44px; }
 
-.prices p {
+.prices p, .prices .list-group li {
   color: #3e3d3d;
   font-family: "Crimson Text - Roman";
   font-size: 13px;
@@ -256,5 +256,37 @@
   top: 44%;
   width: calc(100% - 4em);
   z-index: 1; }
+
+.prices .card .card-text {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px; }
+
+.prices .dollar {
+  position: relative;
+  font-size: 30px;
+  top: -35px; }
+
+.prices .list-group li {
+  font-style: italic;
+  text-align: center;
+  letter-spacing: normal;
+  border: none;
+  padding-top: 0px; }
+
+.prices .card .btn {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  display: block;
+  margin: auto;
+  border: 2px solid #3e3d3d;
+  border-radius: 0px;
+  padding: 0.25rem 1.5rem; }
 
 /*# sourceMappingURL=style.css.map */
