@@ -1,5 +1,45 @@
 @import "../History/style.scss";
 
+@media (max-width: 1440px) {
+    .prices .scheme-title-img .line {
+        top: 44%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .prices .scheme-title-img .line {
+        top: 40%;
+    }
+}
+
+@media (max-width: 991px) {
+    .prices .scheme-title-img .line {
+        top: 34%;
+    }
+}
+
+@media (max-width: 768px) {
+    .prices .scheme-title-img .line {
+        top: 48%;
+    }
+}
+
+@media (max-width: 525px) {
+    .prices .scheme-title-img .line {
+        top: 44%;
+    }
+}
+
+@media (max-width: 372px) {
+    .prices .scheme-title-img .line {
+        top: 40%;
+    }
+}
+
+.prices {
+    @include scheme-title-responsive();
+}
+
 .prices h2 {
     @include services-font();
 }
@@ -12,14 +52,6 @@
     @include history-title();
     text-align: center;
 }
-
-@media (max-width: 2560px) {
-    .prices .scheme-title {
-        width: 2.5vw;
-        height: 2.5vw;
-        line-height: 2.5vw;
-    }
-}    
 
 .prices .scheme-title-img img {
     @include title-scheme-img();
