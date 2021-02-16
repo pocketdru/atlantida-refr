@@ -23,6 +23,7 @@ function Prices() {
                                 <div className="card-body">
                                     <h5 className="card-title">Basic</h5>
                                     <div className="scheme-title-img">
+                                        <div className="line"></div>
                                         <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title"/>        
                                     </div>  
                                     <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -35,7 +36,7 @@ function Prices() {
                                     <h5 className="card-title">Advanced</h5>
                                     <div className="scheme-title-img">
                                         <div className="line"></div>
-                                        <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title"/>        
+                                        <img src="/images/prices/icon-2.png" alt="gallery-photo" className="scheme-title"/>        
                                     </div>                                      
                                     <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
@@ -46,7 +47,8 @@ function Prices() {
                                 <div className="card-body">
                                     <h5 className="card-title">Pro</h5>
                                     <div className="scheme-title-img">
-                                        <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title"/>        
+                                        <div className="line"></div>
+                                        <img src="/images/prices/icon-3.png" alt="gallery-photo" className="scheme-title"/>        
                                     </div>                                      
                                     <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>

@@ -50,22 +50,20 @@
 
 .history div.col-md-6:nth-of-type(even) .card::after {
   display: inline-block;
-  width: 0;
-  height: 100%;
   content: "";
   position: absolute;
   outline: 1px solid #3e3d3d;
+  height: 100%;
   left: -2.5625rem;
   top: 17%;
 }
 
 .history .col-md-6:nth-of-type(odd) .card::after {
   display: inline-block;
-  width: 0;
-  height: 100%;
   content: "";
   position: absolute;
   outline: 1px solid #3e3d3d;
+  height: 100%;
   right: -2.5625rem;
   top: -17%;
 }
@@ -217,17 +215,40 @@
   letter-spacing: 1.4px;
 }
 
-.image-card {
-  height: 3vw;
-  width: 3vw;
-  line-height: 3vw;
-  margin: auto;
+.prices .card .card-title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  text-align: center;
 }
 
-.prices .scheme-title-img {
+@media (max-width: 2560px) {
+  .prices .scheme-title {
+    width: 2.5vw;
+    height: 2.5vw;
+    line-height: 2.5vw;
+  }
+}
+.prices .scheme-title-img img {
   display: block;
   border: 2px solid #3e3d3d;
   border-radius: 100%;
-  height: inherit;
-  width: inherit;
+  height: 3rem;
+  width: 3rem;
+  padding: 0.4rem;
+  margin: auto;
+  position: relative;
+  z-index: 5;
+  background-color: #ffffff;
+}
+
+.prices .line {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  outline: 1px solid #3e3d3d;
+  top: 44%;
+  width: calc(100% - 4em);
+  z-index: 1;
 }
