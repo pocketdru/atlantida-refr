@@ -1,3 +1,17 @@
+@import "../History/style.scss";
+
 .quality {
     background-color: #2d2d2f;
+}
+
+.quality .text-center, .quality .btn {
+    @include history-title();
+}
+
+.quality h4 {
+    color: #d8d8d8;
+    font-weight: 700;
+}
+
+.quality .btn {
 }
