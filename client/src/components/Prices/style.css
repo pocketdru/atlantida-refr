@@ -211,6 +211,9 @@
   font-weight: 400;
   letter-spacing: 1.4px; }
 
+.prices .card {
+  padding: 1rem 1.5rem; }
+
 .prices .card .card-title {
   font-family: Montserrat;
   font-size: 15px;
@@ -235,8 +238,8 @@
   content: '';
   position: absolute;
   outline: 1px solid #3e3d3d;
-  top: 18%;
-  width: calc(100% - 4em);
+  top: 20%;
+  width: calc(100% - 7em);
   z-index: 1; }
 
 .prices .card .card-text {

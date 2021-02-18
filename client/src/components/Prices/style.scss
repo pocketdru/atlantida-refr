@@ -12,6 +12,10 @@
     @include card-text();
 }
 
+.prices .card {
+    padding: 1rem 1.5rem;
+}
+
 .prices .card .card-title {
     @include history-title();
     text-align: center;
@@ -32,8 +36,8 @@
 
 .prices .line {
     @include lines();
-    top: 18%;
-    width: calc(100% - 4em);
+    top: 20%;
+    width: calc(100% - 7em);
     z-index: 1;
 }
 
