@@ -1,5 +1,17 @@
 @import "../History/style.scss";
 
+@mixin card-overlay-title {
+    @include history-title();
+}
+
+@mixin card-overlay-text {
+    border-bottom: 2px solid #515151;
+    width: inherit;
+    @include card-text();
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
 .ourteam .card:hover .card-img-overlay {
     display: block;
 }
@@ -10,19 +22,15 @@
 }
 
 .ourteam .card .card-title {
+    @include card-overlay-title();
     position: relative;
     top: 17rem;
-    @include history-title();
 }
 
 .ourteam .card .card-text {
-    border-bottom: 2px solid #515151;
-    width: inherit;
+    @include card-overlay-text();
     position: relative;
     top: 16.5rem;
-    @include card-text();
-    font-style: italic;
-    padding-bottom: 1rem;
 }
 
 .ourteam .card-text i {

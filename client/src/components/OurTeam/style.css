@@ -46,7 +46,7 @@
   font-weight: 400;
   letter-spacing: 1.4px; }
 
-.history path, .ourteam path, .portfolio path, .prices path {
+.history path, .ourteam path, .portfolio path, .prices path, .blog path {
   stroke: #3e3d3d; }
 
 .history .scheme-title {
@@ -173,25 +173,25 @@
   display: none; }
 
 .ourteam .card .card-title {
-  position: relative;
-  top: 17rem;
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
-  letter-spacing: 1.47px; }
+  letter-spacing: 1.47px;
+  position: relative;
+  top: 17rem; }
 
 .ourteam .card .card-text {
   border-bottom: 2px solid #515151;
   width: inherit;
-  position: relative;
-  top: 16.5rem;
   color: #3e3d3d;
   font-family: "Crimson Text - Roman";
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 1.4px;
   font-style: italic;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  position: relative;
+  top: 16.5rem; }
 
 .ourteam .card-text i {
   border-bottom: 1px solid #515151; }

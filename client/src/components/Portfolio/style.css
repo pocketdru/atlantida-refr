@@ -46,7 +46,7 @@
   font-weight: 400;
   letter-spacing: 1.4px; }
 
-.history path, .ourteam path, .portfolio path, .prices path {
+.history path, .ourteam path, .portfolio path, .prices path, .blog path {
   stroke: #3e3d3d; }
 
 .history .scheme-title {
