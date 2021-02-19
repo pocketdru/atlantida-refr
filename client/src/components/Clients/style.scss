@@ -1,0 +1,13 @@
+@import "../History/style.scss";
+
+.clients {
+    background-color: #fff;
+}
+
+.clients h2 {
+    @include services-font();
+}
+
+.clients p {
+    @include card-text();
+}
