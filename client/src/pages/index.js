@@ -8,6 +8,7 @@ import OurTeam from "../components/OurTeam";
 import Portfolio from "../components/Portfolio";
 import Prices from "../components/Prices";
 import Quality from "../components/Quality";
+import Blog from "../components/Blog";
 
 class Home extends Component {
     render() {
@@ -22,6 +23,7 @@ class Home extends Component {
             <Portfolio />
             <Prices />
             <Quality />
+            <Blog />
         </div>
         ) 
     }
