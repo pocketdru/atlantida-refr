@@ -25,8 +25,14 @@ $screen-sizes: 1200px, 991px, 768px;
     @include nav-font-family;
 }
 
-.navbar .nav-link {
+.nav-background .row .navbar .nav-link {
     @include nav-font-family;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar .nav-link:hover {
+    border-bottom: 1px solid;
 }
 
 @media (max-width: 576px) {

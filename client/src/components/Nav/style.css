@@ -15,11 +15,16 @@
   font-weight: 400;
   text-transform: uppercase; }
 
-.navbar .nav-link {
+.nav-background .row .navbar .nav-link {
   color: #aaaaaa;
   font-family: Montserrat;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.navbar .nav-link:hover {
+  border-bottom: 1px solid; }
 
 @media (max-width: 576px) {
   .nav .navbar-brand {

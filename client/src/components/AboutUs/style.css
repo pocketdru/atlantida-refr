@@ -11,11 +11,8 @@
   text-transform: uppercase;
   letter-spacing: 0.44px; }
 
-.board .card path {
+.board .card-title path {
   stroke: #3e3d3d; }
-
-.board .card svg {
-  width: inherit; }
 
 .board .card .card-text {
   color: #3e3d3d;
@@ -35,6 +32,10 @@
   background-color: #3e3d3d;
   color: #cecece; }
 
+.board .card .btn-outline-primary:hover {
+  color: #3e3d3d;
+  background-color: #ffffff; }
+
 .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
   background-color: #aaaaaa;
@@ -53,5 +54,9 @@
   border-radius: 0;
   background-color: #ffffff;
   color: #3e3d3d; }
+
+.board .card .btn-outline-secondary:hover {
+  color: #ffffff;
+  background-color: #3e3d3d; }
 
 /*# sourceMappingURL=style.css.map */

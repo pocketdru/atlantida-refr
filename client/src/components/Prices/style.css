@@ -274,4 +274,8 @@
   border-radius: 0px;
   padding: 0.25rem 1.5rem; }
 
+.prices .card .btn:hover {
+  background-color: #3e3d3d;
+  color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */
