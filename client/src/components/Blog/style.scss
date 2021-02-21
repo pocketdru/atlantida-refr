@@ -9,10 +9,6 @@
     @include card-text();
 }
 
-// .blog .col-md-3 .img-fluid {
-//     height: 93%;
-// }
-
 .blog .gallery .col-md-3:nth-child(4n+1) .card:nth-child(even) {
     background-color: #424244;
 }

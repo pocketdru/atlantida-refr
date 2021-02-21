@@ -183,4 +183,10 @@
   font-weight: 400;
   letter-spacing: 1.4px; }
 
+.clients .g-5 .col {
+  padding: 0px; }
+
+.clients .g-5 .col .card {
+  border: none; }
+
 /*# sourceMappingURL=style.css.map */

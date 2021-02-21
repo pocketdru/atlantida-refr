@@ -11,3 +11,11 @@
 .clients p {
     @include card-text();
 }
+
+.clients .g-5 .col {
+    padding: 0px;
+}
+
+.clients .g-5 .col .card {
+    border: none;
+}

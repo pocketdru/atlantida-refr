@@ -17,7 +17,12 @@ function Clients() {
                                 </div>
                             </div>
                         </div>
-                        <div className="row row-cols-1 row-cols-md-4 g-4">
+                        <div className="row row-cols-1 row-cols-md-5 g-5 pt-5 pb-5">
+                            <div className="col">
+                                <div className="card">
+                                    <img src="/images/clients/1.png" className="card-img-top" alt="clients-icon"/>
+                                </div>
+                            </div>
                             <div className="col">
                                 <div className="card">
                                     <img src="/images/clients/2.png" className="card-img-top" alt="clients-icon"/>
