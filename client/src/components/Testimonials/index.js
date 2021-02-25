@@ -19,31 +19,38 @@ function Testimonials() {
                             <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="images/testimonials/Background_Image_1.png"
+                                src="images/testimonials/img-4.png"
                                 alt="First slide"
                             />
                             <Carousel.Caption>
-                            <p className="caption">
-                                Design Studio and Digital Agency
-                                </p>
-                                <h3>We are Atlantida</h3>
+                                <img className="img-fluid" src="images/testimonials/Images.png"></img>
+                                <p className="caption">
+                                <span className="quote">"</span>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
+Etiam iaculis, nibh a lobortis egestas, est urna sodales
+<span className="quote">"</span>
 
-                                <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
+                                </p>
+                                
                             </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="images/testimonials/Background_Image_1.png"
+                                src="images/testimonials/img-3.png"
                                 alt="Second slide"
                             />
                     
                             <Carousel.Caption>
+                            <img className="img-fluid" src="images/testimonials/Images.png"></img>
+
                             <p className="caption">
-                                Design Studio and Digital Agency
+                            <span className="quote">"</span>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
+Etiam iaculis, nibh a lobortis egestas, est urna sodales
+<span className="quote">"</span>
+
                                 </p>
-                                <h3>We are Atlantida</h3>
-                                <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
                             </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -53,11 +60,15 @@ function Testimonials() {
                                 alt="Third slide"
                             />
                             <Carousel.Caption>
+                            <img className="img-fluid" src="images/testimonials/Images.png"></img>
+
                             <p className="caption">
-                                Design Studio and Digital Agency
+                            <span className="quote">"</span>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
+Etiam iaculis, nibh a lobortis egestas, est urna sodales
+<span className="quote">"</span>
+
                                 </p>
-                                <h3>We are Atlantida</h3>
-                                <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
                             </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
