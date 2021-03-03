@@ -1,3 +1,6 @@
+.testimonials .carousel-caption {
+  bottom: 40%; }
+
 .testimonials .caption {
   color: #efefef;
   font-family: "Crimson Text";
@@ -6,6 +9,9 @@
 
 .testimonials .quote {
   position: relative;
-  font-size: 40px; }
+  font-size: 50px; }
+
+.testimonials .quote:nth-child(even) {
+  vertical-align: text-top; }
 
 /*# sourceMappingURL=style.css.map */

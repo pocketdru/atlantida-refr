@@ -23,12 +23,12 @@ function Testimonials() {
                                 alt="First slide"
                             />
                             <Carousel.Caption>
-                                <img className="img-fluid" src="images/testimonials/Images.png"></img>
+                                <img className="img-fluid mt-5" src="images/testimonials/Images.png"></img>
                                 <p className="caption">
-                                <span className="quote">"</span>
+                                <span className="quote">&ldquo;</span>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
 Etiam iaculis, nibh a lobortis egestas, est urna sodales
-<span className="quote">"</span>
+<span className="quote">&rdquo;</span>
 
                                 </p>
                                 
@@ -42,13 +42,13 @@ Etiam iaculis, nibh a lobortis egestas, est urna sodales
                             />
                     
                             <Carousel.Caption>
-                            <img className="img-fluid" src="images/testimonials/Images.png"></img>
+                            <img className="img-fluid mt-5" src="images/testimonials/Images.png"></img>
 
                             <p className="caption">
-                            <span className="quote">"</span>
+                            <span className="quote">&ldquo;</span>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
 Etiam iaculis, nibh a lobortis egestas, est urna sodales
-<span className="quote">"</span>
+<span className="quote">&rdquo;</span>
 
                                 </p>
                             </Carousel.Caption>
@@ -60,13 +60,13 @@ Etiam iaculis, nibh a lobortis egestas, est urna sodales
                                 alt="Third slide"
                             />
                             <Carousel.Caption>
-                            <img className="img-fluid" src="images/testimonials/Images.png"></img>
+                            <img className="img-fluid mt-5" src="images/testimonials/Images.png"></img>
 
                             <p className="caption">
-                            <span className="quote">"</span>
+                            <span className="quote">&ldquo;</span>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
 Etiam iaculis, nibh a lobortis egestas, est urna sodales
-<span className="quote">"</span>
+<span className="quote">&rdquo;</span>
 
                                 </p>
                             </Carousel.Caption>
