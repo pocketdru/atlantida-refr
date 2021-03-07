@@ -27,10 +27,13 @@ function Testimonials() {
                                 <p className="caption">
                                 <span className="quote">&ldquo;</span>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
-Etiam iaculis, nibh a lobortis egestas, est urna sodales
-<span className="quote">&rdquo;</span>
+                                    Etiam iaculis, nibh a lobortis egestas, est urna sodales
+                                    <span className="quote">&rdquo;</span>
 
                                 </p>
+                                <p className="caption name">Alexandr Podvalny</p>
+                                <p className="caption free">Free-PSD-Template.com Company</p>
+
                                 
                             </Carousel.Caption>
                             </Carousel.Item>
@@ -47,9 +50,10 @@ Etiam iaculis, nibh a lobortis egestas, est urna sodales
                             <p className="caption">
                             <span className="quote">&ldquo;</span>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
-Etiam iaculis, nibh a lobortis egestas, est urna sodales
-<span className="quote">&rdquo;</span>
-
+                                Etiam iaculis, nibh a lobortis egestas, est urna sodales
+                                <span className="quote">&rdquo;</span>
+                                <p className="caption name">Alexandr Podvalny</p>
+                                <p className="caption free">Free-PSD-Template.com Company</p>
                                 </p>
                             </Carousel.Caption>
                             </Carousel.Item>
@@ -65,9 +69,10 @@ Etiam iaculis, nibh a lobortis egestas, est urna sodales
                             <p className="caption">
                             <span className="quote">&ldquo;</span>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
-Etiam iaculis, nibh a lobortis egestas, est urna sodales
-<span className="quote">&rdquo;</span>
-
+                            Etiam iaculis, nibh a lobortis egestas, est urna sodales
+                            <span className="quote">&rdquo;</span>
+                            <p className="caption name">Alexandr Podvalny</p>
+                                <p className="caption free">Free-PSD-Template.com Company</p>
                                 </p>
                             </Carousel.Caption>
                             </Carousel.Item>

@@ -1,9 +1,6 @@
-$screen-sizes: 1200px, 991px, 768px;
-
 @mixin nav-font-family(){
     color: #aaaaaa;
     font-family: Montserrat;
-    // font-size: $font-size;
     font-weight: 400;
     text-transform: uppercase;
 }

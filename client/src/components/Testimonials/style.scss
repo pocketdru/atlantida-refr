@@ -1,5 +1,7 @@
+@import "../OurTeam/style.scss";
+
 .testimonials .carousel-caption {
-    bottom: 40%;;
+    bottom: 15%;;
 }
 
 .testimonials .caption {
@@ -16,4 +18,23 @@
 
 .testimonials .quote:nth-child(even) {
     vertical-align: text-top;
+}
+
+.testimonials .name {
+    @include card-overlay-title();
+    color: #e3e3e3;
+    text-transform: uppercase;
+}
+
+.testimonials .free {
+    @include card-text();
+    color: #e3e3e3;
+}
+
+.testimonials .carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-right: 2px;
 }
