@@ -1,12 +1,11 @@
-@import "../History/style.scss";
-@import "../OurTeam/style.scss";
+@import "../../main.scss";
 
 .blog h2 {
-    @include services-font();
+    @include Amsdam-card-title();
 }
 
 .blog p {
-    @include card-text();
+    @include Crimson-card-text();
 }
 
 .blog .gallery .col-md-3:nth-child(4n+1) .card:nth-child(even) {
@@ -36,7 +35,7 @@
 }
 
 .blog .card .card-title {
-    @include card-overlay-title();
+    @include Montserrat-title();
     color: #e3e3e3;
     text-transform: uppercase;
 }

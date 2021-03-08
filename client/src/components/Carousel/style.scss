@@ -1,29 +1,13 @@
-@font-face{
-    font-family: 'Amsdam';
-    src: url('../../fonts/AmsdamFF/Amsdam\ Regular.ttf') format('truetype'); 
-    font-weight: normal;
-    font-style: normal;
-    }
+@import "../../main.scss";
 
-
-@font-face{
-    font-family: 'Crimson';
-    src: url('../../fonts/CrimsonTextRoman/crimsontext-roman.ttf') format('truetype'); 
-    font-weight: bold;
-    font-style: italic;
-        }
-
- .carousel  svg {
+.carousel  svg {
     width: 700px;
     height: 9px;
     vertical-align: super;
 }
 
 .carousel  path {
-    stroke: #ffffff;
-    stroke-width: 2px;
-    stroke-linecap: round;
-    fill: none;
+    @include path-white();
 }       
 
 .carousel-caption {
@@ -31,16 +15,14 @@
 }
 
 .carousel-caption h3 {
+    @include Amsdam-card-title();
     color: #ffffff;
-    font-family: Amsdam;
     font-size: 55px;
-    font-weight: 400;
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .caption {
-    font-family: Crimson;
+    @include Crimson-card-text();
     font-weight: bold;
     font-style: italic;
     font-size: 0.75em;

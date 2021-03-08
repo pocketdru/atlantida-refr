@@ -4,6 +4,9 @@
 .board .card-body {
   text-align: center; }
 
+.board .card-title path {
+  stroke: #3e3d3d; }
+
 .board .card-title {
   color: #3e3d3d;
   font-weight: 400;
@@ -11,15 +14,11 @@
   text-transform: uppercase;
   letter-spacing: 0.44px; }
 
-.board .card-title path {
-  stroke: #3e3d3d; }
-
 .board .card .card-text {
-  color: #3e3d3d;
-  font-weight: 400;
   font-family: "Crimson Text - Roman";
-  text-align: left;
-  letter-spacing: 1.4px; }
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  text-align: left; }
 
 .board .card .btn {
   text-align: center; }
@@ -51,9 +50,7 @@
   width: 140px;
   padding: 7px 20px;
   border-color: #3e3d3d;
-  border-radius: 0;
-  background-color: #ffffff;
-  color: #3e3d3d; }
+  border-radius: 0; }
 
 .board .card .btn-outline-secondary:hover {
   color: #ffffff;

@@ -1,15 +1,15 @@
-@import "../History/style.scss";
+@import "../../main.scss";
 
 .clients {
     background-color: #fff;
 }
 
 .clients h2 {
-    @include services-font();
+    @include Amsdam-card-title();
 }
 
 .clients p {
-    @include card-text();
+    @include Crimson-card-text();
 }
 
 .clients .g-5 .col {

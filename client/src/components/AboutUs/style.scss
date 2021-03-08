@@ -1,14 +1,4 @@
-@mixin board-font-family(){
-    color: #3e3d3d;
-    font-weight: 400;
-}
-
-@mixin buttons-style() {
-    width: 140px;
-    padding: 7px 20px;
-    border-color: #3e3d3d;
-    border-radius: 0;
-}
+@import "../../main.scss";
 
 .board {
     background-color: #e3e3e3;
@@ -18,22 +8,17 @@
     text-align: center;
 }
 
-.board .card-title {
-    @include board-font-family;
-    font-family: Amsdam;
-    text-transform: uppercase;
-    letter-spacing: 0.44px;
-}
-
 .board .card-title path {
     stroke: #3e3d3d;
 }
 
+.board .card-title {
+    @include Amsdam-card-title();
+}
+
 .board .card .card-text {
-    @include board-font-family;
-    font-family: "Crimson Text - Roman";
+    @include Crimson-card-text();
     text-align: left;
-    letter-spacing: 1.4px;
 }
 
 .board .card .btn {
@@ -67,8 +52,6 @@
 
 .board .card .btn-outline-secondary {
     @include buttons-style;
-    background-color: #ffffff;
-    color: #3e3d3d;
 }
 
 .board .card .btn-outline-secondary:hover {

@@ -1,0 +1,42 @@
+@mixin Amsdam-card-title {
+    color: #3e3d3d;
+    font-weight: 400;
+    font-family: Amsdam;
+    text-transform: uppercase;
+    letter-spacing: 0.44px;
+}
+
+@mixin Montserrat-title {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.47px;
+}
+
+@mixin buttons-style() {
+    width: 140px;
+    padding: 7px 20px;
+    border-color: #3e3d3d;
+    border-radius: 0;
+}
+
+@mixin Crimson-card-text {
+    font-family: "Crimson Text - Roman";
+    font-size: 13px;
+    letter-spacing: 1.4px;
+}
+
+@mixin card-overlay-text {
+    border-bottom: 2px solid #515151;
+    width: inherit;
+    @include Crimson-card-text();
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+@mixin path-white {
+    stroke: #ffffff;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    fill: none;
+}

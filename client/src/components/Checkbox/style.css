@@ -10,24 +10,22 @@
 .checkbox .card-body {
   padding-bottom: 0px; }
 
-.checkbox .card-title {
-  color: #3e3d3d;
+.checkbox .card .card-title {
   font-family: Montserrat;
+  font-size: 15px;
   font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
   letter-spacing: 1.47px;
+  color: #3e3d3d;
+  text-align: center;
   font-size: 13px; }
 
-.checkbox .card-text {
-  color: #3e3d3d;
+.checkbox .card .card-text {
   font-family: Montserrat;
+  font-size: 15px;
   font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
   letter-spacing: 1.47px;
+  color: #3e3d3d;
+  text-align: center;
   font-size: 45px; }
 
 /*# sourceMappingURL=style.css.map */
