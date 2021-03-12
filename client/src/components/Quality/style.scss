@@ -1,4 +1,4 @@
-@import "../History/style.scss";
+@import "../../main.scss";
 
 .quality {
     background-color: #2d2d2f;
@@ -10,7 +10,7 @@
 }
 
 .quality .text-center, .quality .btn {
-    @include history-title();
+    @include Montserrat-title();
 }
 
 .quality .quality-title h4 {

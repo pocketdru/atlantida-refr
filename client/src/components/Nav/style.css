@@ -10,15 +10,19 @@
   margin-left: auto; }
 
 .navbar-brand {
-  color: #aaaaaa;
   font-family: Montserrat;
+  font-size: 15px;
   font-weight: 400;
+  letter-spacing: 1.47px;
+  color: #aaaaaa;
   text-transform: uppercase; }
 
 .nav-background .row .navbar .nav-link {
-  color: #aaaaaa;
   font-family: Montserrat;
+  font-size: 15px;
   font-weight: 400;
+  letter-spacing: 1.47px;
+  color: #aaaaaa;
   text-transform: uppercase;
   padding-top: 0;
   padding-bottom: 0; }

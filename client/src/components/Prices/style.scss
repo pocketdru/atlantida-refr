@@ -1,3 +1,4 @@
+@import "../../main.scss";
 @import "../History/style.scss";
 
 .prices {
@@ -5,11 +6,15 @@
 }
 
 .prices h2 {
-    @include services-font();
+    @include Amsdam-card-title();
+}
+
+.prices path {
+    @include path-dark();
 }
 
 .prices p, .prices .list-group li {
-    @include card-text();
+    @include Crimson-card-text();
 }
 
 .prices .card {
@@ -17,7 +22,7 @@
 }
 
 .prices .card .card-title {
-    @include history-title();
+    @include Montserrat-title();
     text-align: center;
 }
 
@@ -42,7 +47,7 @@
 }
 
 .prices .card .card-text {
-    @include history-title();
+    @include Montserrat-title();
     text-align: center;
     font-weight: 700;
     font-size: 70px;
@@ -63,7 +68,7 @@
 }
 
 .prices .card .btn {
-    @include history-title();
+    @include Montserrat-title();
     display: block;
     margin: auto;
     border: 2px solid #3e3d3d;

@@ -8,6 +8,9 @@
   text-transform: uppercase;
   letter-spacing: 0.44px; }
 
+.clients path {
+  stroke: #3e3d3d; }
+
 .clients p {
   font-family: "Crimson Text - Roman";
   font-size: 13px;

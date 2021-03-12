@@ -1,16 +1,4 @@
-@import "../History/style.scss";
-
-@mixin card-overlay-title {
-    @include history-title();
-}
-
-@mixin card-overlay-text {
-    border-bottom: 2px solid #515151;
-    width: inherit;
-    @include card-text();
-    font-style: italic;
-    padding-bottom: 1rem;
-}
+@import "../../main.scss";
 
 .ourteam .card:hover .card-img-overlay {
     display: block;
@@ -22,9 +10,13 @@
 }
 
 .ourteam .card .card-title {
-    @include card-overlay-title();
+    @include Montserrat-title();
     position: relative;
     top: 17rem;
+}
+
+.ourteam path {
+    @include path-dark();
 }
 
 .ourteam .card .card-text {

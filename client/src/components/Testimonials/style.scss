@@ -1,4 +1,4 @@
-@import "../OurTeam/style.scss";
+@import "../../main.scss";
 
 .testimonials .carousel-caption {
     bottom: 15%;;
@@ -21,13 +21,13 @@
 }
 
 .testimonials .name {
-    @include card-overlay-title();
+    @include Montserrat-title();
     color: #e3e3e3;
     text-transform: uppercase;
 }
 
 .testimonials .free {
-    @include card-text();
+    @include Crimson-card-text();
     color: #e3e3e3;
 }
 

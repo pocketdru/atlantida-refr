@@ -5,6 +5,9 @@
   text-transform: uppercase;
   letter-spacing: 0.44px; }
 
+.blog path {
+  stroke: #3e3d3d; }
+
 .blog p {
   font-family: "Crimson Text - Roman";
   font-size: 13px;

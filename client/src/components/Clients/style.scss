@@ -8,6 +8,10 @@
     @include Amsdam-card-title();
 }
 
+.clients path {
+    @include path-dark();
+}
+
 .clients p {
     @include Crimson-card-text();
 }

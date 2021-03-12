@@ -1,15 +1,18 @@
-@import "../History/style.scss";
+@import "../../main.scss";
 
 .portfolio {
     background-color: #ffffff;
 }
 
 .portfolio h2 {
-    @include services-font();
+    @include Amsdam-card-title();
 }
 
+.portfolio path {
+    @include path-dark();
+}
 .portfolio p {
-    @include card-text();
+    @include Crimson-card-text();
 }
 
 .portfolio .d-grid .btn {

@@ -1,7 +1,8 @@
+@import "../../main.scss";
+
 @mixin nav-font-family(){
+    @include Montserrat-title();
     color: #aaaaaa;
-    font-family: Montserrat;
-    font-weight: 400;
     text-transform: uppercase;
 }
 

@@ -1,20 +1,4 @@
-@mixin services-font(){
-    color: #ffffff;
-    font-family: Amsdam;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.44px;
-}
-
-@mixin card-text() {
-    color: #cfcfcf;
-    font-family: "Crimson Text - Roman";
-    font-size: 13px;
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 1.4px;
-}
+@import "../../main.scss";
 
 .services {
     background-image: url("/images/services/Background.png");
@@ -22,8 +6,9 @@
 }
 
 .services h2 {
-    @include services-font();
+    @include Amsdam-card-title();
     font-size: 32px;
+    color: #ffffff;
 }
 
 .services svg {
@@ -74,14 +59,15 @@
 }
 
 .services .card-text {
-    @include card-text();
+    @include Crimson-card-text();
+    text-align: center;
+    color: #cfcfcf;
 }
 
 .services .card .card-title {
-    @include card-text();
-    font-family: Montserrat;
-    letter-spacing: 1.47px;
-    font-size: 16px;
+    @include Montserrat-title();
+    text-align: center;
+    color: #cfcfcf;
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
 }

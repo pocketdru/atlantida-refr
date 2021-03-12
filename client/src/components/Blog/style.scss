@@ -4,6 +4,10 @@
     @include Amsdam-card-title();
 }
 
+.blog path {
+    @include path-dark();
+}
+
 .blog p {
     @include Crimson-card-text();
 }
