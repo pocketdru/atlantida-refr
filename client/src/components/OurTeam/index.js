@@ -3,9 +3,6 @@ import "./style.css";
 import WavySvg from "../Waves";
 import Icons from "../Icons";
 
-
-
-
 function OurTeam () {
     return (
         <section className="ourteam">
