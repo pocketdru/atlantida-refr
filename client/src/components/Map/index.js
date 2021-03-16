@@ -8,7 +8,6 @@ class SimpleMap extends Component {
 
     componentDidMount() {
         navigator.geolocation.getCurrentPosition(function(position) {
-            console.log(navigator.geolocation.getCurrentPosition(position));
           console.log("Latitude is :", position.coords.latitude);
           console.log("Longitude is :", position.coords.longitude);
         });
@@ -17,7 +16,7 @@ class SimpleMap extends Component {
 
   static defaultProps = {
     center: {
-      lat: this.lat,
+      lat: 39.698012,
       lng: -104.8510464
     },
     zoom: 20
