@@ -24,7 +24,7 @@ function Prices() {
                                         <h5 className="card-title">Basic</h5>
                                         <div className="scheme-title-img">
                                             <div className="line"></div>
-                                            <img src="/images/prices/icon-1.png" alt="gallery-photo" className="scheme-title"/>        
+                                            <img src="/images/prices/icon-1.png" alt="gallery" className="scheme-title"/>        
                                         </div>  
                                         <p className="card-text"><span className="dollar" >&#36;</span>10</p>
                                         <ul className="list-group">
@@ -45,7 +45,7 @@ function Prices() {
                                     <h5 className="card-title">Advanced</h5>
                                     <div className="scheme-title-img">
                                         <div className="line"></div>
-                                        <img src="/images/prices/icon-2.png" alt="gallery-photo" className="scheme-title"/>        
+                                        <img src="/images/prices/icon-2.png" alt="gallery" className="scheme-title"/>        
                                     </div>                                      
                                     <p className="card-text"><span className="dollar">&#36;</span>20</p>
                                     <ul className="list-group">
@@ -65,7 +65,7 @@ function Prices() {
                                     <h5 className="card-title">Pro</h5>
                                     <div className="scheme-title-img">
                                         <div className="line"></div>
-                                        <img src="/images/prices/icon-3.png" alt="gallery-photo" className="scheme-title"/>        
+                                        <img src="/images/prices/icon-3.png" alt="gallery" className="scheme-title"/>        
                                     </div>                                      
                                     <p className="card-text"><span className="dollar">&#36;</span>30</p>
                                     <ul className="list-group">

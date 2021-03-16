@@ -19,7 +19,7 @@ function Blog() {
                         </div>
                         <div className="row gallery mt-5">
                             <div className="col-md-3 col-sm-6 p-0">
-                                <img src="/images/blog/Image2.png" className="img mw-auto" alt="gallery-photo"/>
+                                <img src="/images/blog/Image2.png" className="img mw-auto" alt="gallery"/>
                                     <div className="card">
                                         <div className="card-body">
                                             <p className="card-text">14 Aug 2015 / By Admin</p>
@@ -36,10 +36,10 @@ function Blog() {
                                             <p className="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                                         </div>
                                     </div>
-                                <img src="/images/blog/Image4.png" className="img mw-auto" alt="gallery-photo"/>
+                                <img src="/images/blog/Image4.png" className="img mw-auto" alt="gallery"/>
                             </div>
                             <div className="col-md-3 col-sm-6 p-0">
-                                <img src="/images/blog/Image5.png" className="img mw-auto" alt="gallery-photo"/>
+                                <img src="/images/blog/Image5.png" className="img mw-auto" alt="gallery"/>
                                     <div className="card">
                                         <div className="card-body">
                                             <p className="card-text">14 Aug 2015 / By Admin</p>
@@ -56,7 +56,7 @@ function Blog() {
                                             <p className="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                                         </div>
                                     </div>
-                                <img src="/images/blog/Image6.png" className="img mw-auto" alt="gallery-photo"/>
+                                <img src="/images/blog/Image6.png" className="img mw-auto" alt="gallery"/>
                             </div>
                         </div>
                     </div>

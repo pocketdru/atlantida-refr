@@ -90,7 +90,7 @@ function History() {
                                 </div>
                             </div>
                             <div className="col-md-12 mt-4 pt-1">
-                                <img src="/images/history/Start.png" className="scheme-title scheme-title-img p-3"/>
+                                <img src="/images/history/Start.png" className="scheme-title scheme-title-img p-3" alt="light bulb icon"/>
                             </div>
                         </div>
                     </div>

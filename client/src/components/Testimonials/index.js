@@ -23,7 +23,7 @@ function Testimonials() {
                                 alt="First slide"
                             />
                             <Carousel.Caption>
-                                <img className="img-fluid mt-5" src="images/testimonials/Images.png"></img>
+                                <img className="img-fluid mt-5" src="images/testimonials/Images.png" alt="icon"></img>
                                 <p className="caption">
                                 <span className="quote">&ldquo;</span>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
@@ -45,16 +45,16 @@ function Testimonials() {
                             />
                     
                             <Carousel.Caption>
-                            <img className="img-fluid mt-5" src="images/testimonials/Images.png"></img>
+                            <img className="img-fluid mt-5" src="images/testimonials/Images.png" alt="icon"></img>
 
                             <p className="caption">
                             <span className="quote">&ldquo;</span>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
                                 Etiam iaculis, nibh a lobortis egestas, est urna sodales
                                 <span className="quote">&rdquo;</span>
+                            </p>
                                 <p className="caption name">Alexandr Podvalny</p>
                                 <p className="caption free">Free-PSD-Template.com Company</p>
-                                </p>
                             </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -64,16 +64,17 @@ function Testimonials() {
                                 alt="Third slide"
                             />
                             <Carousel.Caption>
-                            <img className="img-fluid mt-5" src="images/testimonials/Images.png"></img>
+                            <img className="img-fluid mt-5" src="images/testimonials/Images.png" alt="icon"></img>
 
                             <p className="caption">
                             <span className="quote">&ldquo;</span>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
                             Etiam iaculis, nibh a lobortis egestas, est urna sodales
                             <span className="quote">&rdquo;</span>
+                            </p>
                             <p className="caption name">Alexandr Podvalny</p>
-                                <p className="caption free">Free-PSD-Template.com Company</p>
-                                </p>
+                            <p className="caption free">Free-PSD-Template.com Company</p>
+
                             </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
