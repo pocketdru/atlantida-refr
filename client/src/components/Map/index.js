@@ -10,22 +10,27 @@ class SimpleMap extends Component {
         navigator.geolocation.getCurrentPosition(function(position) {
           console.log("Latitude is :", position.coords.latitude);
           console.log("Longitude is :", position.coords.longitude);
-          
-        });
-      }
+      })
+      this.onMapLoad();
+    }
 
-  
-   setState = {
-     center: {
-       lat: 39.698012
-     }
-   }
-   
+    state = {
+      currentLocation: { lat: 39.7452, lng: -104.9922 }
+    }; 
+    
+    onMapLoad = map => {
+      navigator.geolocation.getCurrentPosition(
+        ({ coords: { latitude: lat, longitude: lng } }) => {
+          const pos = { lat, lng };
+          this.setState({ currentLocation: pos });
+        }
+      );
+    }
 
   static defaultProps = {
     center: {
-      lat: 39.698012,
-      lng: -104.8510464
+      lat: 39.7452,
+      lng: -104.9922
     },
     zoom: 15
   };
@@ -36,13 +41,14 @@ class SimpleMap extends Component {
       <div style={{ height: '70vh', width: '100%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key:"AIzaSyAjcZgp1vXh0i-FibRsz_QVPZNs2y617rc" }}
-          defaultCenter={this.props.center}
+          center={this.state.currentLocation}
+          defaultProps={this.props.center}
           defaultZoom={this.props.zoom}
         >
           <AnyReactComponent
-            lat={this.lat}
-            lng={this.lon}
-            text={this.lat}
+            // lat={this.lat}
+            // lng={this.lon}
+            // text={this.lat}
           />
         </GoogleMapReact>
       </div>
