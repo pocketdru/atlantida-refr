@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
- 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+import googleMapStyles from "./GoogleMapStyles.js";
 
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const mapStyles = {
+  width: "100%",
+  height: "70vh",
+  googleMapStyles
+};
  
 class SimpleMap extends Component {
 
@@ -38,22 +43,27 @@ class SimpleMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '70vh', width: '100%' }}>
+      <div className="map" style={googleMapStyles}>
         <GoogleMapReact
           bootstrapURLKeys={{ key:"AIzaSyAjcZgp1vXh0i-FibRsz_QVPZNs2y617rc" }}
           center={this.state.currentLocation}
           defaultProps={this.props.center}
           defaultZoom={this.props.zoom}
+          defaultOptions={{
+            disableDefaultUI: true, // disable default map UI
+
+            styles: this.props.styles // change default map styles
+          }}
         >
           <AnyReactComponent
-            // lat={this.lat}
-            // lng={this.lon}
-            // text={this.lat}
+                      center={this.state.currentLocation}
+
+            text="{this.lat}"
           />
         </GoogleMapReact>
       </div>
     );
   }
 }
- 
+
 export default SimpleMap;
