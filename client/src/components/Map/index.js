@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import googleMapStyles from "./GoogleMapStyles.js";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -9,7 +9,8 @@ const mapStyles = {
   googleMapStyles
 };
  
-class SimpleMap extends Component {
+export class Maps extends React.Component {
+
 
     componentDidMount() {
         navigator.geolocation.getCurrentPosition(function(position) {
@@ -44,26 +45,23 @@ class SimpleMap extends Component {
     return (
       // Important! Always set the container height explicitly
       <div className="map" style={googleMapStyles}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key:"AIzaSyAjcZgp1vXh0i-FibRsz_QVPZNs2y617rc" }}
-          center={this.state.currentLocation}
-          defaultProps={this.props.center}
-          defaultZoom={this.props.zoom}
-          defaultOptions={{
-            disableDefaultUI: true, // disable default map UI
+        <Map
+          google={this.props.google}
+          // center={this.state.currentLocation}
+          styles={this.props.mapStyle}
 
-            styles: this.props.styles // change default map styles
-          }}
         >
-          <AnyReactComponent
-                      center={this.state.currentLocation}
+        <Marker position={{ lat: 9.761927, lng: 79.95244 }} />
 
-            text="{this.lat}"
-          />
-        </GoogleMapReact>
+        </Map>
       </div>
     );
   }
 }
 
-export default SimpleMap;
+Maps.defaultProps = googleMapStyles;
+
+
+export default GoogleApiWrapper({
+  apiKey: 'AIzaSyAjcZgp1vXh0i-FibRsz_QVPZNs2y617rc'
+})(Maps);
