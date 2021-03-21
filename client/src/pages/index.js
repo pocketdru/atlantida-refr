@@ -12,6 +12,7 @@ import Blog from "../components/Blog";
 import Clients from "../components/Clients";
 import Testimonials from "../components/Testimonials";
 import Map from "../components/Map";
+import Forms from "../components/Form";
 
 class Home extends Component {
     render() {
@@ -30,6 +31,7 @@ class Home extends Component {
             <Clients />
             <Testimonials />
             <Map />
+            <Forms/>
         </div>
         ) 
     }

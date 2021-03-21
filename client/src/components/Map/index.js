@@ -1,15 +1,10 @@
 import React from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
-import "./style.css";
 import googleMapStyles from "./GoogleMapStyles.js";
 
 export class Maps extends React.Component {
 
     componentDidMount() {
-        navigator.geolocation.getCurrentPosition(function(position) {
-          console.log("Latitude is :", position.coords.latitude);
-          console.log("Longitude is :", position.coords.longitude);
-      })
       this.onMapLoad();
     }
 
@@ -37,11 +32,12 @@ export class Maps extends React.Component {
     return (
       // Important! Always set the container height explicitly
       <section id="map">
-        <Map
+        <Map onLoad = {this.onMapLoad}
           google={this.props.google}
           center={{lat: this.state.center.lat, lng: this.state.center.lng}}
           zoom={17}
           styles={this.props.mapStyle}
+          style={{height: "70%"}}
           >
               <Marker
                 position={{lat: this.state.center.lat, lng: this.state.center.lng}} />
