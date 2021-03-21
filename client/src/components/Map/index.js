@@ -21,7 +21,10 @@ export class Maps extends React.Component {
     }
 
     state = {
-      currentLocation: { lat: 39.7452, lng: -104.9922 }
+      center: {
+        lat: 39.7452,
+        lng: -104.9922
+      }
     }; 
     
     onMapLoad = map => {
@@ -33,26 +36,27 @@ export class Maps extends React.Component {
       );
     }
 
-  static defaultProps = {
-    center: {
+  static defaultLocation = {
       lat: 39.7452,
       lng: -104.9922
-    },
-    zoom: 15
   };
 
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div className="map" style={googleMapStyles}>
+      <div className="map">
+                <div>
+          center value: {this.state.center.lat} , {this.state.center.lng}
+        </div>
         <Map
           google={this.props.google}
+          // defaultProps={this.defaultProps}
+          center={{lat: 39.7452},{ lng: -104.9922}}
+
           // center={this.state.currentLocation}
           styles={this.props.mapStyle}
 
         >
-        <Marker position={{ lat: 9.761927, lng: 79.95244 }} />
-
         </Map>
       </div>
     );
