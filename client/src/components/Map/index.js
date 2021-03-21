@@ -1,16 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import googleMapStyles from "./GoogleMapStyles.js";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-const mapStyles = {
-  width: "100%",
-  height: "70vh",
-  googleMapStyles
-};
- 
 export class Maps extends React.Component {
-
 
     componentDidMount() {
         navigator.geolocation.getCurrentPosition(function(position) {
@@ -31,15 +23,18 @@ export class Maps extends React.Component {
       navigator.geolocation.getCurrentPosition(
         ({ coords: { latitude: lat, longitude: lng } }) => {
           const pos = { lat, lng };
-          this.setState({ currentLocation: pos });
+          console.log(pos.lat)
+          this.setState({ center: {
+            lat: pos.lat,
+            lng: pos.lng
+          } });
+          console.log(this.state)
+          console.log(this.state.center.lat)
+          console.log(this.state.center.lng)
+
         }
       );
     }
-
-  static defaultLocation = {
-      lat: 39.7452,
-      lng: -104.9922
-  };
 
   render() {
     return (
@@ -50,13 +45,11 @@ export class Maps extends React.Component {
         </div>
         <Map
           google={this.props.google}
-          // defaultProps={this.defaultProps}
-          center={{lat: 39.7452},{ lng: -104.9922}}
-
-          // center={this.state.currentLocation}
-          styles={this.props.mapStyle}
-
-        >
+          center={{lat: this.state.center.lat, lng: this.state.center.lng}}
+          zoom={17}
+          styles={this.props.mapStyle}>
+              <Marker
+                position={{lat: this.state.center.lat, lng: this.state.center.lng}} />
         </Map>
       </div>
     );
