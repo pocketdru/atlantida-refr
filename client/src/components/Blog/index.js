@@ -4,7 +4,7 @@ import WavySvg from "../Waves";
 
 function Blog() {
     return(
-        <section className="blog">
+        <section className="blog" id="blog">
             <div className="container-fluid pt-5">
                 <div className="row">
                 <div className="col-md-12">

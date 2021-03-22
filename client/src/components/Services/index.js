@@ -5,7 +5,7 @@ import Border from "./Border";
 
 function Services() {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <div className="container pt-5 pb-5">
           <div className="row">
             <div className="col-md-12">

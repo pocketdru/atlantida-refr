@@ -1,7 +1,7 @@
-.board {
+#board {
   background-color: #e3e3e3; }
 
-.board .card-body {
+#board .card-body {
   text-align: center; }
 
 .board .card-title path {

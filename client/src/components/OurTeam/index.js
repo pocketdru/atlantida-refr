@@ -5,7 +5,7 @@ import Icons from "../Icons";
 
 function OurTeam () {
     return (
-        <section className="ourteam">
+        <section className="ourteam" id="ourteam">
             <div className="container pt-5">
                 <div className="row">
                     <div className="col-md-12">

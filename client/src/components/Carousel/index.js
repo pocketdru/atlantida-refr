@@ -13,7 +13,7 @@ function ControlledCarousel() {
     };
   
     return (
-      <section className="">
+      <section className="carousel" id="carousel">
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img
