@@ -30,7 +30,9 @@ class Home extends Component {
             <Blog />
             <Clients />
             <Testimonials />
-            <Map />
+            <section id="map" style={{height: "70vh"}}>
+                <Map/>
+            </section>
             <Forms/>
         </div>
         ) 

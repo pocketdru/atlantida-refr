@@ -1,3 +1,62 @@
+.forms {
+  background-image: url("/images/forms/Background.png"); }
 
+.forms .card-title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.forms .navbar-brand {
+  font-size: 18px; }
+
+.forms .card-paragraph {
+  width: inherit;
+  font-family: "Crimson Text - Roman";
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  font-style: italic;
+  padding-bottom: 1rem;
+  color: #949494; }
+
+.forms .svg-inline--fa path {
+  color: #a4a4a4; }
+
+.forms .svg-inline--fa:nth-child(n+2) {
+  border-left: 1px solid #a4a4a4; }
+
+.forms .form-control {
+  border: 2px solid #464646;
+  height: calc(1.5em + 1.5rem + 2px);
+  border-radius: 0px;
+  background: inherit; }
+
+.forms .form-control:focus {
+  box-shadow: 0 0 0 0.2rem #3e3d3d; }
+
+.forms textarea {
+  background: inherit; }
+
+.forms ::placeholder {
+  font-family: "Crimson Text - Roman";
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  font-style: italic; }
+
+.forms .btn {
+  background-color: #464646;
+  border: none;
+  color: #e3e3e3;
+  padding: 10px 50px;
+  border-radius: 0px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px; }
+
+.forms .footer {
+  border-top: 0.5px solid #3e3e3e; }
 
 /*# sourceMappingURL=style.css.map */

@@ -30,7 +30,6 @@
   border-radius: 0; }
 
 .blog .card .card-text {
-  border-bottom: 2px solid #515151;
   width: inherit;
   font-family: "Crimson Text - Roman";
   font-size: 13px;
@@ -48,7 +47,6 @@
   text-transform: uppercase; }
 
 .blog .card .card-paragraph {
-  border-bottom: 2px solid #515151;
   width: inherit;
   font-family: "Crimson Text - Roman";
   font-size: 13px;
@@ -56,6 +54,7 @@
   font-style: italic;
   padding-bottom: 1rem;
   color: #949494;
-  font-style: unset; }
+  font-style: unset;
+  border-bottom: 2px solid #515151; }
 
 /*# sourceMappingURL=style.css.map */

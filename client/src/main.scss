@@ -27,7 +27,6 @@
 }
 
 @mixin card-overlay-text {
-    border-bottom: 2px solid #515151;
     width: inherit;
     @include Crimson-card-text();
     font-style: italic;

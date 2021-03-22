@@ -31,7 +31,6 @@ export class Maps extends React.Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <section id="map">
         <Map onLoad = {this.onMapLoad}
           google={this.props.google}
           center={{lat: this.state.center.lat, lng: this.state.center.lng}}
@@ -42,7 +41,6 @@ export class Maps extends React.Component {
               <Marker
                 position={{lat: this.state.center.lat, lng: this.state.center.lng}} />
         </Map>
-      </section>
     );
   }
 }
