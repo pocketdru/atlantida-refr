@@ -19,7 +19,7 @@ function Nav() {
             <a className="nav-link flex-sm-fill text-sm-center" href="#ourteam">Team</a>
             <a className="nav-link flex-sm-fill text-sm-center" href="#portfolio">Portfolio</a>
             <a className="nav-link flex-sm-fill text-sm-center" href="#prices">Prices</a>
-            <a className="nav-link flex-sm-fill text-sm-center" href="#blog">Blog</a>
+            <a className="nav-link flex-sm-fill text-sm-center" href="blog">Blog</a>
             <a className="nav-link flex-sm-fill text-sm-center" href="#forms">Contact</a>
       </nav>
       </div>
