@@ -7,7 +7,7 @@ class BlogPage extends Component {
         return (
             <div>
                 <Nav/>
-                <BigBlog />
+                <BigBlog/>
             </div>
         )
     }
