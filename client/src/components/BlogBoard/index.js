@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import WavySvg from "../Waves";
 
-function BigBlog() {
+function BlogBoard() {
     return (
         <section className="bigBlog">
             <div className="container-fluid">
@@ -21,4 +21,4 @@ function BigBlog() {
     )
 }
 
-export default BigBlog;
+export default BlogBoard;

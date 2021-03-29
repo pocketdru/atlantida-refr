@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
-import BigBlog from "../components/BigBlog";
+import BlogBoard from "../components/BlogBoard";
+import FullBlog from "../components/FullBlog";
 
 class BlogPage extends Component {
     render() {
         return (
             <div>
                 <Nav/>
-                <BigBlog/>
+                <BlogBoard/>
+                <FullBlog/>
             </div>
         )
     }
