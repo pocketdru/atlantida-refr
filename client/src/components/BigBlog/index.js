@@ -1,9 +1,23 @@
 import React from "react";
 import "./style.css";
+import WavySvg from "../Waves";
 
 function BigBlog() {
     return (
-        <section className="bigBlog"></section>
+        <section className="bigBlog">
+            <div className="container-fluid">
+                <div className="carousel carousel-caption">
+                    <h3 className="mt-5">MASONRY BLOG</h3>
+                    <WavySvg />
+                    <nav aria-label="breadcrumb">
+                    <ol className="breadcrumb">
+                        <li className="breadcrumb-item"><a href="/">Home</a></li>
+                        <li className="breadcrumb-item" aria-current="#blog">Blog</li>
+                    </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
     )
 }
 

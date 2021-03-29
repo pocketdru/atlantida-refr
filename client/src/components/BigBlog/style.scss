@@ -1,0 +1,28 @@
+@import "../../main.scss";
+
+.bigBlog {
+    height: 396px;
+    background-image: url("/images/blogBoard/Image.png");
+}
+
+.bigBlog .carousel-caption {
+    bottom: 35%;
+}  
+
+.bigBlog nav {
+    --bs-breadcrumb-divider: '>';
+}
+
+.breadcrumb {
+    justify-content: center;
+    background-color: inherit;;
+}
+
+.breadcrumb .breadcrumb-item, .breadcrumb a {
+    @include Crimson-card-text();
+    color: #ffffff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}

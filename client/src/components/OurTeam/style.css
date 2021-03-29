@@ -1,3 +1,13 @@
+.carousel-caption h3 {
+  color: #3e3d3d;
+  font-weight: 400;
+  font-family: Amsdam;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+  color: #ffffff;
+  font-size: 55px;
+  letter-spacing: 1px; }
+
 .ourteam .card:hover .card-img-overlay {
   display: block; }
 
@@ -19,7 +29,7 @@
 .ourteam .card .card-text {
   width: inherit;
   font-family: "Crimson Text - Roman";
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1.4px;
   font-style: italic;
   padding-bottom: 1rem;

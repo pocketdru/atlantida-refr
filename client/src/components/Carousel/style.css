@@ -1,5 +1,15 @@
+.carousel-caption h3 {
+  color: #3e3d3d;
+  font-weight: 400;
+  font-family: Amsdam;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+  color: #ffffff;
+  font-size: 55px;
+  letter-spacing: 1px; }
+
 .carousel svg {
-  width: 700px;
+  width: 650px;
   height: 9px;
   vertical-align: super; }
 
@@ -12,19 +22,9 @@
 .carousel-caption {
   bottom: 50%; }
 
-.carousel-caption h3 {
-  color: #3e3d3d;
-  font-weight: 400;
-  font-family: Amsdam;
-  text-transform: uppercase;
-  letter-spacing: 0.44px;
-  color: #ffffff;
-  font-size: 55px;
-  letter-spacing: 1px; }
-
 .caption {
   font-family: "Crimson Text - Roman";
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1.4px;
   font-weight: bold;
   font-style: italic;
