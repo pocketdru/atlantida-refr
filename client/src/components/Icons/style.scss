@@ -1,10 +1,9 @@
+@import "../../main.scss";
+
 .svg-inline--fa {
-    position: relative;
-    width: 1.5rem!important;
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
+    @include font-awesome();
 }
 
-.ourteam .svg-inline--fa:nth-child(n+2) {
-    border-left: 1px solid #3e3d3d;
+.ourteam {
+    @include font-awesome-border();
 }

@@ -131,3 +131,16 @@
     font-size: 55px;
     letter-spacing: 1px;
 }
+
+@mixin font-awesome {
+    position: relative;
+    width: 1.5rem!important;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+@mixin font-awesome-border {
+    .svg-inline--fa:nth-child(n+2) {
+        border-left: 1px solid #3e3d3d;
+    }
+}

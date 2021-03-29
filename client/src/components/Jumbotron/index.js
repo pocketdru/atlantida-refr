@@ -6,7 +6,7 @@ function Jumbotron() {
   return (
     <section className="jumbotron-carousel">
       <div className="container-fluid p-0">
-          <div className="jumbotron jumbotron-fluid p-0 mb-5">
+          <div className="jumbotron jumbotron-fluid p-0">
               <Carousel/>
           </div>
       </div>

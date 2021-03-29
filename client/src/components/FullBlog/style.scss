@@ -1,1 +1,14 @@
 @import "../../main.scss";
+
+.fullBlog {
+    @include font-awesome-border();
+}
+
+.fullBlog .icons {
+    display: flex;
+    justify-content: start;
+}
+
+.fullBlog .svg-inline--fa {
+    @include font-awesome();
+}

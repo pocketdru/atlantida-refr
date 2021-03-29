@@ -6,19 +6,21 @@
   letter-spacing: 0.44px;
   color: #ffffff;
   font-size: 55px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
 .fullBlog .svg-inline--fa:nth-child(n+2) {
-  border-left: 1px solid #3e3d3d; }
+  border-left: 1px solid #3e3d3d;
+}
 
 .fullBlog .icons {
   display: flex;
-  justify-content: start; }
+  justify-content: start;
+}
 
 .fullBlog .svg-inline--fa {
   position: relative;
   width: 1.5rem !important;
   padding-left: 0.2rem;
-  padding-right: 0.2rem; }
-
-/*# sourceMappingURL=style.css.map */
+  padding-right: 0.2rem;
+}

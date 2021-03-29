@@ -1,4 +1,9 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCommentDots } from "@fortawesome/free-regular-svg-icons";
+import { faEye } from "@fortawesome/free-regular-svg-icons";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+
 import "./style.css"; 
 
 function FullBlog() {
@@ -10,9 +15,19 @@ function FullBlog() {
                         <div className="card">
                             <img src="/images/fullBlog/Blog-1.png" className="card-img-top" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                                <h5 className="card-title">Donec id lobortis tellus.
+                                    Maecenas vel dignissim</h5>
+                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <div className="icons">
+                                    <FontAwesomeIcon icon={faCommentDots} />
+                                    <p>95</p>
+                                    <FontAwesomeIcon icon={faEye}/>
+                                    <p>567</p>
+                                    <FontAwesomeIcon icon={faBriefcase} />
+                                    <p>Branding</p>
+                                </div>
+                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <a href="#" className="btn btn-primary">Read More</a>
                             </div>
                         </div>
                         <div className="card">

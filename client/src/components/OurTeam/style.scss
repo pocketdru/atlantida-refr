@@ -23,6 +23,7 @@
     @include card-overlay-text();
     position: relative;
     top: 16.5rem;
+    border-bottom: 1px solid #515151;
 }
 
 .ourteam .card-text i {
