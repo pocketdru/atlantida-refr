@@ -1,14 +1,17 @@
 @import "../../main.scss";
 
-.fullBlog {
-    @include font-awesome-border();
-}
-
 .fullBlog .icons {
+    @include Crimson-card-text();
+    font-style: italic;
+    color: #818181;
     display: flex;
     justify-content: start;
 }
 
 .fullBlog .svg-inline--fa {
-    @include font-awesome();
+    height: 2rem;
+    width: 2rem!;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    position: relative;
 }

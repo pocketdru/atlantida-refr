@@ -1,24 +1,48 @@
-.carousel-caption h3 {
-  color: #3e3d3d;
-  font-weight: 400;
-  font-family: Amsdam;
-  text-transform: uppercase;
-  letter-spacing: 0.44px;
-  color: #ffffff;
-  font-size: 55px;
-  letter-spacing: 1px; }
+/*
+Error: Invalid CSS after "    width: 2rem": expected ";", was "!;"
+        on line 13 of C:\Users\Zip2Zip\atlantida-refr\client\src\components\FullBlog\style.scss
 
-.fullBlog .svg-inline--fa:nth-child(n+2) {
-  border-left: 1px solid #3e3d3d; }
+8:     justify-content: start;
+9: }
+10: 
+11: .fullBlog .svg-inline--fa {
+12:     height: 2rem;
+13:     width: 2rem!;
+14:     padding-left: 0.5rem;
+15:     padding-right: 0.5rem;
+16:     position: relative;
+17: }
 
-.fullBlog .icons {
-  display: flex;
-  justify-content: start; }
-
-.fullBlog .svg-inline--fa {
-  position: relative;
-  width: 1.5rem !important;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+C:\Users\Zip2Zip\atlantida-refr\client\src\components\FullBlog\style.scss:13
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:804:in `block in try_declaration'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `call'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    width: 2rem\": expected \";\", was \"!;\"\A         on line 13 of C:\Users\Zip2Zip\atlantida-refr\client\src\components\FullBlog\style.scss\A \A 8:     justify-content: start;\A 9: }\A 10: \A 11: .fullBlog .svg-inline--fa {\A 12:     height: 2rem;\A 13:     width: 2rem!;\A 14:     padding-left: 0.5rem;\A 15:     padding-right: 0.5rem;\A 16:     position: relative;\A 17: }"; }
