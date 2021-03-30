@@ -4,7 +4,7 @@ import './fonts.css';
 import './main.css';
 import Home from "./pages";
 import BlogPage from "./pages/BlogPage.js";
-import SideBar_Blog from "./pages/SideBar_Blog.js";
+import SideBarBlogPage from "./pages/SideBarBlogPage.js";
 
 class App extends Component {
 
@@ -20,7 +20,7 @@ class App extends Component {
         <BlogPage />
       </Route>
       <Route path="/blog_sidebar">
-        <SideBar_Blog />
+        <SideBarBlogPage />
       </Route>
       {/* <Route>
         <NoMatch />

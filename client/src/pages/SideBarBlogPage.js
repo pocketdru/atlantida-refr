@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
 
-class SideBar_Blog extends Component {
+class SideBarBlogPage extends Component {
     render() {
         return (
             <div>
@@ -12,4 +12,4 @@ class SideBar_Blog extends Component {
     }
 }
 
-export default SideBar_Blog;
+export default SideBarBlogPage;
