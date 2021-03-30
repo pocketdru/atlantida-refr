@@ -1,5 +1,24 @@
 @import "../../main.scss";
 
+.fullBlog {
+    background-color: #e3e3e3;
+}
+
+.fullBlog .card {
+    border: none;
+    background-color: inherit;
+}
+
+.fullBlog .card-body {
+    padding: 2em 0em;
+}
+
+.fullBlog .card .card-title {
+    @include Montserrat-title();
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 .fullBlog .icons {
     @include Crimson-card-text();
     font-style: italic;
@@ -9,8 +28,8 @@
 }
 
 .fullBlog .svg-inline--fa {
-    height: 2rem;
-    width: 2rem!;
+    height: 1.3rem;
+    width: 2rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     position: relative;
