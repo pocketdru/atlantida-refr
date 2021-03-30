@@ -11,12 +11,18 @@
 
 .fullBlog .card-body {
     padding: 2em 0em;
+    color: #3e3d3d;
 }
 
 .fullBlog .card .card-title {
     @include Montserrat-title();
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.fullBlog .card-text {
+    @include Crimson-card-text();
+    font-style: italic;
 }
 
 .fullBlog .icons {
@@ -33,4 +39,18 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     position: relative;
+}
+
+.fullBlog .card-paragraph {
+    @include Crimson-card-text();
+}
+
+.fullBlog .card-body .btn {
+    @include Montserrat-title();
+    border: 2px solid #3e3d3d;
+    border-radius: 0px;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25%);
 }

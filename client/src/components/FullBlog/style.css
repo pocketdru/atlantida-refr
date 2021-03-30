@@ -16,7 +16,8 @@
   background-color: inherit; }
 
 .fullBlog .card-body {
-  padding: 2em 0em; }
+  padding: 2em 0em;
+  color: #3e3d3d; }
 
 .fullBlog .card .card-title {
   font-family: Montserrat;
@@ -25,6 +26,12 @@
   letter-spacing: 1.47px;
   text-transform: uppercase;
   font-weight: 700; }
+
+.fullBlog .card-text {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic; }
 
 .fullBlog .icons {
   font-family: "Crimson Text - Roman";
@@ -41,5 +48,21 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   position: relative; }
+
+.fullBlog .card-paragraph {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px; }
+
+.fullBlog .card-body .btn {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  border: 2px solid #3e3d3d;
+  border-radius: 0px; }
+
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25); }
 
 /*# sourceMappingURL=style.css.map */
