@@ -19,6 +19,10 @@
     color: #949494;
 }
 
+.forms .svg-inline--fa {
+    @include font-awesome();
+}
+
 .forms .svg-inline--fa path {
     color: #a4a4a4;
 }
