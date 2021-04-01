@@ -40,4 +40,10 @@
   font-weight: 700;
   text-transform: uppercase; }
 
+.sidebarBlog .card-title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px; }
+
 /*# sourceMappingURL=style.css.map */

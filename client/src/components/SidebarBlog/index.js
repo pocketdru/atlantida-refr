@@ -15,7 +15,7 @@ function SidebarBlog() {
         </div>
         <h5 className="search-title">Latest POSTS</h5>
             <div class="card">
-            <img class="card-img" src="..." alt="Card image cap"/>
+            <img class="card-img" src="/images/sidebarBlog/Image-1.png" alt="Card image cap"/>
 
             <div class="card-body">
                 <h5 class="card-title">sit amet pretium odio magna ege</h5>
@@ -23,7 +23,7 @@ function SidebarBlog() {
             </div>
             </div>
             <div class="card">
-            <img class="card-img" src="..." alt="Card image cap"/>
+            <img class="card-img" src="/images/sidebarBlog/Image-2.png" alt="Card image cap"/>
 
             <div class="card-body">
                 <h5 class="card-title">sit amet pretium odio magna ege</h5>
@@ -31,7 +31,7 @@ function SidebarBlog() {
             </div>
             </div>
             <div class="card">
-            <img class="card-img" src="..." alt="Card image cap"/>
+            <img class="card-img" src="/images/sidebarBlog/Image-3.png" alt="Card image cap"/>
 
             <div class="card-body">
                 <h5 class="card-title">sit amet pretium odio magna ege</h5>
@@ -39,7 +39,7 @@ function SidebarBlog() {
             </div>
             </div>
             <div class="card">
-            <img class="card-img" src="..." alt="Card image cap"/>
+            <img class="card-img" src="/images/sidebarBlog/Image-4.png" alt="Card image cap"/>
 
             <div class="card-body">
                 <h5 class="card-title">sit amet pretium odio magna ege</h5>
