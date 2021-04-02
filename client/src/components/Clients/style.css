@@ -24,7 +24,8 @@
 .clients p {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
-  letter-spacing: 1.4px; }
+  letter-spacing: 1.4px;
+  font-style: italic; }
 
 .clients .g-5 .col {
   padding: 0px; }

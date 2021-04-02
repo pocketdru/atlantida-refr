@@ -61,7 +61,8 @@
 .history p, .ourteam p {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
-  letter-spacing: 1.4px; }
+  letter-spacing: 1.4px;
+  font-style: italic; }
 
 .history path {
   stroke: #3e3d3d; }
@@ -226,7 +227,8 @@
 .prices p, .prices .list-group li {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
-  letter-spacing: 1.4px; }
+  letter-spacing: 1.4px;
+  font-style: italic; }
 
 .prices .card {
   padding: 1rem 1.5rem; }

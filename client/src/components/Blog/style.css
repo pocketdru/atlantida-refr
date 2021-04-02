@@ -21,7 +21,8 @@
 .blog p {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
-  letter-spacing: 1.4px; }
+  letter-spacing: 1.4px;
+  font-style: italic; }
 
 .blog .gallery .col-md-3:nth-child(4n+1) .card:nth-child(even) {
   background-color: #424244; }
@@ -45,6 +46,7 @@
   font-size: 14px;
   letter-spacing: 1.4px;
   font-style: italic;
+  font-style: italic;
   padding-bottom: 1rem;
   color: #e3e3e3; }
 
@@ -61,6 +63,7 @@
   font-family: "Crimson Text - Roman";
   font-size: 14px;
   letter-spacing: 1.4px;
+  font-style: italic;
   font-style: italic;
   padding-bottom: 1rem;
   color: #949494;

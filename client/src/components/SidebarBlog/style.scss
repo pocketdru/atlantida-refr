@@ -5,7 +5,9 @@
 }
 
 .sidebarBlog .card {
+    background-color: inherit;
     flex-direction: row;
+     border: none;
 }
 
 .sidebarBlog .form-control, .sidebarBlog .input-group-text   {
@@ -19,7 +21,6 @@
     border-right: 0px;
     border-left: 2px solid #a8a8a8;
     @include Crimson-card-text();
-    font-style: italic;
 }
 
 .sidebarBlog .input-group-text {
@@ -33,6 +34,16 @@
     text-transform: uppercase;
 }
 
+.sidebarBlog .card-img {
+    width: unset;
+    height: unset;
+}
+
 .sidebarBlog .card-title {
     @include Montserrat-title();
+    text-transform: uppercase;
+}
+
+.sidebarBlog .card-text {
+    @include Crimson-card-text();
 }

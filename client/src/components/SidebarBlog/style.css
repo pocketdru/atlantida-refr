@@ -12,7 +12,9 @@
   background-color: #e3e3e3; }
 
 .sidebarBlog .card {
-  flex-direction: row; }
+  background-color: inherit;
+  flex-direction: row;
+  border: none; }
 
 .sidebarBlog .form-control, .sidebarBlog .input-group-text {
   border-radius: 0px;
@@ -40,10 +42,21 @@
   font-weight: 700;
   text-transform: uppercase; }
 
+.sidebarBlog .card-img {
+  width: unset;
+  height: unset; }
+
 .sidebarBlog .card-title {
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
-  letter-spacing: 1.47px; }
+  letter-spacing: 1.47px;
+  text-transform: uppercase; }
+
+.sidebarBlog .card-text {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */

@@ -31,12 +31,14 @@
   font-family: "Crimson Text - Roman";
   font-size: 14px;
   letter-spacing: 1.4px;
+  font-style: italic;
   font-style: italic; }
 
 .fullBlog .icons {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
   letter-spacing: 1.4px;
+  font-style: italic;
   font-style: italic;
   color: #818181;
   display: flex;
@@ -52,7 +54,8 @@
 .fullBlog .card-paragraph {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
-  letter-spacing: 1.4px; }
+  letter-spacing: 1.4px;
+  font-style: italic; }
 
 .fullBlog .card-body .btn {
   font-family: Montserrat;
