@@ -14,63 +14,63 @@ function SidebarBlog() {
         </span>
         </div>
         <h5 className="search-title mt-5">Latest POSTS</h5>
-            <div class="card mt-5 mb-5">
-            <img class="card-img" src="/images/sidebarBlog/Image-1.png" alt="Card image cap"/>
+            <div className="card pt-5 pb-5">
+            <img className="card-img" src="/images/sidebarBlog/Image-1.png" alt="Card image cap"/>
 
-            <div class="card-body">
-                <h5 class="card-title">sit amet pretium odio magna ege</h5>
-                <p class="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
+            <div className="card-body">
+                <h5 className="card-title">sit amet pretium odio magna ege</h5>
+                <p className="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
             </div>
             </div>
-            <div class="card mt-5 mb-5">
-            <img class="card-img" src="/images/sidebarBlog/Image-2.png" alt="Card image cap"/>
+            <div className="card pt-5 pb-5">
+            <img className="card-img" src="/images/sidebarBlog/Image-2.png" alt="Card image cap"/>
 
-            <div class="card-body">
-                <h5 class="card-title">sit amet pretium odio magna ege</h5>
-                <p class="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
+            <div className="card-body">
+                <h5 className="card-title">sit amet pretium odio magna ege</h5>
+                <p className="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
             </div>
             </div>
-            <div class="card mt-5 mb-5">
-            <img class="card-img" src="/images/sidebarBlog/Image-3.png" alt="Card image cap"/>
+            <div className="card pt-5 pb-5">
+            <img className="card-img" src="/images/sidebarBlog/Image-3.png" alt="Card image cap"/>
 
-            <div class="card-body">
-                <h5 class="card-title">sit amet pretium odio magna ege</h5>
-                <p class="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
+            <div className="card-body">
+                <h5 className="card-title">sit amet pretium odio magna ege</h5>
+                <p className="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
             </div>
             </div>
-            <div class="card mt-5 mb-5">
-            <img class="card-img" src="/images/sidebarBlog/Image-4.png" alt="Card image cap"/>
+            <div className="card pt-5 pb-5">
+            <img className="card-img" src="/images/sidebarBlog/Image-4.png" alt="Card image cap"/>
 
-            <div class="card-body">
-                <h5 class="card-title">sit amet pretium odio magna ege</h5>
-                <p class="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
+            <div className="card-body">
+                <h5 className="card-title">sit amet pretium odio magna ege</h5>
+                <p className="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
             </div>
             </div>
             <h5 className="search-title mt-5">categories</h5>
-            <ul class="list-group">
-                <li class="list-group-item">Photography</li>
-                <li class="list-group-item">Website Design</li>
-                <li class="list-group-item">Branding</li>
-                <li class="list-group-item">Flyers</li>
-                <li class="list-group-item">Uncategories</li>
-                <li class="list-group-item">Category 22</li>
+            <ul className="list-group">
+                <li className="list-group-item">Photography</li>
+                <li className="list-group-item">Website Design</li>
+                <li className="list-group-item">Branding</li>
+                <li className="list-group-item">Flyers</li>
+                <li className="list-group-item">Uncategories</li>
+                <li className="list-group-item">Category 22</li>
             </ul>
             <h5 className="search-title mt-5">ARCHIVES</h5>
-            <ul class="list-group">
-                <li class="list-group-item">January 2021</li>
-                <li class="list-group-item">December 2020</li>
-                <li class="list-group-item">November 2020</li>
-                <li class="list-group-item">October 2020</li>
-                <li class="list-group-item">September 2020</li>
+            <ul className="list-group">
+                <li className="list-group-item">January 2021</li>
+                <li className="list-group-item">December 2020</li>
+                <li className="list-group-item">November 2020</li>
+                <li className="list-group-item">October 2020</li>
+                <li className="list-group-item">September 2020</li>
             </ul>
             <h5 className="search-title mt-5">FLICKR PHOTOS</h5>
-            <img src="..." class="img-fluid" alt="flickr"/>
-            <img src="..." class="img-fluid" alt="flickr"/>
-            <img src="..." class="img-fluid" alt="flickr"/>
+            <img src="..." className="img-fluid" alt="flickr"/>
+            <img src="..." className="img-fluid" alt="flickr"/>
+            <img src="..." className="img-fluid" alt="flickr"/>
             <br/>
-            <img src="..." class="img-fluid" alt="flickr"/>
-            <img src="..." class="img-fluid" alt="flickr"/>
-            <img src="..." class="img-fluid" alt="flickr"/>
+            <img src="..." className="img-fluid" alt="flickr"/>
+            <img src="..." className="img-fluid" alt="flickr"/>
+            <img src="..." className="img-fluid" alt="flickr"/>
         </div>
 
 

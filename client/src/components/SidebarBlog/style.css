@@ -14,7 +14,8 @@
 .sidebarBlog .card {
   background-color: inherit;
   flex-direction: row;
-  border: none; }
+  border-bottom: 1px #b7b7b7;
+  border-style: none none solid none; }
 
 .sidebarBlog .card-body {
   padding: 0em 0em 0em 2em; }
@@ -71,5 +72,11 @@
   font-style: italic;
   border-bottom: 1px #b7b7b7;
   border-style: none none solid none; }
+
+.sidebarBlog .list-group .list-group-item {
+  padding-left: 0px;
+  display: list-item;
+  list-style-position: inside;
+  list-style-image: url("/images/sidebarBlog/dot.png"); }
 
 /*# sourceMappingURL=style.css.map */
