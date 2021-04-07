@@ -13,8 +13,8 @@ function SidebarBlog() {
             <FontAwesomeIcon icon={faSearch}/>
         </span>
         </div>
-        <h5 className="search-title">Latest POSTS</h5>
-            <div class="card">
+        <h5 className="search-title mt-5">Latest POSTS</h5>
+            <div class="card mt-5 mb-5">
             <img class="card-img" src="/images/sidebarBlog/Image-1.png" alt="Card image cap"/>
 
             <div class="card-body">
@@ -22,7 +22,7 @@ function SidebarBlog() {
                 <p class="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
             </div>
             </div>
-            <div class="card">
+            <div class="card mt-5 mb-5">
             <img class="card-img" src="/images/sidebarBlog/Image-2.png" alt="Card image cap"/>
 
             <div class="card-body">
@@ -30,7 +30,7 @@ function SidebarBlog() {
                 <p class="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
             </div>
             </div>
-            <div class="card">
+            <div class="card mt-5 mb-5">
             <img class="card-img" src="/images/sidebarBlog/Image-3.png" alt="Card image cap"/>
 
             <div class="card-body">
@@ -38,7 +38,7 @@ function SidebarBlog() {
                 <p class="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
             </div>
             </div>
-            <div class="card">
+            <div class="card mt-5 mb-5">
             <img class="card-img" src="/images/sidebarBlog/Image-4.png" alt="Card image cap"/>
 
             <div class="card-body">
@@ -46,7 +46,7 @@ function SidebarBlog() {
                 <p class="card-text">Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
             </div>
             </div>
-            <h5 className="search-title">categories</h5>
+            <h5 className="search-title mt-5">categories</h5>
             <ul class="list-group">
                 <li class="list-group-item">Photography</li>
                 <li class="list-group-item">Website Design</li>
@@ -55,7 +55,7 @@ function SidebarBlog() {
                 <li class="list-group-item">Uncategories</li>
                 <li class="list-group-item">Category 22</li>
             </ul>
-            <h5 className="search-title">ARCHIVES</h5>
+            <h5 className="search-title mt-5">ARCHIVES</h5>
             <ul class="list-group">
                 <li class="list-group-item">January 2021</li>
                 <li class="list-group-item">December 2020</li>
@@ -63,7 +63,7 @@ function SidebarBlog() {
                 <li class="list-group-item">October 2020</li>
                 <li class="list-group-item">September 2020</li>
             </ul>
-            <h5 className="search-title">FLICKR PHOTOS</h5>
+            <h5 className="search-title mt-5">FLICKR PHOTOS</h5>
             <img src="..." class="img-fluid" alt="flickr"/>
             <img src="..." class="img-fluid" alt="flickr"/>
             <img src="..." class="img-fluid" alt="flickr"/>

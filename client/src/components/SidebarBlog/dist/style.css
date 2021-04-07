@@ -19,6 +19,10 @@
   border: none;
 }
 
+.sidebarBlog .card-body {
+  padding: 0em 0em 0em 2em;
+}
+
 .sidebarBlog .form-control, .sidebarBlog .input-group-text {
   border-radius: 0px;
   background-color: #e3e3e3;
@@ -60,6 +64,7 @@
   font-weight: 400;
   letter-spacing: 1.47px;
   text-transform: uppercase;
+  font-size: 11px;
 }
 
 .sidebarBlog .card-text {
@@ -67,4 +72,14 @@
   font-size: 14px;
   letter-spacing: 1.4px;
   font-style: italic;
+}
+
+.sidebarBlog .list-group .list-group-item {
+  background-color: inherit;
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic;
+  border-bottom: 1px #b7b7b7;
+  border-style: none none solid none;
 }
