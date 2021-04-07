@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
-import SidebarBlog from "../components/SidebarBlog";
+import BlogPageBoard from "../components/BlogPageBoard";
+import PostsBlog from "../components/PostsBlog";
 
 class SideBarBlogPage extends Component {
     render() {
         return (
             <div>
                 <Nav/>
-                <SidebarBlog />
+                <BlogPageBoard />
+                <PostsBlog />
             </div>
         )
     }

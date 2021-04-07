@@ -3,7 +3,7 @@ import "./style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-function SidebarBlog() {
+function Sidebar() {
     return (
 
     <div className="col-md-3 sidebarBlog pt-5">
@@ -77,4 +77,4 @@ function SidebarBlog() {
     )
 }
 
-export default SidebarBlog;
+export default Sidebar;

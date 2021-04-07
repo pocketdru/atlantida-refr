@@ -8,7 +8,7 @@ import OurTeam from "../components/OurTeam";
 import Portfolio from "../components/Portfolio";
 import Prices from "../components/Prices";
 import Quality from "../components/Quality";
-import Blog from "../components/Blog";
+import MiniBlog from "../components/MiniBlog";
 import Clients from "../components/Clients";
 import Testimonials from "../components/Testimonials";
 import Map from "../components/Map";
@@ -27,7 +27,7 @@ class Home extends Component {
             <Portfolio />
             <Prices />
             <Quality />
-            <Blog />
+            <MiniBlog />
             <Clients />
             <Testimonials />
             <section id="map" style={{height: "70vh"}}>
