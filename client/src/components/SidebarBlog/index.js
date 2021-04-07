@@ -63,14 +63,14 @@ function SidebarBlog() {
                 <li className="list-group-item">October 2020</li>
                 <li className="list-group-item">September 2020</li>
             </ul>
-            <h5 className="search-title mt-5">FLICKR PHOTOS</h5>
-            <img src="..." className="img-fluid" alt="flickr"/>
-            <img src="..." className="img-fluid" alt="flickr"/>
-            <img src="..." className="img-fluid" alt="flickr"/>
+            <h5 className="search-title mt-5 mb-4">FLICKR PHOTOS</h5>
+            <img src="/images/sidebarBlog/1.png" className="img-fluid pr-3 pb-3" alt="flickr"/>
+            <img src="/images/sidebarBlog/2.png" className="img-fluid pr-3 pb-3" alt="flickr"/>
+            <img src="/images/sidebarBlog/3.png" className="img-fluid pb-3" alt="flickr"/>
             <br/>
-            <img src="..." className="img-fluid" alt="flickr"/>
-            <img src="..." className="img-fluid" alt="flickr"/>
-            <img src="..." className="img-fluid" alt="flickr"/>
+            <img src="/images/sidebarBlog/4.png" className="img-fluid pr-3" alt="flickr"/>
+            <img src="/images/sidebarBlog/5.png" className="img-fluid pr-3" alt="flickr"/>
+            <img src="/images/sidebarBlog/6.png" className="img-fluid" alt="flickr"/>
         </div>
 
 
