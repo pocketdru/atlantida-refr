@@ -26,7 +26,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -118,7 +118,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -156,7 +156,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -174,7 +174,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                             </div>
                         </div>

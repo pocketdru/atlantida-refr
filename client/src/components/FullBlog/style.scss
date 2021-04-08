@@ -27,10 +27,18 @@
 
 .fullBlog .icons {
     @include Crimson-card-text();
+    padding: 0.5rem 0rem;
     font-style: italic;
     color: #818181;
     display: flex;
     justify-content: start;
+    border-top: 1px solid #b7b7b7;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.fullBlog .icons p {
+    margin-bottom: 0px;
+    height: 1.3rem;
 }
 
 .fullBlog .svg-inline--fa {

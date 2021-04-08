@@ -1,4 +1,72 @@
+.carousel-caption h3 {
+  color: #3e3d3d;
+  font-weight: 400;
+  font-family: Amsdam;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+  color: #ffffff;
+  font-size: 55px;
+  letter-spacing: 1px; }
+
 .PostsBlog {
   background-color: #e3e3e3; }
+
+.PostsBlog .card {
+  background-color: inherit; }
+
+.PostsBlog .card .card-title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  font-weight: 700; }
+
+.PostsBlog .card-text {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic;
+  font-style: italic; }
+
+.PostsBlog .icons {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic;
+  padding: 0.5rem 0rem;
+  font-style: italic;
+  color: #818181;
+  display: flex;
+  justify-content: start;
+  border-top: 1px solid #b7b7b7;
+  border-bottom: 1px solid #b7b7b7; }
+
+.PostsBlog .icons p {
+  margin-bottom: 0px;
+  height: 1.3rem; }
+
+.PostsBlog .svg-inline--fa {
+  height: 1.3rem;
+  width: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  position: relative; }
+
+.PostsBlog .card-paragraph {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic; }
+
+.PostsBlog .card-body .btn {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  border: 2px solid #3e3d3d;
+  border-radius: 0px; }
+
+.PostsBlog .btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25); }
 
 /*# sourceMappingURL=style.css.map */
