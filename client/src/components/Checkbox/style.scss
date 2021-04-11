@@ -22,8 +22,7 @@
 }
 
 .checkbox .card .card-title {
-    @include checkbox-text();
-    font-size: 13px;
+    @include Montserrat-title();
 }
 
 .checkbox .card .card-text {

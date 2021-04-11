@@ -18,7 +18,7 @@
   border-style: none none solid none; }
 
 .sidebarBlog .card-body {
-  padding: 0em 0em 0em 2em; }
+  padding: 0em 0em 0em 1em; }
 
 .sidebarBlog .form-control, .sidebarBlog .input-group-text {
   border-radius: 0px;
@@ -38,7 +38,7 @@
   border-right: 2px solid #a8a8a8;
   border-left: 0px; }
 
-.sidebarBlog .search-title {
+.sidebarBlog .search-title, .sidebarBlog .card .card-title {
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
@@ -50,13 +50,9 @@
   width: unset;
   height: unset; }
 
-.sidebarBlog .card-title {
-  font-family: Montserrat;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 1.47px;
-  text-transform: uppercase;
-  font-size: 11px; }
+.sidebarBlog .card .card-title {
+  font-size: 11px;
+  font-weight: 700; }
 
 .sidebarBlog .card-text {
   font-family: "Crimson Text - Roman";
@@ -78,5 +74,8 @@
   display: list-item;
   list-style-position: inside;
   list-style-image: url("/images/sidebarBlog/dot.png"); }
+
+.sidebarBlog .img-fluid {
+  max-width: 90px; }
 
 /*# sourceMappingURL=style.css.map */

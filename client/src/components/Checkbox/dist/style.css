@@ -1,16 +1,12 @@
-.checkbox .card {
-  background-color: inherit;
-  border-top: 0px;
-  border-bottom: 0px;
-}
-
-.checkbox .card-img-top {
-  height: 40px;
-  width: 40px;
-}
-
-.checkbox .card-body {
-  padding-bottom: 0px;
+.carousel-caption h3 {
+  color: #3e3d3d;
+  font-weight: 400;
+  font-family: Amsdam;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+  color: #ffffff;
+  font-size: 55px;
+  letter-spacing: 1px;
 }
 
 .checkbox .card {
@@ -33,9 +29,6 @@
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1.47px;
-  color: #3e3d3d;
-  text-align: center;
-  font-size: 13px;
 }
 
 .checkbox .card .card-text {

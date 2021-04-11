@@ -1,11 +1,12 @@
 @import "../../main.scss";
 
-.PostsBlog {
+.PostsBlog-container {
     background-color: #e3e3e3;
 }
 
 .PostsBlog .card {
     background-color: inherit;
+    border: none;
 }
 
 .PostsBlog .card .card-title {
