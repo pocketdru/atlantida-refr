@@ -26,7 +26,7 @@ function PostsBlog() {
                                 <FontAwesomeIcon icon={faBriefcase} />
                                 <p>Branding</p>
                             </div>
-                            <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                            <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                             <a href="#" className="btn mt-3">Read More</a>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ function PostsBlog() {
                                 <FontAwesomeIcon icon={faBriefcase} />
                                 <p>Branding</p>
                             </div>
-                            <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                            <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                             <a href="#" className="btn mt-3">Read More</a>
                     </div>
                     </div>           
@@ -60,7 +60,7 @@ function PostsBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                     </div>
                 </div>                
@@ -77,7 +77,7 @@ function PostsBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                     </div>
                 </div>                
@@ -94,7 +94,7 @@ function PostsBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                                 <a href="#" className="btn mt-3">Read More</a>
                     </div>
                     </div>

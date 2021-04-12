@@ -52,6 +52,7 @@
 
 .sidebarBlog .card-text {
     @include Crimson-card-text();
+    font-size: 12px;
 }
 
 .sidebarBlog .list-group .list-group-item {

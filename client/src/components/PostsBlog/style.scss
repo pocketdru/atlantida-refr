@@ -9,6 +9,11 @@
     border: none;
 }
 
+.PostsBlog .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .PostsBlog .card .card-title {
    @include Montserrat-title ();
    font-weight: 700;

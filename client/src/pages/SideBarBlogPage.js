@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Nav from "../components/Nav";
 import BlogPageBoard from "../components/BlogPageBoard";
 import PostsBlog from "../components/PostsBlog";
+import Form from "../components/Form";
 
 class SideBarBlogPage extends Component {
     render() {
@@ -10,6 +11,7 @@ class SideBarBlogPage extends Component {
                 <Nav/>
                 <BlogPageBoard />
                 <PostsBlog />
+                <Form />
             </div>
         )
     }
