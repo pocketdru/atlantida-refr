@@ -98,6 +98,14 @@ function PostsBlog() {
                                 <a href="#" className="btn mt-3">Read More</a>
                     </div>
                     </div>
+                    <div className="btn-toolbar pt-5 pb-5 mt-5" role="toolbar" aria-label="Toolbar with button groups">
+                        <div className="btn-group-lg" role="group" aria-label="First group">
+                            <button type="button" className="btn mr-2">1</button>
+                            <button type="button" className="btn mr-2">2</button>
+                            <button type="button" className="btn mr-2">3</button>
+                            <button type="button" className="btn">&#10095;</button>
+                        </div>
+                    </div>
                     </div>
                 <Sidebar />
             </div>
