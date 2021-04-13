@@ -13,7 +13,7 @@
   background-image: url("/images/blogBoard/Image.png"); }
 
 .bigBlog .carousel-caption {
-  bottom: 35%; }
+  bottom: 25%; }
 
 .bigBlog nav {
   --bs-breadcrumb-divider: '>'; }
@@ -26,6 +26,7 @@
   font-family: "Crimson Text - Roman";
   font-size: 14px;
   letter-spacing: 1.4px;
+  font-style: italic;
   color: #ffffff; }
 
 .breadcrumb-item + .breadcrumb-item::before {

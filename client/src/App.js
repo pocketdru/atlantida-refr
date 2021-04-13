@@ -5,6 +5,7 @@ import './main.css';
 import Home from "./pages";
 import BlogPage from "./pages/BlogPage.js";
 import SideBarBlogPage from "./pages/SideBarBlogPage.js";
+import PostWithSidebar from "./pages/PostWithSidebar.js";
 
 class App extends Component {
 
@@ -20,6 +21,9 @@ class App extends Component {
         <BlogPage />
       </Route>
       <Route path="/blog_sidebar">
+        <SideBarBlogPage />
+      </Route>
+      <Route path="/post_sidebar">
         <SideBarBlogPage />
       </Route>
       {/* <Route>

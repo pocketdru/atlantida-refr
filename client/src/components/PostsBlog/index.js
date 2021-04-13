@@ -27,7 +27,7 @@ function PostsBlog() {
                                 <p>Branding</p>
                             </div>
                             <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
-                            <a href="#" className="btn mt-3">Read More</a>
+                            <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                 </div>
                 <div className="card">
@@ -44,7 +44,7 @@ function PostsBlog() {
                                 <p>Branding</p>
                             </div>
                             <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
-                            <a href="#" className="btn mt-3">Read More</a>
+                            <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                     </div>           
                 <div className="card">
@@ -61,7 +61,7 @@ function PostsBlog() {
                                     <p>Branding</p>
                                 </div>
                                 <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
-                                <a href="#" className="btn mt-3">Read More</a>
+                                <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                 </div>                
                 <div className="card">
@@ -78,7 +78,7 @@ function PostsBlog() {
                                     <p>Branding</p>
                                 </div>
                                 <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
-                                <a href="#" className="btn mt-3">Read More</a>
+                                <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                 </div>                
                 <div className="card">
@@ -95,7 +95,7 @@ function PostsBlog() {
                                     <p>Branding</p>
                                 </div>
                                 <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
-                                <a href="#" className="btn mt-3">Read More</a>
+                                <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                     </div>
                     <div className="btn-toolbar pt-5 pb-5 mt-5" role="toolbar" aria-label="Toolbar with button groups">

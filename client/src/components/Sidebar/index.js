@@ -15,7 +15,7 @@ function Sidebar() {
         </div>
         <h5 className="search-title mt-5">Latest POSTS</h5>
             <div className="card pt-5 pb-5">
-            <img className="card-img" src="/images/sidebarBlog/Image-1.png" alt="Card image cap"/>
+            <img className="card-img" src="/images/sidebarBlog/Image-1.png" alt="blog-img"/>
 
             <div className="card-body">
                 <h5 className="card-title">sit amet pretium odio magna ege</h5>
@@ -23,7 +23,7 @@ function Sidebar() {
             </div>
             </div>
             <div className="card pt-5 pb-5">
-            <img className="card-img" src="/images/sidebarBlog/Image-2.png" alt="Card image cap"/>
+            <img className="card-img" src="/images/sidebarBlog/Image-2.png" alt="blog-img"/>
 
             <div className="card-body">
                 <h5 className="card-title">sit amet pretium odio magna ege</h5>
@@ -31,7 +31,7 @@ function Sidebar() {
             </div>
             </div>
             <div className="card pt-5 pb-5">
-            <img className="card-img" src="/images/sidebarBlog/Image-3.png" alt="Card image cap"/>
+            <img className="card-img" src="/images/sidebarBlog/Image-3.png" alt="blog-img"/>
 
             <div className="card-body">
                 <h5 className="card-title">sit amet pretium odio magna ege</h5>
@@ -39,7 +39,7 @@ function Sidebar() {
             </div>
             </div>
             <div className="card pt-5 pb-5">
-            <img className="card-img" src="/images/sidebarBlog/Image-4.png" alt="Card image cap"/>
+            <img className="card-img" src="/images/sidebarBlog/Image-4.png" alt="blog-img"/>
 
             <div className="card-body">
                 <h5 className="card-title">sit amet pretium odio magna ege</h5>
