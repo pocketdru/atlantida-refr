@@ -18,10 +18,6 @@
   bottom: 25%;
 }
 
-.bigBlog nav {
-  --bs-breadcrumb-divider: ">";
-}
-
 .breadcrumb {
   justify-content: center;
   background-color: inherit;
@@ -37,4 +33,5 @@
 
 .breadcrumb-item + .breadcrumb-item::before {
   content: ">";
+  color: #ffffff;
 }

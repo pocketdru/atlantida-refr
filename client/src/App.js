@@ -24,7 +24,7 @@ class App extends Component {
         <SideBarBlogPage />
       </Route>
       <Route path="/post_sidebar">
-        <SideBarBlogPage />
+        <PostWithSidebar />
       </Route>
       {/* <Route>
         <NoMatch />

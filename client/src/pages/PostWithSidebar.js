@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
-import BlogPageBoard from "../components/BlogPageBoard";
-import PostsBlog from "../components/PostsBlog";
+import PostBoard from "../components/PostBoard";
+import Post from "../components/Post";
 import Form from "../components/Form";
 
 class PostWithSidebar extends Component {
@@ -9,8 +9,8 @@ class PostWithSidebar extends Component {
         return (
             <div>
                 <Nav/>
-                <BlogPageBoard />
-                <PostsBlog />
+                <PostBoard />
+                <Post />
                 <Form />
             </div>
         )

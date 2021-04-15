@@ -9,13 +9,9 @@
     bottom: 25%;
 }  
 
-.bigBlog nav {
-    --bs-breadcrumb-divider: '>';
-}
-
 .breadcrumb {
     justify-content: center;
-    background-color: inherit;;
+    background-color: inherit;
 }
 
 .breadcrumb .breadcrumb-item, .breadcrumb a {
@@ -25,4 +21,6 @@
 
 .breadcrumb-item+.breadcrumb-item::before {
     content: ">";
+    color: #ffffff;
+
 }

@@ -15,9 +15,6 @@
 .bigBlog .carousel-caption {
   bottom: 25%; }
 
-.bigBlog nav {
-  --bs-breadcrumb-divider: '>'; }
-
 .breadcrumb {
   justify-content: center;
   background-color: inherit; }
@@ -30,6 +27,7 @@
   color: #ffffff; }
 
 .breadcrumb-item + .breadcrumb-item::before {
-  content: ">"; }
+  content: ">";
+  color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
