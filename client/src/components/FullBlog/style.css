@@ -10,69 +10,60 @@
 
 .fullBlog {
   background-color: #e3e3e3; }
-
-.fullBlog .card {
-  border: none;
-  background-color: inherit; }
-
-.fullBlog .card-body {
-  padding: 2em 0em;
-  color: #3e3d3d; }
-
-.fullBlog .card .card-title {
-  font-family: Montserrat;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 1.47px;
-  text-transform: uppercase;
-  font-weight: 700; }
-
-.fullBlog .card-text {
-  font-family: "Crimson Text - Roman";
-  font-size: 14px;
-  letter-spacing: 1.4px;
-  font-style: italic;
-  font-style: italic; }
-
-.fullBlog .icons {
-  font-family: "Crimson Text - Roman";
-  font-size: 14px;
-  letter-spacing: 1.4px;
-  font-style: italic;
-  padding: 0.5rem 0rem;
-  font-style: italic;
-  color: #818181;
-  display: flex;
-  justify-content: start;
-  border-top: 1px solid #b7b7b7;
-  border-bottom: 1px solid #b7b7b7; }
-
-.fullBlog .icons p {
-  margin-bottom: 0px;
-  height: 1.3rem; }
-
-.fullBlog .svg-inline--fa {
-  height: 1.3rem;
-  width: 2rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  position: relative; }
-
-.fullBlog .card-paragraph {
-  font-family: "Crimson Text - Roman";
-  font-size: 14px;
-  letter-spacing: 1.4px;
-  font-style: italic; }
-
-.fullBlog .card-body .btn {
-  font-family: Montserrat;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 1.47px;
-  border: 2px solid #3e3d3d;
-  border-radius: 0px; }
-
-.btn:focus {
-  box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25); }
+  .fullBlog .icons {
+    font-family: "Crimson Text - Roman";
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-style: italic;
+    padding: 0.5rem 0rem;
+    font-style: italic;
+    color: #818181;
+    display: flex;
+    justify-content: start;
+    border-top: 1px solid #b7b7b7;
+    border-bottom: 1px solid #b7b7b7; }
+  .fullBlog .icons p {
+    margin-bottom: 0px;
+    height: 1.3rem; }
+  .fullBlog .icons .svg-inline--fa {
+    height: 1.3rem;
+    width: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    position: relative; }
+  .fullBlog .card {
+    background-color: inherit;
+    border: none;
+    border-radius: none; }
+  .fullBlog .card-body {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .fullBlog .card .card-title {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.47px;
+    font-weight: 700; }
+  .fullBlog .card-text {
+    font-family: "Crimson Text - Roman";
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-style: italic;
+    font-style: italic; }
+  .fullBlog .card-paragraph {
+    font-family: "Crimson Text - Roman";
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-style: italic;
+    font-style: normal; }
+  .fullBlog .card-body .btn {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.47px;
+    border: 2px solid #3e3d3d;
+    border-radius: 0px; }
+  .fullBlog .card .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25); }
 
 /*# sourceMappingURL=style.css.map */

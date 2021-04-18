@@ -11,41 +11,6 @@
 .PostsBlog-container {
   background-color: #e3e3e3; }
 
-.PostsBlog .btn-toolbar {
-  border-top: 1px solid #3e3d3d;
-  justify-content: center; }
-
-.PostsBlog .btn-toolbar .btn {
-  color: #3e3d3d;
-  font-family: "Crimson Text - Roman";
-  font-size: 14px;
-  letter-spacing: 1.4px;
-  font-style: italic;
-  border: 1px solid #3e3d3d;
-  border-radius: 0px; }
-
-.PostsBlog .card {
-  background-color: inherit;
-  border: none; }
-
-.PostsBlog .card-body {
-  padding-left: 0px;
-  padding-right: 0px; }
-
-.PostsBlog .card .card-title {
-  font-family: Montserrat;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 1.47px;
-  font-weight: 700; }
-
-.PostsBlog .card-text {
-  font-family: "Crimson Text - Roman";
-  font-size: 14px;
-  letter-spacing: 1.4px;
-  font-style: italic;
-  font-style: italic; }
-
 .PostsBlog .icons {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
@@ -58,24 +23,40 @@
   justify-content: start;
   border-top: 1px solid #b7b7b7;
   border-bottom: 1px solid #b7b7b7; }
-
 .PostsBlog .icons p {
   margin-bottom: 0px;
   height: 1.3rem; }
-
-.PostsBlog .svg-inline--fa {
+.PostsBlog .icons .svg-inline--fa {
   height: 1.3rem;
   width: 2rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   position: relative; }
-
+.PostsBlog .card {
+  background-color: inherit;
+  border: none;
+  border-radius: none; }
+.PostsBlog .card-body {
+  padding-left: 0px;
+  padding-right: 0px; }
+.PostsBlog .card .card-title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  font-weight: 700; }
+.PostsBlog .card-text {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic;
+  font-style: italic; }
 .PostsBlog .card-paragraph {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
   letter-spacing: 1.4px;
-  font-style: italic; }
-
+  font-style: italic;
+  font-style: normal; }
 .PostsBlog .card-body .btn {
   font-family: Montserrat;
   font-size: 15px;
@@ -83,8 +64,20 @@
   letter-spacing: 1.47px;
   border: 2px solid #3e3d3d;
   border-radius: 0px; }
-
-.PostsBlog .btn:focus {
+.PostsBlog .card .btn:focus {
   box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25); }
+
+.PostsBlog .btn-toolbar {
+  border-top: 1px solid #3e3d3d;
+  justify-content: center; }
+
+.PostsBlog .btn-toolbar .btn {
+  color: #3e3d3d;
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic;
+  border: 1px solid #3e3d3d;
+  border-radius: 0px; }
 
 /*# sourceMappingURL=style.css.map */

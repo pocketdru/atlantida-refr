@@ -17,7 +17,7 @@ function PostsBlog() {
                     <img src="/images/sidebarBlog/Post-1.png" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
-                        <p class="card-text">14 Aug 2015 / By Admin</p>
+                        <p className="card-text">14 Aug 2015 / By Admin</p>
                             <div className="icons">
                                 <FontAwesomeIcon icon={faCommentDots} />
                                 <p>95</p>
@@ -26,7 +26,7 @@ function PostsBlog() {
                                 <FontAwesomeIcon icon={faBriefcase} />
                                 <p>Branding</p>
                             </div>
-                            <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
+                            <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                             <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ function PostsBlog() {
                     <img src="/images/sidebarBlog/Post-2.png" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
-                        <p class="card-text">14 Aug 2015 / By Admin</p>
+                        <p className="card-text">14 Aug 2015 / By Admin</p>
                             <div className="icons">
                                 <FontAwesomeIcon icon={faCommentDots} />
                                 <p>95</p>
@@ -43,7 +43,7 @@ function PostsBlog() {
                                 <FontAwesomeIcon icon={faBriefcase} />
                                 <p>Branding</p>
                             </div>
-                            <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
+                            <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                             <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                     </div>           
@@ -51,7 +51,7 @@ function PostsBlog() {
                     <img src="/images/sidebarBlog/Post-3.png" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
-                        <p class="card-text">14 Aug 2015 / By Admin</p>
+                        <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -60,7 +60,7 @@ function PostsBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                 </div>                
@@ -68,7 +68,7 @@ function PostsBlog() {
                     <img src="/images/sidebarBlog/Post-4.png" className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
-                        <p class="card-text">14 Aug 2015 / By Admin</p>
+                        <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -77,7 +77,7 @@ function PostsBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                 </div>                
@@ -85,7 +85,7 @@ function PostsBlog() {
                     <img src="/images/sidebarBlog/Post-5.png" className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">Donec id lobortis tellus. Maecenas vel dignissim</h5>
-                        <p class="card-text">14 Aug 2015 / By Admin</p>
+                        <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -94,7 +94,7 @@ function PostsBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                     </div>
                     </div>

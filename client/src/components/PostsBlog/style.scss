@@ -4,6 +4,11 @@
     background-color: #e3e3e3;
 }
 
+.PostsBlog {
+    @include post-fontAwesome-icons();
+    @include post-card();
+}
+
 .PostsBlog .btn-toolbar {
     border-top: 1px solid #3e3d3d;
     justify-content: center;
@@ -14,63 +19,4 @@
     @include Crimson-card-text();
     border: 1px solid #3e3d3d;
     border-radius: 0px;
-}
-
-.PostsBlog .card {
-    background-color: inherit;
-    border: none;
-}
-
-.PostsBlog .card-body {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.PostsBlog .card .card-title {
-   @include Montserrat-title ();
-   font-weight: 700;
-}
-
-.PostsBlog .card-text {
-    @include Crimson-card-text();
-    font-style: italic;
-}
-
-.PostsBlog .icons {
-    @include Crimson-card-text();
-    padding: 0.5rem 0rem;
-    font-style: italic;
-    color: #818181;
-    display: flex;
-    justify-content: start;
-    border-top: 1px solid #b7b7b7;
-    border-bottom: 1px solid #b7b7b7;
-}
-
-.PostsBlog .icons p {
-    margin-bottom: 0px;
-    height: 1.3rem;
-}
-
-.PostsBlog .svg-inline--fa {
-    height: 1.3rem;
-    width: 2rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    position: relative;
-}
-
-.PostsBlog .card-paragraph {
-    @include Crimson-card-text();
-}
-
-
-.PostsBlog .card-body .btn {
-    @include Montserrat-title();
-    border: 2px solid #3e3d3d;
-    border-radius: 0px;
-}
-
-.PostsBlog .btn:focus {
-    box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25%);
 }

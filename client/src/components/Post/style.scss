@@ -1,0 +1,26 @@
+@import "../../main.scss";
+
+.post-container {
+    background-color: #e3e3e3;
+}
+
+.post {
+    @include post-fontAwesome-icons();
+    @include post-card();
+}
+
+.post .card-paragraph-bold {
+    @include Crimson-card-text();
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    border: 2px solid #a8a8a8;
+}
+
+.post .icons .svg-inline--fa {
+    border: 1px solid #b7b7b7;
+    border-radius: 50%;
+    height: 2rem;
+    margin: 0.75rem 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}

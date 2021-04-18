@@ -17,7 +17,7 @@ function FullBlog() {
                             <div className="card-body">
                                 <h5 className="card-title">Donec id lobortis tellus.
                                     Maecenas vel dignissim</h5>
-                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -26,7 +26,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ function FullBlog() {
                             <div className="card-body">
                             <h5 className="card-title">Donec id lobortis tellus.
                                     Maecenas vel dignissim</h5>
-                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -44,7 +44,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ function FullBlog() {
                             <div className="card-body">
                             <h5 className="card-title">Donec id lobortis tellus.
                                     Maecenas vel dignissim</h5>
-                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -62,7 +62,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ function FullBlog() {
                             <div className="card-body">
                             <h5 className="card-title">Donec id lobortis tellus.
                                     Maecenas vel dignissim</h5>
-                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -82,7 +82,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ function FullBlog() {
                             <div className="card-body">
                             <h5 className="card-title">Donec id lobortis tellus.
                                     Maecenas vel dignissim</h5>
-                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -100,7 +100,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ function FullBlog() {
                             <div className="card-body">
                             <h5 className="card-title">Donec id lobortis tellus.
                                     Maecenas vel dignissim</h5>
-                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -118,7 +118,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ function FullBlog() {
                             <div className="card-body">
                             <h5 className="card-title">Donec id lobortis tellus.
                                     Maecenas vel dignissim</h5>
-                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -138,7 +138,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ function FullBlog() {
                             <div className="card-body">
                             <h5 className="card-title">Donec id lobortis tellus.
                                     Maecenas vel dignissim</h5>
-                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -156,7 +156,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                             </div>
                         </div>
@@ -165,7 +165,7 @@ function FullBlog() {
                             <div className="card-body">
                             <h5 className="card-title">Donec id lobortis tellus.
                                     Maecenas vel dignissim</h5>
-                                <p class="card-text">14 Aug 2015 / By Admin</p>
+                                <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
@@ -174,7 +174,7 @@ function FullBlog() {
                                     <FontAwesomeIcon icon={faBriefcase} />
                                     <p>Branding</p>
                                 </div>
-                                <p class="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
+                                <p className="card-paragraph mt-4">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis.</p>
                                 <a href="post_sidebar" className="btn mt-3">Read More</a>
                             </div>
                         </div>
