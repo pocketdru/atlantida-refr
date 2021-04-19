@@ -4,7 +4,7 @@
     background-color: #e3e3e3;
 }
 
-.post {
+.post, .comments {
     @include post-fontAwesome-icons();
     @include post-card();
 }
@@ -36,4 +36,13 @@
 
 .comments .card {
     flex-direction: row;
+}
+
+.comments .card-img {
+    height: fit-content;
+    width: fit-content;
+}
+
+.comments .text-right {
+    cursor: grab;
 }

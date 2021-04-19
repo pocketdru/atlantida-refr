@@ -11,6 +11,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faGooglePlusG } from "@fortawesome/free-brands-svg-icons";
 import { faBehance } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faReply } from "@fortawesome/free-solid-svg-icons";
 
 function Post() {
     return (
@@ -52,11 +53,16 @@ function Post() {
                             </div>
                         </div>
                         <div className="row comments">
-                        <div class="card pt-5 pb-5">
-                            <img class="card-img" src="/images/post/img-4.png" alt="blog-img"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">BRIAN SMITH</h5>
-                                <p class="card-text">02 Nivenber 2015 at 11:00 pm</p>
+                        <div className="card pt-5 pb-5">
+                            <img className="card-img" src="/images/post/img-4.png" alt="blog-img"/>
+                                <div className="card-body">
+                                    <h5 className="card-title">BRIAN SMITH</h5>
+                                    <p className="card-text">02 Nivenber 2015 at 11:00 pm</p>
+                                    <p className="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
+                                    <p className="text-right card-text">
+                                         <span> <FontAwesomeIcon icon={faReply} /> </span>
+                                         Reply
+                                    </p>
                                 </div>
                             </div>
                         </div>

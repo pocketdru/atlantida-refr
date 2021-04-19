@@ -11,7 +11,7 @@
 .post-container {
   background-color: #e3e3e3; }
 
-.post .icons {
+.post .icons, .comments .icons {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
   letter-spacing: 1.4px;
@@ -23,45 +23,45 @@
   justify-content: start;
   border-top: 1px solid #b7b7b7;
   border-bottom: 1px solid #b7b7b7; }
-.post .icons p {
+.post .icons p, .comments .icons p {
   margin-bottom: 0px;
   height: 1.3rem; }
-.post .icons .svg-inline--fa {
+.post .icons .svg-inline--fa, .comments .icons .svg-inline--fa {
   height: 1.3rem;
   width: 2rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   position: relative; }
-.post .card {
+.post .card, .comments .card {
   background-color: inherit;
   border: none;
   border-radius: none; }
-.post .card .card-title {
+.post .card .card-title, .comments .card .card-title {
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1.47px;
   font-weight: 700; }
-.post .card-text {
+.post .card-text, .comments .card-text {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
   letter-spacing: 1.4px;
   font-style: italic;
   font-style: italic; }
-.post .card-paragraph {
+.post .card-paragraph, .comments .card-paragraph {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
   letter-spacing: 1.4px;
   font-style: italic;
   font-style: normal; }
-.post .card-body .btn {
+.post .card-body .btn, .comments .card-body .btn {
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1.47px;
   border: 2px solid #3e3d3d;
   border-radius: 0px; }
-.post .card .btn:focus {
+.post .card .btn:focus, .comments .card .btn:focus {
   box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25); }
 
 .post .card-img-top {
@@ -90,5 +90,12 @@
 
 .comments .card {
   flex-direction: row; }
+
+.comments .card-img {
+  height: fit-content;
+  width: fit-content; }
+
+.comments .text-right {
+  cursor: grab; }
 
 /*# sourceMappingURL=style.css.map */
