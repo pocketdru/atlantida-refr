@@ -35,9 +35,6 @@
     background-color: inherit;
     border: none;
     border-radius: none; }
-  .fullBlog .card-body {
-    padding-left: 0px;
-    padding-right: 0px; }
   .fullBlog .card .card-title {
     font-family: Montserrat;
     font-size: 15px;

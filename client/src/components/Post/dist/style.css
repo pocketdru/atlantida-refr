@@ -42,10 +42,6 @@
   border: none;
   border-radius: none;
 }
-.post .card-body {
-  padding-left: 0px;
-  padding-right: 0px;
-}
 .post .card .card-title {
   font-family: Montserrat;
   font-size: 15px;
@@ -79,6 +75,10 @@
   box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.0025);
 }
 
+.post .card-img-top {
+  padding: 2em;
+}
+
 .post .card-paragraph-bold {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
@@ -89,11 +89,20 @@
   border: 2px solid #a8a8a8;
 }
 
-.post .icons .svg-inline--fa {
+.post-container .icons-post {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.post-container .icons-post .icons .svg-inline--fa {
   border: 1px solid #b7b7b7;
   border-radius: 50%;
   height: 2rem;
   margin: 0.75rem 0.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.comments .card {
+  flex-direction: row;
 }

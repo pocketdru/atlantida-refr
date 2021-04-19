@@ -179,11 +179,6 @@
         border-radius: none;
     }
 
-    .card-body {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
     .card .card-title {
         @include Montserrat-title ();
         font-weight: 700;

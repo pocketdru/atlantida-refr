@@ -17,7 +17,8 @@ function Post() {
         <section className="post-container">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-9 post">
+                    <div className="col-md-9">
+                        <div className="row post">
                         <div className="card">
                         <img src="/images/sidebarBlog/Post-1.png" className="card-img-top" alt="..." />
                         <div className="card-body">
@@ -40,13 +41,23 @@ function Post() {
                                 <p className="card-paragraph mt-4">Aliquam nibh diam, elementum in lorem eu, dictum pretium leo. Nullam condimentum ante at sapien consectetur fringilla. Fusce ut ultricies tortor, eu sagittis elit. Pellentesque pretium, arcu ut consectetur posuere, nulla purus porttitor eros, vel eleifend mi ligula vel ligula. Aenean eget malesuada erat, ut ultricies orci. Sed sed tortor ut lorem semper feugiat vel vel magna. Aliquam fermentum, nunc nec cursus lobortis, odio odio elementum augue, eget rhoncus magna elit ut lorem. Quisque ac quam non purus venenatis lacinia. Donec sit amet posuere ante, pulvinar interdum nibh.</p>
                         </div>
                         </div>
-                        <div className="row">
+                        </div>
+                        <div className="row post icons-post">
                             <div className="col-md-12 icons d-flex justify-content-center">
                                 <FontAwesomeIcon icon={faFacebookF} />
                                 <FontAwesomeIcon icon={faTwitter} />
                                 <FontAwesomeIcon icon={faGooglePlusG} />
                                 <FontAwesomeIcon icon={faBehance} />
                                 <FontAwesomeIcon icon={faYoutube} />
+                            </div>
+                        </div>
+                        <div className="row comments">
+                        <div class="card pt-5 pb-5">
+                            <img class="card-img" src="/images/post/img-4.png" alt="blog-img"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">BRIAN SMITH</h5>
+                                <p class="card-text">02 Nivenber 2015 at 11:00 pm</p>
+                                </div>
                             </div>
                         </div>
                     </div>
