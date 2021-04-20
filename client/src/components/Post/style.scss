@@ -57,37 +57,6 @@
     cursor: grab;
 }
 
-.comment-form .form-control {
-    border: 2px solid #464646;
-    height: calc(1.5em + 1.5rem + 2px);
-    border-radius: 0px;
-    background: inherit;
-}
-
-.comment-form .form-control:focus {
-    box-shadow: 0 0 0 0.2rem #3e3d3d;
-}
-
-.comment-form textarea {
-    background: inherit;
-    border: 2px solid #464646;
-
-}
-
-.comment-form ::placeholder {
-    @include Crimson-card-text();
-    font-style: italic;
-}
-
-.comment-form .btn {
-    background-color: #464646;
-    border: none;
-    color: #e3e3e3;
-    padding: 10px 50px;
-    border-radius: 0px;
-    @include Montserrat-title();
-}
-
-.comment-form .footer {
-    border-top: 0.5px solid #3e3e3e;;
+.comment-form {
+    @include form();
 }

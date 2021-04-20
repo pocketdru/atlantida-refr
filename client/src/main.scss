@@ -204,3 +204,40 @@
         box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25%);
     }
 }
+
+@mixin form {
+    .form-control {
+        border: 2px solid #464646;
+        height: calc(1.5em + 1.5rem + 2px);
+        border-radius: 0px;
+        background: inherit;
+    }
+    
+    .form-control:focus {
+        box-shadow: 0 0 0 0.2rem #3e3d3d;
+    }
+    
+    textarea {
+        background: inherit;
+        border: 2px solid #464646;
+    
+    }
+    
+     ::placeholder {
+        @include Crimson-card-text();
+        font-style: italic;
+    }
+    
+    .btn {
+        background-color: #464646;
+        border: none;
+        color: #e3e3e3;
+        padding: 10px 50px;
+        border-radius: 0px;
+        @include Montserrat-title();
+    }
+    
+     .footer {
+        border-top: 0.5px solid #3e3e3e;;
+    }
+}
