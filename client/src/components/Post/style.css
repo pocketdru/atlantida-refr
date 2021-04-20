@@ -88,8 +88,19 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }
 
+.comments .card-title, .comment-form .card-title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 .comments .card {
   flex-direction: row; }
+
+.comments .card-body {
+  border-bottom: 1px solid #b7b7b7; }
 
 .comments .card-img {
   height: fit-content;
@@ -97,5 +108,39 @@
 
 .comments .text-right {
   cursor: grab; }
+
+.comment-form .form-control {
+  border: 2px solid #464646;
+  height: calc(1.5em + 1.5rem + 2px);
+  border-radius: 0px;
+  background: inherit; }
+
+.comment-form .form-control:focus {
+  box-shadow: 0 0 0 0.2rem #3e3d3d; }
+
+.comment-form textarea {
+  background: inherit;
+  border: 2px solid #464646; }
+
+.comment-form ::placeholder {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic;
+  font-style: italic; }
+
+.comment-form .btn {
+  background-color: #464646;
+  border: none;
+  color: #e3e3e3;
+  padding: 10px 50px;
+  border-radius: 0px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px; }
+
+.comment-form .footer {
+  border-top: 0.5px solid #3e3e3e; }
 
 /*# sourceMappingURL=style.css.map */

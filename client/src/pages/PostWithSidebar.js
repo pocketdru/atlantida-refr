@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Nav from "../components/Nav";
 import PostBoard from "../components/PostBoard";
 import Post from "../components/Post";
-import Form from "../components/Form";
+import Footer from "../components/Footer";
 
 class PostWithSidebar extends Component {
     render() {
@@ -11,7 +11,7 @@ class PostWithSidebar extends Component {
                 <Nav/>
                 <PostBoard />
                 <Post />
-                <Form />
+                <Footer />
             </div>
         )
     }

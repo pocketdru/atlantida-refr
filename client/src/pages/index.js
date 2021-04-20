@@ -12,7 +12,7 @@ import MiniBlog from "../components/MiniBlog";
 import Clients from "../components/Clients";
 import Testimonials from "../components/Testimonials";
 import Map from "../components/Map";
-import Forms from "../components/Form";
+import Footer from "../components/Footer";
 
 class Home extends Component {
     render() {
@@ -33,7 +33,7 @@ class Home extends Component {
             <section id="map" style={{height: "70vh"}}>
                 <Map/>
             </section>
-            <Forms/>
+            <Footer />
         </div>
         ) 
     }

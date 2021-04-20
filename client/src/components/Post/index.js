@@ -12,6 +12,8 @@ import { faGooglePlusG } from "@fortawesome/free-brands-svg-icons";
 import { faBehance } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faReply } from "@fortawesome/free-solid-svg-icons";
+import Form from "../Form";
+
 
 function Post() {
     return (
@@ -53,8 +55,24 @@ function Post() {
                             </div>
                         </div>
                         <div className="row comments">
-                        <div className="card pt-5 pb-5">
-                            <img className="card-img" src="/images/post/img-4.png" alt="blog-img"/>
+                            <div className="col-md-12">
+                                <h5 className="card-title mt-5">COMMENTS (4)</h5>
+                                <div className="card pt-5">
+                                <img className="card-img" src="/images/post/img-4.png" alt="blog-img"/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">BRIAN SMITH</h5>
+                                        <p className="card-text">02 Nivenber 2015 at 11:00 pm</p>
+                                        <p className="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
+                                        <p className="text-right card-text">
+                                            <span> <FontAwesomeIcon icon={faReply} /> </span>
+                                            Reply
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-11 offset-md-1">
+                            <div className="card pt-5">
+                            <img className="card-img" src="/images/post/img-5.png" alt="blog-img"/>
                                 <div className="card-body">
                                     <h5 className="card-title">BRIAN SMITH</h5>
                                     <p className="card-text">02 Nivenber 2015 at 11:00 pm</p>
@@ -64,6 +82,13 @@ function Post() {
                                          Reply
                                     </p>
                                 </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="row comment-form pb-5">
+                            <div className="col-md-12 pt-5 pb-5">
+                            <h5 className="card-title mb-4">LEAVE A COMMENT</h5>
+                                <Form />
                             </div>
                         </div>
                     </div>
