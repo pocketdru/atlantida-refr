@@ -11,16 +11,16 @@ function Nav() {
             <a className="navbar-brand" href="#carousel">
                 <img src={logo} height="30" className="d-inline-block align-top" alt="" loading="lazy"/>
             </a>
-            <a className="navbar-brand flex-sm-fill text-sm-center" href="#carousel">Atlantida</a>    
-            <a className="nav-link flex-sm-fill text-sm-center" href="#carousel">Home</a>
-            <a className="nav-link flex-sm-fill text-sm-center" href="#aboutUs">About</a>
-            <a className="nav-link flex-sm-fill text-sm-center" href="#services">Services</a>
-            <a className="nav-link flex-sm-fill text-sm-center" href="#history">History</a>
-            <a className="nav-link flex-sm-fill text-sm-center" href="#ourteam">Team</a>
-            <a className="nav-link flex-sm-fill text-sm-center" href="#portfolio">Portfolio</a>
-            <a className="nav-link flex-sm-fill text-sm-center" href="#prices">Prices</a>
+            <a className="navbar-brand flex-sm-fill text-sm-center" href="/">Atlantida</a>    
+            <a className="nav-link flex-sm-fill text-sm-center" href="/">Home</a>
+            <a className="nav-link flex-sm-fill text-sm-center" href="/">About</a>
+            <a className="nav-link flex-sm-fill text-sm-center" href="/">Services</a>
+            <a className="nav-link flex-sm-fill text-sm-center" href="/">History</a>
+            <a className="nav-link flex-sm-fill text-sm-center" href="/">Team</a>
+            <a className="nav-link flex-sm-fill text-sm-center" href="/">Portfolio</a>
+            <a className="nav-link flex-sm-fill text-sm-center" href="/">Prices</a>
             <a className="nav-link flex-sm-fill text-sm-center" href="blog">Blog</a>
-            <a className="nav-link flex-sm-fill text-sm-center" href="#forms">Contact</a>
+            <a className="nav-link flex-sm-fill text-sm-center" href="/">Contact</a>
       </nav>
       </div>
       </div>

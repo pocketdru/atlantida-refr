@@ -1,57 +1,3 @@
-.checkbox .card {
-  background-color: inherit;
-  border-top: 0px;
-  border-bottom: 0px;
-}
-
-.checkbox .card-img-top {
-  height: 40px;
-  width: 40px;
-}
-
-.checkbox .card-body {
-  padding-bottom: 0px;
-}
-
-.checkbox .card-title {
-  color: #3e3d3d;
-  font-family: Montserrat;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1.47px;
-  font-size: 13px;
-}
-
-.checkbox .card-text {
-  color: #3e3d3d;
-  font-family: Montserrat;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1.47px;
-  font-size: 45px;
-}
-
-.carousel svg {
-  width: 700px;
-  height: 9px;
-  vertical-align: super;
-}
-
-.carousel path {
-  stroke: #ffffff;
-  stroke-width: 2px;
-  stroke-linecap: round;
-  fill: none;
-}
-
-.carousel-caption {
-  bottom: 50%;
-}
-
 .carousel-caption h3 {
   color: #3e3d3d;
   font-weight: 400;
@@ -63,10 +9,28 @@
   letter-spacing: 1px;
 }
 
+.carousel svg {
+  width: 650px;
+  height: 9px;
+  vertical-align: super;
+}
+
+.carousel path {
+  stroke: #ffffff;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.jumbotron .carousel-caption {
+  bottom: 40%;
+}
+
 .caption {
   font-family: "Crimson Text - Roman";
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1.4px;
+  font-style: italic;
   font-weight: bold;
   font-style: italic;
   font-size: 0.75em;

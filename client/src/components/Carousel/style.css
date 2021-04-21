@@ -19,8 +19,8 @@
   stroke-linecap: round;
   fill: none; }
 
-.carousel-caption {
-  bottom: 50%; }
+.jumbotron .carousel-caption {
+  bottom: 40%; }
 
 .caption {
   font-family: "Crimson Text - Roman";

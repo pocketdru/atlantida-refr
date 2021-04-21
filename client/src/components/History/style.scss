@@ -71,14 +71,14 @@
    @include lines();
    height: 100%;
     left: -2.5625rem;
-    top: 17%;
+    top: 15%;
  }
   
   .history .col-md-6:nth-of-type(odd) .card::after {
     @include lines();
-    height: 100%;
+    height: 128%;
     right: -2.5625rem;
-    top: -17%;
+    top: -15%;
   }
 
 .history div.col-md-6:nth-of-type(even) .card::before {

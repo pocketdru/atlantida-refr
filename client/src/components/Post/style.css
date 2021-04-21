@@ -77,8 +77,8 @@
   border: 2px solid #a8a8a8; }
 
 .post-container .icons-post {
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding-right: 2em;
+  padding-left: 2em; }
 
 .post-container .icons-post .icons .svg-inline--fa {
   border: 1px solid #b7b7b7;
