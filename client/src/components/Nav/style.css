@@ -9,15 +9,7 @@
   letter-spacing: 1px; }
 
 .nav-background {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
   background-color: #ffffff; }
-
-.nav {
-  max-width: 1140px;
-  margin-right: auto;
-  margin-left: auto; }
 
 .navbar-brand {
   font-family: Montserrat;
@@ -25,7 +17,8 @@
   font-weight: 400;
   letter-spacing: 1.47px;
   color: #aaaaaa;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 13px; }
 
 .nav-background .row .navbar .nav-link {
   font-family: Montserrat;
@@ -34,8 +27,9 @@
   letter-spacing: 1.47px;
   color: #aaaaaa;
   text-transform: uppercase;
-  padding-top: 0;
-  padding-bottom: 0; }
+  font-size: 9px;
+  padding-left: 0rem;
+  padding-right: 0rem; }
 
 .navbar .nav-link:hover {
   border-bottom: 1px solid; }
@@ -43,5 +37,7 @@
 @media (max-width: 576px) {
   .nav .navbar-brand {
     margin-right: 0px; } }
+.nav-background .icons {
+  text-align: right; }
 
 /*# sourceMappingURL=style.css.map */

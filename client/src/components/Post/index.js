@@ -61,7 +61,7 @@ function Post() {
                                 <img className="card-img" src="/images/post/img-4.png" alt="blog-img"/>
                                     <div className="card-body">
                                         <h5 className="card-title">BRIAN SMITH</h5>
-                                        <p className="card-text">02 Nivenber 2015 at 11:00 pm</p>
+                                        <p className="card-text">02 November 2015 at 11:00 pm</p>
                                         <p className="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                                         <p className="text-right card-text">
                                             <span> <FontAwesomeIcon icon={faReply} /> </span>
@@ -74,8 +74,8 @@ function Post() {
                             <div className="card pt-5">
                             <img className="card-img" src="/images/post/img-5.png" alt="blog-img"/>
                                 <div className="card-body">
-                                    <h5 className="card-title">BRIAN SMITH</h5>
-                                    <p className="card-text">02 Nivenber 2015 at 11:00 pm</p>
+                                    <h5 className="card-title">ANGELA ROBERTS</h5>
+                                    <p className="card-text">02 November 2015 at 11:00 pm</p>
                                     <p className="card-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</p>
                                     <p className="text-right card-text">
                                          <span> <FontAwesomeIcon icon={faReply} /> </span>

@@ -7,26 +7,19 @@
 }
 
 .nav-background {
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
     background-color: #ffffff;
-}
-
-.nav {
-    max-width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .navbar-brand {
     @include nav-font-family;
+    font-size: 13px;
 }
 
 .nav-background .row .navbar .nav-link {
     @include nav-font-family;
-    padding-top: 0;
-    padding-bottom: 0;
+    font-size: 9px;
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
 
 .navbar .nav-link:hover {
@@ -37,4 +30,8 @@
     .nav .navbar-brand {
         margin-right: 0px;
     }
+}
+
+.nav-background .icons {
+    text-align: right;
 }
