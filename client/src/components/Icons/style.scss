@@ -1,9 +1,0 @@
-@import "../../main.scss";
-
-.ourteam .svg-inline--fa {
-    @include font-awesome();
-}
-
-.ourteam {
-    @include font-awesome-border();
-}

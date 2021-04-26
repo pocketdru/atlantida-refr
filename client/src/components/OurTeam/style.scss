@@ -1,5 +1,9 @@
 @import "../../main.scss";
 
+.ourteam {
+    @include font-awesome-border();
+}
+
 .ourteam .card:hover .card-img-overlay {
     display: block;
 }
@@ -32,6 +36,7 @@
 
 .ourteam .svg-inline--fa {
     color:#3e3d3d;
+    @include font-awesome();
 }
 
 .ourteam .icons {

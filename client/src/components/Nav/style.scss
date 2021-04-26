@@ -8,6 +8,11 @@
 
 .nav-background {
     background-color: #ffffff;
+    @include font-awesome-border();
+}
+
+.nav-background .svg-inline--fa {
+    @include font-awesome();
 }
 
 .navbar-brand {
@@ -33,5 +38,13 @@
 }
 
 .nav-background .icons {
+    @include font-awesome-border();
+    @include font-awesome();
     text-align: right;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav-background .svg-inline--fa {
+    width: 1rem;
 }
