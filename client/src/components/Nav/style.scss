@@ -17,12 +17,13 @@
 
 .navbar-brand {
     @include nav-font-family;
-    font-size: 13px;
+    color: #757575;
+    font-size: 16px;
 }
 
 .nav-background .row .navbar .nav-link {
     @include nav-font-family;
-    font-size: 9px;
+    font-size: 10px;
     padding-left: 0rem;
     padding-right: 0rem;
 }
@@ -39,12 +40,11 @@
 
 .nav-background .icons {
     @include font-awesome-border();
-    @include font-awesome();
     text-align: right;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
 .nav-background .svg-inline--fa {
-    width: 1rem;
+    @include font-awesome();
 }

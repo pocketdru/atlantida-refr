@@ -129,8 +129,8 @@
 .carousel-caption h3 {
     @include Amsdam-card-title();
     color: #ffffff;
-    font-size: 55px;
-    letter-spacing: 1px;
+    font-size: 39px;
+    letter-spacing: 0.89px;
 }
 
 @mixin font-awesome {

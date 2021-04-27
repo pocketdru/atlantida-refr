@@ -5,8 +5,8 @@
   text-transform: uppercase;
   letter-spacing: 0.44px;
   color: #ffffff;
-  font-size: 55px;
-  letter-spacing: 1px; }
+  font-size: 39px;
+  letter-spacing: 0.89px; }
 
 .nav-background {
   background-color: #ffffff; }
@@ -26,7 +26,8 @@
   letter-spacing: 1.47px;
   color: #aaaaaa;
   text-transform: uppercase;
-  font-size: 13px; }
+  color: #757575;
+  font-size: 16px; }
 
 .nav-background .row .navbar .nav-link {
   font-family: Montserrat;
@@ -35,7 +36,7 @@
   letter-spacing: 1.47px;
   color: #aaaaaa;
   text-transform: uppercase;
-  font-size: 9px;
+  font-size: 10px;
   padding-left: 0rem;
   padding-right: 0rem; }
 
@@ -46,10 +47,6 @@
   .nav .navbar-brand {
     margin-right: 0px; } }
 .nav-background .icons {
-  position: relative;
-  width: 1.5rem;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
   text-align: right;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem; }
@@ -57,6 +54,9 @@
     border-left: 1px solid #3e3d3d; }
 
 .nav-background .svg-inline--fa {
-  width: 1rem; }
+  position: relative;
+  width: 1.5rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem; }
 
 /*# sourceMappingURL=style.css.map */
