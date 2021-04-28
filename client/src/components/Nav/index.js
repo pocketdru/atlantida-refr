@@ -9,12 +9,12 @@ function Nav() {
     <div className="container">
       <div className="row">
         <div className="col-md-3">
-          <a className="navbar-brand m-0" href="#carousel">
+          <a className="navbar-brand" href="#carousel">
               <img src={logo} className="d-inline-block" alt="" loading="lazy"/>
           </a>
           <a className="navbar-brand flex-sm-fill text-sm-center" href="/">Atlantida</a>    
         </div>
-      <div className="col-md-6 col-lg-6 col-sm-12 p-0">
+      <div className="col-md-6 col-lg-6 col-sm-12">
         <nav className="nav navbar nav-pills d-flex justify-content-center pl-0 pr-0">
           <a className="nav-link flex-sm-fill text-sm-center" href="/">Home</a>
           <a className="nav-link flex-sm-fill text-sm-center" href="/">About</a>
