@@ -9,6 +9,7 @@ function Nav() {
     <div className="container">
       <div className="row">
         <div className="col-md-3">
+    
           <a className="navbar-brand" href="#carousel">
               <img src={logo} className="d-inline-block" alt="" loading="lazy"/>
           </a>
