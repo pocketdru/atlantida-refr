@@ -13,10 +13,10 @@ function Nav() {
           <a className="navbar-brand" href="#carousel">
               <img src={logo} className="d-inline-block" alt="" loading="lazy"/>
           </a>
-          <a className="navbar-brand flex-sm-fill text-sm-center" href="/">Atlantida</a>    
+          <a className="navbar-brand flex-sm-fill text-sm-center pt-2 pb-2" href="/">Atlantida</a>    
         </div>
       <div className="col-md-6 col-lg-6 col-sm-12">
-        <nav className="nav navbar nav-pills d-flex justify-content-center pl-0 pr-0">
+        <nav className="nav navbar nav-pills d-flex justify-content-center">
           <a className="nav-link flex-sm-fill text-sm-center" href="/">Home</a>
           <a className="nav-link flex-sm-fill text-sm-center" href="/">About</a>
           <a className="nav-link flex-sm-fill text-sm-center" href="/">Services</a>

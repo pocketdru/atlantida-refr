@@ -15,18 +15,25 @@
     @include font-awesome();
 }
 
+.navbar {
+    padding: 0.55rem 0rem 0.45rem 0rem;
+}
+
 .navbar-brand {
     @include nav-font-family;
     color: #757575;
-    font-size: 21px;
-    padding: 0.5rem 0rem;
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    margin-bottom: 7px;
 }
 
 .nav-background .row .navbar .nav-link {
     @include nav-font-family;
     font-size: 10px;
-    padding-left: 0rem;
-    padding-right: 0rem;
+    line-height: 30px;
+    padding: 0px;
 }
 
 .navbar .nav-link:hover {
