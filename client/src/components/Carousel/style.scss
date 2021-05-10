@@ -11,10 +11,10 @@
 }       
 
 .jumbotron  .carousel-caption {
-    bottom: 40%;
+   @include responsive-carousel-caption();
 }
 
-.caption {
+.jumbotron .caption {
     @include Crimson-card-text();
     font-weight: bold;
     font-style: italic;
@@ -24,4 +24,5 @@
 .carousel-caption .btn {
     color: #ffffff;
     border-color: #ffffff;
+    border-radius: 0px;
 }

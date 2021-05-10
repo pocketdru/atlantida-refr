@@ -19,10 +19,27 @@
   stroke-linecap: round;
   fill: none; }
 
-.jumbotron .carousel-caption {
-  bottom: 40%; }
+@media (max-width: 2561px) {
+  .jumbotron .carousel-caption {
+    bottom: 50%; } }
+@media (max-width: 1441px) {
+  .jumbotron .carousel-caption {
+    bottom: 50%; } }
+@media (max-width: 1281px) {
+  .jumbotron .carousel-caption {
+    bottom: 40%; } }
+@media (max-width: 769px) {
+  .jumbotron .carousel-caption {
+    bottom: 30%; } }
+@media (max-width: 541px) {
+  .jumbotron .carousel-caption h3 {
+    font-size: 20px; }
+  .jumbotron .carousel-caption svg {
+    width: inherit; }
+  .jumbotron .carousel-caption .carousel-caption .btn {
+    font-size: 10px; } }
 
-.caption {
+.jumbotron .caption {
   font-family: "Crimson Text - Roman";
   font-size: 14px;
   letter-spacing: 1.4px;
@@ -33,6 +50,7 @@
 
 .carousel-caption .btn {
   color: #ffffff;
-  border-color: #ffffff; }
+  border-color: #ffffff;
+  border-radius: 0px; }
 
 /*# sourceMappingURL=style.css.map */
