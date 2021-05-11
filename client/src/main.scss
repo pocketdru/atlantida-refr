@@ -3,32 +3,53 @@
         bottom: 50%;
     }
     @media (max-width: 1441px) {
-        bottom: 50%;
+        bottom: 40%;
     }
     @media (max-width: 1281px) {
         bottom: 40%;
     }
-    @media (max-width: 769px) {
-        bottom: 30%;
+
+    @media (max-width: 900px) {
+        bottom: 35%;
      }
-     @media (max-width: 541px) {
+
+    @media (max-width: 769px) {
+        bottom: 25%;
+        h3 {
+            font-size: 25px;
+           }
+     }
+     @media (max-width: 600px) {
+        bottom: 20%;
        h3 {
-        font-size: 20px;
+        font-size: 13px;
        }
        svg {
-        width: inherit;
+        width: 100%
     }
-    .carousel-caption .btn {
-        font-size: 10px;
+        .btn {
+            font-size: 7px;
+        }
+        .caption {
+            font-size: 7px;
+        }
     }
+    @media (max-width: 414px) {
+        h3 {
+            font-size: 9px;
+           }
+           svg {
+            width: inherit;
+        }
+            .btn {
+                font-size: 4px;
+                padding: 0.5em;
+            }
+            .caption {
+                font-size: 4px;
+            }
+            
     }
-    // @media (max-width: 414px) {
-    //     .scheme-title {
-    //         width: 12vw;
-    //         height: 12vw;
-    //         line-height: 12vw;
-    //     }
-    // }
 } 
 
 @mixin Amsdam-card-title {

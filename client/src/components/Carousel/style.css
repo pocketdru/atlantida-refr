@@ -8,6 +8,9 @@
   font-size: 39px;
   letter-spacing: 0.89px; }
 
+@media (max-width: 414px) {
+  .carousel-indicators {
+    display: none; } }
 .carousel svg {
   width: 500px;
   height: 9px;
@@ -24,20 +27,39 @@
     bottom: 50%; } }
 @media (max-width: 1441px) {
   .jumbotron .carousel-caption {
-    bottom: 50%; } }
+    bottom: 40%; } }
 @media (max-width: 1281px) {
   .jumbotron .carousel-caption {
     bottom: 40%; } }
+@media (max-width: 900px) {
+  .jumbotron .carousel-caption {
+    bottom: 35%; } }
 @media (max-width: 769px) {
   .jumbotron .carousel-caption {
-    bottom: 30%; } }
-@media (max-width: 541px) {
+    bottom: 25%; }
+    .jumbotron .carousel-caption h3 {
+      font-size: 25px; } }
+@media (max-width: 600px) {
+  .jumbotron .carousel-caption {
+    bottom: 20%; }
+    .jumbotron .carousel-caption h3 {
+      font-size: 13px; }
+    .jumbotron .carousel-caption svg {
+      width: 100%; }
+    .jumbotron .carousel-caption .btn {
+      font-size: 7px; }
+    .jumbotron .carousel-caption .caption {
+      font-size: 7px; } }
+@media (max-width: 414px) {
   .jumbotron .carousel-caption h3 {
-    font-size: 20px; }
+    font-size: 9px; }
   .jumbotron .carousel-caption svg {
     width: inherit; }
-  .jumbotron .carousel-caption .carousel-caption .btn {
-    font-size: 10px; } }
+  .jumbotron .carousel-caption .btn {
+    font-size: 4px;
+    padding: 0.5em; }
+  .jumbotron .carousel-caption .caption {
+    font-size: 4px; } }
 
 .jumbotron .caption {
   font-family: "Crimson Text - Roman";
