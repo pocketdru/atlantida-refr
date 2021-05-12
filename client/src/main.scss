@@ -180,13 +180,6 @@
     line-height: 4vw;
 }
 
-.carousel-caption h3 {
-    @include Amsdam-card-title();
-    color: #ffffff;
-    font-size: 39px;
-    letter-spacing: 0.89px;
-}
-
 @mixin font-awesome {
     position: relative;
     width: 1.5rem;
