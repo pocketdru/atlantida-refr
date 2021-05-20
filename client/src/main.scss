@@ -27,28 +27,38 @@
        svg {
         width: 100%
     }
+
         .btn {
-            font-size: 5px;
+            font-size: 4px;
+            padding: 0.5em;
         }
+
         .caption {
             font-size: 7px;
         }
     }
     @media (max-width: 414px) {
+        padding-bottom: 0px;
+
         h3 {
             font-size: 9px;
            }
-           svg {
-            width: inherit;
-        }
-            .btn {
-                font-size: 4px;
-                padding: 0.5em;
-            }
             .caption {
                 font-size: 4px;
             }
+        .carousel-control-next-icon, .carousel-control-prev-icon {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+        }
+    }
 
+    @media (max-width: 380px) {
+        bottom: 15%;
+    }
+
+    @media (max-width: 320px) {
+        bottom: 10%;
     }
 } 
 
@@ -174,10 +184,7 @@
 @mixin scheme-title {
     border-radius: 100%;
     text-align: center;
-    width: 4vw;
-    height: 4vw;
     margin: auto;
-    line-height: 4vw;
 }
 
 @mixin font-awesome {

@@ -1,5 +1,14 @@
 @import "../../main.scss";
 
+@media (max-width: 1000px) {
+    .history .scheme-title {
+    width: 8vw;
+    height: 8vw;
+    line-height: 8vw
+    }
+}
+
+
 @mixin arrow() {
         overflow: overlay;
         width: 12px;
