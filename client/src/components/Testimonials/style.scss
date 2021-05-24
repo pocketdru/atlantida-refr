@@ -1,7 +1,87 @@
 @import "../../main.scss";
 
+@mixin responsive-testimonials-caption {
+    @media (max-width: 2561px) {
+        .testimonials .quote {
+            position: relative;
+            font-size: 50px;
+        }
+        bottom: 15%;
+    }
+    @media (max-width: 1441px) {
+        bottom: 10%;
+    }
+    @media (max-width: 1281px) {
+        bottom: 0%;
+    }
+
+    @media (max-width: 1080px) {
+        bottom: 0%;
+        .caption {
+            font-size: 12px;
+        }
+        .testimonials .quote {
+            position: relative;
+            font-size: 40px;
+        }
+     }
+
+    @media (max-width: 900px) {
+        bottom: 35%;
+     }
+
+    @media (max-width: 769px) {
+        bottom: 25%;
+        h3 {
+            font-size: 25px;
+           }
+     }
+     @media (max-width: 600px) {
+        bottom: 20%;
+       h3 {
+        font-size: 12px;
+       }
+       svg {
+        width: 100%
+    }
+
+        .btn {
+            font-size: 4px;
+            padding: 0.5em;
+        }
+
+        .caption {
+            font-size: 7px;
+        }
+    }
+    @media (max-width: 414px) {
+        padding-bottom: 0px;
+
+        h3 {
+            font-size: 9px;
+           }
+            .caption {
+                font-size: 4px;
+            }
+        .carousel-control-next-icon, .carousel-control-prev-icon {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+    @media (max-width: 380px) {
+        bottom: 15%;
+    }
+
+    @media (max-width: 320px) {
+        bottom: 10%;
+    }
+} 
+
+
 .testimonials .carousel-caption {
-    bottom: 15%;;
+    @include responsive-testimonials-caption();
 }
 
 .testimonials .caption {
@@ -9,11 +89,6 @@
     font-family: "Crimson Text";
     font-size: 20px;
     font-style: italic;
-}
-
-.testimonials .quote {
-    position: relative;
-    font-size: 50px;
 }
 
 .testimonials .quote:nth-child(even) {
