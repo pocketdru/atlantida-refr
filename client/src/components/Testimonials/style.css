@@ -19,16 +19,23 @@
       font-size: 25px; }
     .testimonials .carousel-caption .img-fluid {
       max-width: 10%; } }
+@media (max-width: 971px) {
+  .testimonials .carousel-caption {
+    bottom: 15%; }
+    .testimonials .carousel-caption .caption {
+      font-size: 13px; }
+    .testimonials .carousel-caption .quote {
+      font-size: 18px; } }
 @media (max-width: 900px) {
   .testimonials .carousel-caption {
     bottom: 15%; }
     .testimonials .carousel-caption .caption {
-      font-size: 15px; }
+      font-size: 12px; }
     .testimonials .carousel-caption .quote {
-      font-size: 20px; } }
+      font-size: 16px; } }
 @media (max-width: 769px) {
   .testimonials .carousel-caption .caption {
-    font-size: 12px; }
+    font-size: 11px; }
   .testimonials .carousel-caption .name {
     font-size: 10px;
     margin-bottom: 0.5rem; }
@@ -53,6 +60,9 @@
     .testimonials .carousel-caption .free {
       font-size: 8px;
       margin-bottom: 0rem; } }
+@media (max-width: 480px) {
+  .testimonials .carousel-caption {
+    bottom: 15%; } }
 @media (max-width: 414px) {
   .testimonials .carousel-caption {
     bottom: 15%; } }
