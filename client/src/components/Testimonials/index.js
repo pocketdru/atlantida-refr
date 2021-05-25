@@ -31,8 +31,8 @@ function Testimonials() {
                                     <span className="quote">&rdquo;</span>
 
                                 </p>
-                                <p className="caption name">Alexandr Podvalny</p>
-                                <p className="caption free">Free-PSD-Template.com Company</p>
+                                <p className="name">Alexandr Podvalny</p>
+                                <p className="free">Free-PSD-Template.com Company</p>
 
                                 
                             </Carousel.Caption>

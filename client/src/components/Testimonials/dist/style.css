@@ -1,0 +1,123 @@
+@media (max-width: 2561px) {
+  .testimonials .carousel-caption {
+    bottom: 15%;
+  }
+  .testimonials .carousel-caption .quote {
+    position: relative;
+    font-size: 50px;
+  }
+}
+@media (max-width: 1441px) {
+  .testimonials .carousel-caption {
+    bottom: 10%;
+  }
+}
+@media (max-width: 1281px) {
+  .testimonials .carousel-caption {
+    bottom: 5%;
+  }
+  .testimonials .carousel-caption .quote {
+    font-size: 45px;
+  }
+}
+@media (max-width: 1080px) {
+  .testimonials .carousel-caption {
+    bottom: 0%;
+  }
+  .testimonials .carousel-caption .testimonials .quote {
+    position: relative;
+  }
+}
+@media (max-width: 900px) {
+  .testimonials .carousel-caption {
+    bottom: 35%;
+  }
+}
+@media (max-width: 769px) {
+  .testimonials .carousel-caption {
+    bottom: 25%;
+  }
+  .testimonials .carousel-caption h3 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .testimonials .carousel-caption {
+    bottom: 20%;
+  }
+  .testimonials .carousel-caption h3 {
+    font-size: 12px;
+  }
+  .testimonials .carousel-caption svg {
+    width: 100%;
+  }
+  .testimonials .carousel-caption .btn {
+    font-size: 4px;
+    padding: 0.5em;
+  }
+  .testimonials .carousel-caption .caption {
+    font-size: 7px;
+  }
+}
+@media (max-width: 414px) {
+  .testimonials .carousel-caption {
+    padding-bottom: 0px;
+  }
+  .testimonials .carousel-caption h3 {
+    font-size: 9px;
+  }
+  .testimonials .carousel-caption .caption {
+    font-size: 4px;
+  }
+  .testimonials .carousel-caption .carousel-control-next-icon, .testimonials .carousel-caption .carousel-control-prev-icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+  }
+}
+@media (max-width: 380px) {
+  .testimonials .carousel-caption {
+    bottom: 15%;
+  }
+}
+@media (max-width: 320px) {
+  .testimonials .carousel-caption {
+    bottom: 10%;
+  }
+}
+
+.testimonials .caption {
+  color: #efefef;
+  font-family: "Crimson Text";
+  font-size: 20px;
+  font-style: italic;
+}
+
+.testimonials .quote:nth-child(even) {
+  vertical-align: text-top;
+}
+
+.testimonials .name {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  color: #e3e3e3;
+  text-transform: uppercase;
+}
+
+.testimonials .free {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic;
+  color: #e3e3e3;
+}
+
+.testimonials .carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin-left: 2px;
+  margin-right: 2px;
+}

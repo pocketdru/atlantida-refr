@@ -2,7 +2,7 @@
 
 @mixin responsive-testimonials-caption {
     @media (max-width: 2561px) {
-        .testimonials .quote {
+        .quote {
             position: relative;
             font-size: 50px;
         }
@@ -12,73 +12,100 @@
         bottom: 10%;
     }
     @media (max-width: 1281px) {
-        bottom: 0%;
+        bottom: 5%;
+        .quote {
+            font-size: 45px;
+        }
     }
 
     @media (max-width: 1080px) {
-        bottom: 0%;
-        .caption {
-            font-size: 12px;
+        bottom: 15%;
+        .quote {
+            font-size: 25px;
         }
-        .testimonials .quote {
-            position: relative;
-            font-size: 40px;
+        .img-fluid {
+            max-width: 10%;
         }
      }
 
     @media (max-width: 900px) {
-        bottom: 35%;
+        bottom: 15%;
+        .caption {
+            font-size: 15px;
+        }
+        .quote {
+            font-size: 20px;
+        }
      }
 
     @media (max-width: 769px) {
-        bottom: 25%;
-        h3 {
-            font-size: 25px;
-           }
-     }
-     @media (max-width: 600px) {
-        bottom: 20%;
-       h3 {
-        font-size: 12px;
-       }
-       svg {
-        width: 100%
-    }
-
-        .btn {
-            font-size: 4px;
-            padding: 0.5em;
-        }
-
         .caption {
-            font-size: 7px;
+            font-size: 12px;
+        }
+        .name {
+            font-size: 10px;
+            margin-bottom: 0.5rem;
+        }
+        .free {
+            font-size: 10px;
+            margin-bottom: 0.5rem;
+        }
+     }
+
+     @media (max-width: 600px) {
+        .caption {
+            font-size: 10px;
+        }
+        .quote {
+            font-size: 10px;
         }
     }
-    @media (max-width: 414px) {
-        padding-bottom: 0px;
 
-        h3 {
-            font-size: 9px;
-           }
-            .caption {
-                font-size: 4px;
-            }
-        .carousel-control-next-icon, .carousel-control-prev-icon {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
+    @media (max-width: 540px) {
+        bottom: 25%;
+        .caption {
+            font-size: 8px;
         }
+        .quote {
+            font-size: 8px;
+        }
+        .name {
+            font-size: 8px;
+            margin-bottom: 0rem;
+        }
+        .free {
+            font-size: 8px;
+            margin-bottom: 0rem;
+        }
+    }
+
+    @media (max-width: 414px) {
+        bottom: 15%;
     }
 
     @media (max-width: 380px) {
         bottom: 15%;
+        padding-bottom: 0px;
+        .caption {
+            font-size: 7px;
+        }
+        .quote {
+            font-size: 6px;
+        }
+        .name {
+            font-size: 7px;
+            margin-bottom: 0rem;
+        }
+        .free {
+            font-size: 7px;
+            margin-bottom: 0rem;
+        }
     }
 
     @media (max-width: 320px) {
         bottom: 10%;
     }
 } 
-
 
 .testimonials .carousel-caption {
     @include responsive-testimonials-caption();
