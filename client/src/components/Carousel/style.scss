@@ -20,6 +20,11 @@
    @include responsive-carousel-caption();
 }
 
+.jumbotron .carousel-caption h3 {
+    @include Amsdam-card-title();
+    color: #ffffff;
+}
+
 .jumbotron .caption {
     @include Crimson-card-text();
     font-weight: bold;

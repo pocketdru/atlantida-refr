@@ -59,6 +59,14 @@
   .jumbotron .carousel-caption {
     bottom: 10%; } }
 
+.jumbotron .carousel-caption h3 {
+  color: #3e3d3d;
+  font-weight: 400;
+  font-family: Amsdam;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+  color: #ffffff; }
+
 .jumbotron .caption {
   font-family: "Crimson Text - Roman";
   font-size: 14px;

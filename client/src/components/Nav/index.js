@@ -8,13 +8,13 @@ function Nav() {
     <section className="nav-background">
     <div className="container">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-sm-6 col-md-3 col-lg-3 offset-sm-3 offset-md-0 offset-lg-0">
           <a className="navbar-brand" href="#carousel">
               <img src={logo} className="d-inline-block" alt="" loading="lazy"/>
           </a>
           <a className="navbar-brand flex-sm-fill text-sm-center pt-2 pb-2" href="/">Atlantida</a>    
         </div>
-      <div className="col-md-6 col-lg-6 col-sm-12">
+      <div className="col-md-6 col-lg-6">
         <nav className="nav navbar nav-pills d-flex justify-content-center">
           <a className="nav-link flex-sm-fill text-sm-center" href="/">Home</a>
           <a className="nav-link flex-sm-fill text-sm-center" href="/">About</a>
