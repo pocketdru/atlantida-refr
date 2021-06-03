@@ -1,3 +1,7 @@
+@media (max-width: 991px) {
+  .nav-link {
+    margin-right: 1%;
+    margin-left: 1%; } }
 .nav-background {
   background-color: #ffffff; }
   .nav-background .svg-inline--fa:nth-child(n+2) {
