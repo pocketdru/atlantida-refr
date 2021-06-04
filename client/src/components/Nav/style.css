@@ -1,11 +1,16 @@
 @media (max-width: 991px) {
-  .nav-link {
-    margin-right: 1%;
-    margin-left: 1%; } }
+  .nav-background .container .row .navbar .nav-link {
+    letter-spacing: 0px; }
+
+  .row .navbar-brand {
+    font-size: 12px; } }
 .nav-background {
   background-color: #ffffff; }
   .nav-background .svg-inline--fa:nth-child(n+2) {
     border-left: 1px solid #3e3d3d; }
+  .nav-background .container {
+    padding-right: 0px;
+    padding-left: 0px; }
 
 .nav-background .svg-inline--fa {
   position: relative;

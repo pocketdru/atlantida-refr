@@ -8,7 +8,7 @@ function Nav() {
     <section className="nav-background">
     <div className="container">
       <div className="row">
-        <div className="col-6 col-sm-6 col-md-3 col-lg-3 offset-3 offset-sm-3 offset-md-0 offset-lg-0">
+        <div className="col-6 col-sm-6 col-md-3 col-lg-3 offset-4 offset-sm-4 offset-md-0 offset-lg-0">
           <a className="navbar-brand" href="#carousel">
               <img src={logo} className="d-inline-block" alt="" loading="lazy"/>
           </a>

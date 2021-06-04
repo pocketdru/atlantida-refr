@@ -1,9 +1,11 @@
 @import "../../main.scss";
 
 @media (max-width: 991px) {
-    .nav-link {
-        margin-right: 1%;
-        margin-left: 1%;
+    .nav-background .container .row .navbar .nav-link {
+        letter-spacing: 0px;
+    }
+   .row .navbar-brand {
+        font-size: 12px;
     }
 }
 
@@ -16,6 +18,10 @@
 .nav-background {
     background-color: #ffffff;
     @include font-awesome-border();
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 }
 
 .nav-background .svg-inline--fa {

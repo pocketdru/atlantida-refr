@@ -1,6 +1,24 @@
 @import "../../main.scss";
 @import "../History/style.scss";
 
+@media (max-width: 991px) {
+    .prices .card .card-body .card-text {
+        font-size: 55px;
+    }
+    .prices .card .line {
+        top: 16%;
+    }
+}
+
+@media (max-width: 767px) {
+    .prices .card .card-body .card-text {
+        font-size: 75px;
+    }
+    .prices .card .line {
+        top: 20%;
+    }
+}
+
 .prices {
     @include scheme-title-responsive();
 }

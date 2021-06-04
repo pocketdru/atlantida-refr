@@ -20,7 +20,7 @@ function Portfolio() {
                         </div>
                         <div className="row mt-5">
                             <div className="col-md-12">
-                                <div className="d-grid gap-2 d-md-flex justify-content-md-center" role="group" aria-label="Basic example">
+                                <div className="d-grid gap-2 d-flex justify-content-center" role="group" aria-label="Basic example">
                                     <button type="button" className="btn mr-2 pl-4 pr-4">All</button>
                                     <button type="button" className="btn mr-2 pl-4 pr-4">Website</button>
                                     <button type="button" className="btn mr-2 pl-4 pr-4">Brochures</button>

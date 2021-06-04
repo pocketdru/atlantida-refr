@@ -249,6 +249,18 @@
 @media (max-width: 640px) {
   .history .col-md-6:nth-of-type(odd) .card::after, .history div.col-md-6:nth-of-type(even) .card::after {
     top: 0px; } }
+@media (max-width: 991px) {
+  .prices .card .card-body .card-text {
+    font-size: 55px; }
+
+  .prices .card .line {
+    top: 16%; } }
+@media (max-width: 767px) {
+  .prices .card .card-body .card-text {
+    font-size: 75px; }
+
+  .prices .card .line {
+    top: 20%; } }
 @media (max-width: 2560px) {
   .prices .scheme-title {
     width: 2.5vw;
