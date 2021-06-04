@@ -2,8 +2,60 @@
   height: 396px;
   background-image: url("/images/blogBoard/Image.png"); }
 
-.bigBlog .carousel-caption {
-  bottom: 25%; }
+@media (max-width: 2561px) {
+  .bigBlog .carousel-caption {
+    bottom: 50%; } }
+@media (max-width: 1441px) {
+  .bigBlog .carousel-caption {
+    bottom: 40%; } }
+@media (max-width: 1281px) {
+  .bigBlog .carousel-caption {
+    bottom: 40%; } }
+@media (max-width: 900px) {
+  .bigBlog .carousel-caption {
+    bottom: 35%; } }
+@media (max-width: 769px) {
+  .bigBlog .carousel-caption {
+    bottom: 25%; }
+    .bigBlog .carousel-caption h3 {
+      font-size: 25px; } }
+@media (max-width: 600px) {
+  .bigBlog .carousel-caption {
+    bottom: 20%; }
+    .bigBlog .carousel-caption h3 {
+      font-size: 12px; }
+    .bigBlog .carousel-caption svg {
+      width: 100%; }
+    .bigBlog .carousel-caption .btn {
+      font-size: 4px;
+      padding: 0.5em; }
+    .bigBlog .carousel-caption .caption {
+      font-size: 7px; } }
+@media (max-width: 414px) {
+  .bigBlog .carousel-caption {
+    padding-bottom: 0px; }
+    .bigBlog .carousel-caption h3 {
+      font-size: 9px; }
+    .bigBlog .carousel-caption .caption {
+      font-size: 4px; }
+    .bigBlog .carousel-caption .carousel-control-next-icon, .bigBlog .carousel-caption .carousel-control-prev-icon {
+      display: inline-block;
+      width: 12px;
+      height: 12px; } }
+@media (max-width: 380px) {
+  .bigBlog .carousel-caption {
+    bottom: 15%; } }
+@media (max-width: 320px) {
+  .bigBlog .carousel-caption {
+    bottom: 10%; } }
+
+.bigBlog .carousel-caption h3 {
+  color: #3e3d3d;
+  font-weight: 400;
+  font-family: Amsdam;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+  color: #ffffff; }
 
 .breadcrumb {
   justify-content: center;

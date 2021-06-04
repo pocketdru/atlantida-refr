@@ -6,8 +6,13 @@
 }
 
 .bigBlog .carousel-caption {
-    bottom: 25%;
-}  
+    @include responsive-carousel-caption();
+}
+
+.bigBlog .carousel-caption h3 {
+    @include Amsdam-card-title();
+    color: #ffffff;
+}
 
 .breadcrumb {
     justify-content: center;
