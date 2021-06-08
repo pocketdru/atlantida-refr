@@ -6,7 +6,7 @@
 }
 
 .bigBlog .carousel-caption {
-    @include responsive-carousel-caption();
+    @include responsive-board-caption();
 }
 
 .bigBlog .carousel-caption h3 {
