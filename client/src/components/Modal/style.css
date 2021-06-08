@@ -1,0 +1,21 @@
+.modal-header h3 {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  color: #757575; }
+
+.modal-body .nav-link {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1.47px;
+  color: #aaaaaa; }
+
+.modal-body .card-text {
+  font-family: "Crimson Text - Roman";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-style: italic; }
+
+/*# sourceMappingURL=style.css.map */

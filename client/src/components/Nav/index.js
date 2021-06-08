@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "../Modal";
 import logo from "./Icon_Logo.png";
 import Icons from "../Icons";
 import "./style.css";
@@ -6,6 +7,7 @@ import "./style.css";
 function Nav() {
   return (
     <section className="nav-background">
+      <Modal/>
     <div className="container">
       <div className="row">
         <div className="col-6 col-sm-6 col-md-3 col-lg-3 offset-4 offset-sm-4 offset-md-0 offset-lg-0">
