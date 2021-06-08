@@ -1,53 +1,52 @@
-.bigBlog {
-  height: 396px;
-  background-image: url("/images/blogBoard/Image.png"); }
-
 @media (max-width: 2561px) {
   .bigBlog .carousel-caption {
     bottom: 45%; } }
+@media (max-width: 1800px) {
+  .bigBlog .carousel-caption {
+    bottom: 50%; } }
 @media (max-width: 1441px) {
   .bigBlog .carousel-caption {
-    bottom: 40%; } }
+    bottom: 55%; } }
 @media (max-width: 1281px) {
   .bigBlog .carousel-caption {
-    bottom: 40%; } }
-@media (max-width: 900px) {
+    bottom: 62%; } }
+@media (max-width: 901px) {
   .bigBlog .carousel-caption {
-    bottom: 35%; } }
-@media (max-width: 769px) {
+    bottom: 67%; } }
+@media (max-width: 768px) {
   .bigBlog .carousel-caption {
-    bottom: 25%; }
+    bottom: 59%; }
     .bigBlog .carousel-caption h3 {
-      font-size: 25px; } }
+      font-size: 23px; }
+    .bigBlog .carousel-caption svg {
+      width: 100%; } }
 @media (max-width: 600px) {
   .bigBlog .carousel-caption {
-    bottom: 20%; }
+    bottom: 61%; }
     .bigBlog .carousel-caption h3 {
       font-size: 12px; }
     .bigBlog .carousel-caption svg {
       width: 100%; }
-    .bigBlog .carousel-caption .btn {
-      font-size: 4px;
-      padding: 0.5em; }
-    .bigBlog .carousel-caption .caption {
-      font-size: 7px; } }
+    .bigBlog .carousel-caption .breadcrumb .breadcrumb-item, .bigBlog .carousel-caption .breadcrumb a {
+      font-size: 10px; } }
+@media (max-width: 540px) {
+  .bigBlog .carousel-caption {
+    bottom: 63%; } }
 @media (max-width: 414px) {
   .bigBlog .carousel-caption {
-    padding-bottom: 0px; }
+    bottom: 64%; }
     .bigBlog .carousel-caption h3 {
-      font-size: 9px; }
-    .bigBlog .carousel-caption .caption {
-      font-size: 4px; }
-    .bigBlog .carousel-caption .carousel-control-next-icon, .bigBlog .carousel-caption .carousel-control-prev-icon {
-      display: inline-block;
-      width: 12px;
-      height: 12px; } }
+      font-size: 9px; } }
 @media (max-width: 380px) {
   .bigBlog .carousel-caption {
-    bottom: 15%; } }
+    bottom: 67%; }
+    .bigBlog .carousel-caption .breadcrumb .breadcrumb-item, .bigBlog .carousel-caption .breadcrumb a {
+      font-size: 8px; }
+    .bigBlog .carousel-caption .breadcrumb {
+      padding: 0px; } }
 @media (max-width: 320px) {
   .bigBlog .carousel-caption {
-    bottom: 10%; } }
+    bottom: 60%; } }
 
 .bigBlog .carousel-caption h3 {
   color: #3e3d3d;
