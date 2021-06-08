@@ -1,8 +1,9 @@
-.postBoard {
-    height: 396px;
-    background-image: url("/images/Layer_57.png");
-}
+@import "../../main.scss";
 
 .postBoard .carousel-caption {
-    bottom: 45%;
+    @include responsive-board-caption();
+    h3 {
+        @include Amsdam-card-title();
+        color: #ffffff;
+    }
 }  

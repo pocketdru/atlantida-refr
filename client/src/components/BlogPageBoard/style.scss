@@ -1,8 +1,9 @@
-.BlogPageBoard {
-    height: 396px;
-    background-image: url("/images/Layer_56.png");
-}
+@import "../../main.scss";
 
 .BlogPageBoard .carousel-caption {
-    bottom: 45%;
+    @include responsive-board-caption();
+    h3 {
+        @include Amsdam-card-title();
+        color: #ffffff;
+    }
 }  

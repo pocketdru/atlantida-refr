@@ -6,6 +6,7 @@ function BlogPageBoard() {
     return (
         <section className="BlogPageBoard">
             <div className="container-fluid">
+            <img class="d-block w-100" src="/images/Layer_56.png" alt="board"/>
                 <div className="carousel carousel-caption">
                     <h3 className="mt-5">BLOG WITH SIDEBAR</h3>
                     <WavySvg />
