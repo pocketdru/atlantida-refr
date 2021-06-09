@@ -73,15 +73,15 @@
         bottom: 55%;
     }
     @media (max-width: 1281px) {
-        bottom: 62%;
+        bottom: 57%;
     }
 
     @media (max-width: 901px) {
-        bottom: 67%;
+        bottom: 60%;
      }
 
     @media (max-width: 768px) {
-        bottom: 59%;
+        bottom: 47%;
         h3 {
             font-size: 23px;
            }
@@ -90,7 +90,7 @@
         }
      }
      @media (max-width: 600px) {
-        bottom: 61%;
+        bottom: 51%;
        h3 {
         font-size: 12px;
        }
@@ -103,11 +103,11 @@
     }
 
     @media (max-width: 540px) {
-        bottom: 63%;
+        bottom: 52%;
     }
 
     @media (max-width: 414px) {
-        bottom: 64%;
+        bottom: 54%;
 
         h3 {
             font-size: 9px;
@@ -115,7 +115,7 @@
     }
 
     @media (max-width: 380px) {
-        bottom: 67%;
+        bottom: 58%;
         .breadcrumb .breadcrumb-item, .breadcrumb a {
             font-size: 8px;
         }
@@ -125,7 +125,7 @@
     }
 
     @media (max-width: 320px) {
-        bottom: 60%;
+        bottom: 48%;
     }
 }
 

@@ -46,7 +46,7 @@
   padding: 0px; }
 
 .navbar .nav-link:hover {
-  border-bottom: 1px solid; }
+  border-bottom: 1px solid #aaaaaa; }
 
 @media (max-width: 576px) {
   .nav .navbar-brand {

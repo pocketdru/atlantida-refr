@@ -10,7 +10,8 @@
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1.47px;
-  color: #aaaaaa; }
+  color: #aaaaaa;
+  border-bottom: 1px solid transparent; }
 
 .modal-body .card-text {
   font-family: "Crimson Text - Roman";

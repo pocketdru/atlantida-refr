@@ -8,6 +8,7 @@
 .modal-body .nav-link {
     @include Montserrat-title();
     color: #aaaaaa;
+    border-bottom: 1px solid transparent;
 }
 
 .modal-body .card-text {

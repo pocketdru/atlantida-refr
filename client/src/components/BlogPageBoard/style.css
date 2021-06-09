@@ -9,20 +9,20 @@
     bottom: 55%; } }
 @media (max-width: 1281px) {
   .BlogPageBoard .carousel-caption {
-    bottom: 62%; } }
+    bottom: 57%; } }
 @media (max-width: 901px) {
   .BlogPageBoard .carousel-caption {
-    bottom: 67%; } }
+    bottom: 60%; } }
 @media (max-width: 768px) {
   .BlogPageBoard .carousel-caption {
-    bottom: 59%; }
+    bottom: 47%; }
     .BlogPageBoard .carousel-caption h3 {
       font-size: 23px; }
     .BlogPageBoard .carousel-caption svg {
       width: 100%; } }
 @media (max-width: 600px) {
   .BlogPageBoard .carousel-caption {
-    bottom: 61%; }
+    bottom: 51%; }
     .BlogPageBoard .carousel-caption h3 {
       font-size: 12px; }
     .BlogPageBoard .carousel-caption svg {
@@ -31,22 +31,22 @@
       font-size: 10px; } }
 @media (max-width: 540px) {
   .BlogPageBoard .carousel-caption {
-    bottom: 63%; } }
+    bottom: 52%; } }
 @media (max-width: 414px) {
   .BlogPageBoard .carousel-caption {
-    bottom: 64%; }
+    bottom: 54%; }
     .BlogPageBoard .carousel-caption h3 {
       font-size: 9px; } }
 @media (max-width: 380px) {
   .BlogPageBoard .carousel-caption {
-    bottom: 67%; }
+    bottom: 58%; }
     .BlogPageBoard .carousel-caption .breadcrumb .breadcrumb-item, .BlogPageBoard .carousel-caption .breadcrumb a {
       font-size: 8px; }
     .BlogPageBoard .carousel-caption .breadcrumb {
       padding: 0px; } }
 @media (max-width: 320px) {
   .BlogPageBoard .carousel-caption {
-    bottom: 60%; } }
+    bottom: 48%; } }
 .BlogPageBoard .carousel-caption h3 {
   color: #3e3d3d;
   font-weight: 400;

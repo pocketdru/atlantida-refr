@@ -9,20 +9,20 @@
     bottom: 55%; } }
 @media (max-width: 1281px) {
   .bigBlog .carousel-caption {
-    bottom: 62%; } }
+    bottom: 57%; } }
 @media (max-width: 901px) {
   .bigBlog .carousel-caption {
-    bottom: 67%; } }
+    bottom: 60%; } }
 @media (max-width: 768px) {
   .bigBlog .carousel-caption {
-    bottom: 59%; }
+    bottom: 47%; }
     .bigBlog .carousel-caption h3 {
       font-size: 23px; }
     .bigBlog .carousel-caption svg {
       width: 100%; } }
 @media (max-width: 600px) {
   .bigBlog .carousel-caption {
-    bottom: 61%; }
+    bottom: 51%; }
     .bigBlog .carousel-caption h3 {
       font-size: 12px; }
     .bigBlog .carousel-caption svg {
@@ -31,22 +31,22 @@
       font-size: 10px; } }
 @media (max-width: 540px) {
   .bigBlog .carousel-caption {
-    bottom: 63%; } }
+    bottom: 52%; } }
 @media (max-width: 414px) {
   .bigBlog .carousel-caption {
-    bottom: 64%; }
+    bottom: 54%; }
     .bigBlog .carousel-caption h3 {
       font-size: 9px; } }
 @media (max-width: 380px) {
   .bigBlog .carousel-caption {
-    bottom: 67%; }
+    bottom: 58%; }
     .bigBlog .carousel-caption .breadcrumb .breadcrumb-item, .bigBlog .carousel-caption .breadcrumb a {
       font-size: 8px; }
     .bigBlog .carousel-caption .breadcrumb {
       padding: 0px; } }
 @media (max-width: 320px) {
   .bigBlog .carousel-caption {
-    bottom: 60%; } }
+    bottom: 48%; } }
 
 .bigBlog .carousel-caption h3 {
   color: #3e3d3d;

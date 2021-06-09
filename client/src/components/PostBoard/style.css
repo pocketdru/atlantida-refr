@@ -9,20 +9,20 @@
     bottom: 55%; } }
 @media (max-width: 1281px) {
   .postBoard .carousel-caption {
-    bottom: 62%; } }
+    bottom: 57%; } }
 @media (max-width: 901px) {
   .postBoard .carousel-caption {
-    bottom: 67%; } }
+    bottom: 60%; } }
 @media (max-width: 768px) {
   .postBoard .carousel-caption {
-    bottom: 59%; }
+    bottom: 47%; }
     .postBoard .carousel-caption h3 {
       font-size: 23px; }
     .postBoard .carousel-caption svg {
       width: 100%; } }
 @media (max-width: 600px) {
   .postBoard .carousel-caption {
-    bottom: 61%; }
+    bottom: 51%; }
     .postBoard .carousel-caption h3 {
       font-size: 12px; }
     .postBoard .carousel-caption svg {
@@ -31,22 +31,22 @@
       font-size: 10px; } }
 @media (max-width: 540px) {
   .postBoard .carousel-caption {
-    bottom: 63%; } }
+    bottom: 52%; } }
 @media (max-width: 414px) {
   .postBoard .carousel-caption {
-    bottom: 64%; }
+    bottom: 54%; }
     .postBoard .carousel-caption h3 {
       font-size: 9px; } }
 @media (max-width: 380px) {
   .postBoard .carousel-caption {
-    bottom: 67%; }
+    bottom: 58%; }
     .postBoard .carousel-caption .breadcrumb .breadcrumb-item, .postBoard .carousel-caption .breadcrumb a {
       font-size: 8px; }
     .postBoard .carousel-caption .breadcrumb {
       padding: 0px; } }
 @media (max-width: 320px) {
   .postBoard .carousel-caption {
-    bottom: 60%; } }
+    bottom: 48%; } }
 .postBoard .carousel-caption h3 {
   color: #3e3d3d;
   font-weight: 400;
