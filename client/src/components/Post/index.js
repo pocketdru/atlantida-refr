@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import WavySvg from "../Waves";
 import Sidebar from "../Sidebar";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCommentDots } from "@fortawesome/free-regular-svg-icons";
