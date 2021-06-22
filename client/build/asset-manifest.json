@@ -1,23 +1,10 @@
 {
-  "files": {
-    "main.css": "/static/css/main.488bcb19.chunk.css",
-    "main.js": "/static/js/main.72e6e3bc.chunk.js",
-    "main.js.map": "/static/js/main.72e6e3bc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d60d4204.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d60d4204.js.map",
-    "static/js/2.5504ca62.chunk.js": "/static/js/2.5504ca62.chunk.js",
-    "static/js/2.5504ca62.chunk.js.map": "/static/js/2.5504ca62.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7c00ff9a88e2d67e5c893b333d20581a.js": "/precache-manifest.7c00ff9a88e2d67e5c893b333d20581a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.488bcb19.chunk.css.map": "/static/css/main.488bcb19.chunk.css.map",
-    "static/js/2.5504ca62.chunk.js.LICENSE.txt": "/static/js/2.5504ca62.chunk.js.LICENSE.txt",
-    "static/media/fonts.css": "/static/media/crimsontext-roman.ca4e112f.ttf"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.d60d4204.js",
-    "static/js/2.5504ca62.chunk.js",
-    "static/css/main.488bcb19.chunk.css",
-    "static/js/main.72e6e3bc.chunk.js"
-  ]
+  "main.css": "static/css/main.1bf9fda8.css",
+  "main.css.map": "static/css/main.1bf9fda8.css.map",
+  "main.js": "static/js/main.310f4879.js",
+  "main.js.map": "static/js/main.310f4879.js.map",
+  "static/media/Amsdam Regular.ttf": "static/media/Amsdam Regular.9ffece67.ttf",
+  "static/media/Montserrat-Black.ttf": "static/media/Montserrat-Black.27e3649b.ttf",
+  "static/media/Montserrat-Regular.ttf": "static/media/Montserrat-Regular.ee653992.ttf",
+  "static/media/crimsontext-roman.ttf": "static/media/crimsontext-roman.ca4e112f.ttf"
 }
