@@ -6,7 +6,6 @@
     "npm": "7.x"
   },
   "private": true,
-  "proxy": "http://localhost:3001/",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "prop-types": "^15.7.2",
