@@ -1,11 +1,10 @@
 import React from "react";
 import "./style.css";
 import { useState } from 'react';
-import {render} from 'react-dom';
 import { Button} from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 
-function Example() {
+function ModalWindow() {
     const [show, setShow] = useState(true);
   
     const handleClose = () => setShow(false);
@@ -31,8 +30,7 @@ function Example() {
           </Modal.Footer>
         </Modal>
     );
-    render(<Example />);
   }
 
 
-export default Example;
+export default ModalWindow;

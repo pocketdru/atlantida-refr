@@ -13,7 +13,7 @@ function PostBoard() {
                     <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item"><a href="/">Home</a></li>
-                        <li className="breadcrumb-item" aria-current="/blog_sidebar">Blog</li>
+                        <li className="breadcrumb-item">Post</li>
                     </ol>
                     </nav>
                 </div>
