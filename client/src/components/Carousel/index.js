@@ -5,7 +5,7 @@ import { useState } from 'react';
 import "./style.css";
 
 function ControlledCarousel() {
-
+    
     const [index, setIndex] = useState(0);
   
     const handleSelect = (selectedIndex, e) => {

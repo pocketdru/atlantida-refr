@@ -4,9 +4,10 @@ import { useState } from 'react';
 import { Button} from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 
+
 function ModalWindow() {
-    const [show, setShow] = useState(true);
   
+    const [show, setShow] = useState(true);
     const handleClose = () => setShow(false);
   
     return (
