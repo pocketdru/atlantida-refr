@@ -1,5 +1,4 @@
 @import "../../main.scss";
-
 @mixin arrow() {
         overflow: overlay;
         width: 12px;
@@ -10,7 +9,6 @@
         border-left: 2px solid #3e3d3d;
         position: absolute;
 }
-
 @mixin dots () {
     position: absolute;
     top: 3%;
@@ -21,77 +19,67 @@
     border-radius: 50%;
     display: inline-block; 
 }
-
 @mixin lines {
     display: inline-block;
     content: '';
     position: absolute;
     outline: 1px solid #3e3d3d; 
 }
-
 @mixin title-scheme-img {
     display: block;
 }
-
 .history {
     background-color: #ededed;
     @include scheme-title-responsive();
 }
-
 .history h2, .ourteam h2 {
     @include Amsdam-card-title ();
 }
-
 .history p, .ourteam p {
     @include Crimson-card-text();
 }
-
 .history path {
     @include path-dark();
 }
-
 .history .scheme-title {
     @include Montserrat-title();
     @include scheme-title();
     @include scheme-title-responsive();
     border: 1px solid #3e3d3d;
 }
-
 .history .scheme-title-img {
     @include title-scheme-img();
     background-color: #3e3d3d;
 }
-
 .history .card {
     background-color: inherit;
     border: 0.125rem solid #3e3d3d;
     border-radius: 0;
 }
-
+// positioning for every line on the left
 .history div.col-md-6:nth-of-type(even) .card::after {
    @include lines();
    height: 100%;
     left: -2.5625rem;
     top: 15%;
  }
-  
+// positioning for every line on the right
   .history .col-md-6:nth-of-type(odd) .card::after {
     @include lines();
     height: 128%;
     right: -2.5625rem;
     top: -15%;
   }
-
+// positioning for every dot on the left
 .history div.col-md-6:nth-of-type(even) .card::before {
     @include dots();
     left: -3.3rem;
   }
-  
+  // positioning for every dot on the left
   .history div.col-md-6:nth-of-type(odd) .card::before {
    @include dots();
     right: -3.3rem;
   }
-
   .history div.col-md-6:nth-of-type(odd) .arrow {
     @include arrow();
     transform: rotate(135deg);
@@ -102,18 +90,16 @@
     transform: rotate(315deg);
     left: -7px;
   }
-  
 .history .card .card-title {
     @include Montserrat-title;
     text-transform: uppercase;
 }
-
 .history .card .date {
     @include Montserrat-title();
     text-align: left;
         font-size: 12px;
 }
-
+// different colors for one block
 .history .container .row .col-md-12 .col-md-6 #white {
     color: #e4e4e4;
     background-color: #3e3d3d;
@@ -121,7 +107,7 @@
         background-color: #3e3d3d;
     }
 }
-
+// responsive lines 
 @media (max-width: 1080px) {
    .history div.col-md-6:nth-of-type(even) .card::after {
         top: 13%;
@@ -136,8 +122,6 @@
         top: 9%;
     }
 }
-
-
 @media (max-width: 900px) {
     .history .col-md-6:nth-of-type(odd) .card::after  {
         top: -13%;
@@ -147,7 +131,6 @@
         top: 12%;
     }
 }
-
 @media (max-width: 640px) {
     .history .col-md-6:nth-of-type(odd) .card::after, .history div.col-md-6:nth-of-type(even) .card::after {
         top: 0px;

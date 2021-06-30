@@ -3,57 +3,48 @@
 .board {
     background-color: #e3e3e3;
 }
-
 .board .card-body {
     text-align: center;
 }
-
+// color for wavysvg component 
 .board .card-title path {
     stroke: #3e3d3d;
 }
-
+// styling text
 .board .card-title {
     @include Amsdam-card-title();
 }
-
 .board .card .card-text {
     @include Crimson-card-text();
     text-align: left;
 }
-
+// adding bottom styles and hovers
 .board .card .btn {
     text-align: center;
 }
-
 .board .card .btn-outline-primary {
     @include buttons-style;
     background-color: #3e3d3d;
     color: #cecece;
 }
-
 .board .card .btn-outline-primary:hover {
     color: #3e3d3d;
     background-color: #ffffff;
 }
-
 .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
     background-color:#aaaaaa;;
     border-color: #3e3d3d;
 }
-
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
     box-shadow: none;
 }
-
 .btn-outline-primary.focus, .btn-outline-primary:focus {
     box-shadow: none;
 }
-
 .board .card .btn-outline-secondary {
     @include buttons-style;
 }
-
 .board .card .btn-outline-secondary:hover {
     color:#ffffff;
     background-color: #3e3d3d;

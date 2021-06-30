@@ -1,33 +1,27 @@
 @import "../../main.scss";
-
 .forms {
     background-image: url("/images/forms/Background.png");
     @include form();
 }
-
 .forms .card-title {
     @include Montserrat-title();
     color: #ffffff;
     text-transform: uppercase;
 }
-
 .forms .navbar-brand {
     font-size: 18px;
 }
-
 .forms .card-paragraph {
     @include card-overlay-text();
     color: #949494;
 }
-
+// font-awesome styles 
 .forms .svg-inline--fa {
     @include font-awesome();
 }
-
 .forms .svg-inline--fa path {
     color: #a4a4a4;
 }
-
 .forms .svg-inline--fa:nth-child(n+2) {
     border-left: 1px solid #a4a4a4;
 }

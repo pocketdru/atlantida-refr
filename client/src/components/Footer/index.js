@@ -27,6 +27,7 @@ function Footer() {
                             +84 956 654 972</h5>
                             <Icons/>
                         </div>
+                        {/* contact form */}
                         <div className="col-md-8 mt-4">
                             <Form />
                         </div>

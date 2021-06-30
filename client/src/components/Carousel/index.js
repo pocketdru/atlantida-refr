@@ -5,9 +5,8 @@ import { useState } from 'react';
 import "./style.css";
 
 function ControlledCarousel() {
-    
+    //creating a state for the carousel
     const [index, setIndex] = useState(0);
-  
     const handleSelect = (selectedIndex, e) => {
       setIndex(selectedIndex);
     };
@@ -15,6 +14,7 @@ function ControlledCarousel() {
     return (
       <section className="carousel" id="carousel">
         <Carousel activeIndex={index} onSelect={handleSelect}>
+          {/* carousel slide */}
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -32,13 +32,14 @@ function ControlledCarousel() {
               <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
             </Carousel.Caption>
           </Carousel.Item>
+          {/* carousel slide */}
           <Carousel.Item>
             <img
               className="d-block w-100"
               src="images/img-2.png"
               alt="Second slide"
             />
-    
+
             <Carousel.Caption>
             <p className="caption">
               Design Studio and Digital Agency
@@ -49,6 +50,7 @@ function ControlledCarousel() {
               <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
             </Carousel.Caption>
           </Carousel.Item>
+          {/* carousel slide */}
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -65,6 +67,7 @@ function ControlledCarousel() {
               <button type="button" className="btn btn-outline-secondary pl-4 pr-4 mt-3">Get Started</button>
             </Carousel.Caption>
           </Carousel.Item>
+          {/* carousel slide */}
           <Carousel.Item>
             <img
               className="d-block w-100"

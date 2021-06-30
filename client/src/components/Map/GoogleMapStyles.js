@@ -1,3 +1,5 @@
+// styles for the map
+
 export default {
     mapStyle: [
       {

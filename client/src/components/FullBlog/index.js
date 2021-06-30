@@ -19,6 +19,7 @@ function FullBlog() {
                                     Maecenas vel dignissim</h5>
                                 <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
+                                    {/* icons group */}
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
                                     <FontAwesomeIcon icon={faEye}/>
@@ -37,6 +38,7 @@ function FullBlog() {
                                     Maecenas vel dignissim</h5>
                                 <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
+                                {/* icons group */}
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
                                     <FontAwesomeIcon icon={faEye}/>
@@ -55,6 +57,7 @@ function FullBlog() {
                                     Maecenas vel dignissim</h5>
                                 <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
+                                    {/* icons group */}
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
                                     <FontAwesomeIcon icon={faEye}/>
@@ -75,6 +78,7 @@ function FullBlog() {
                                     Maecenas vel dignissim</h5>
                                 <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
+                                    {/* icons group */}
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
                                     <FontAwesomeIcon icon={faEye}/>
@@ -93,6 +97,7 @@ function FullBlog() {
                                     Maecenas vel dignissim</h5>
                                 <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
+                                    {/* icons group */}
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
                                     <FontAwesomeIcon icon={faEye}/>
@@ -111,6 +116,7 @@ function FullBlog() {
                                     Maecenas vel dignissim</h5>
                                 <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
+                                    {/* icons group */}
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
                                     <FontAwesomeIcon icon={faEye}/>
@@ -131,6 +137,7 @@ function FullBlog() {
                                     Maecenas vel dignissim</h5>
                                 <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
+                                    {/* icons group */}
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
                                     <FontAwesomeIcon icon={faEye}/>
@@ -149,6 +156,7 @@ function FullBlog() {
                                     Maecenas vel dignissim</h5>
                                 <p className="card-text">14 Aug 2015 / By Admin</p>
                                 <div className="icons">
+                                    {/* icons group */}
                                     <FontAwesomeIcon icon={faCommentDots} />
                                     <p>95</p>
                                     <FontAwesomeIcon icon={faEye}/>

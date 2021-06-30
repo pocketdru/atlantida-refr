@@ -17,6 +17,7 @@ function Clients() {
                                 </div>
                             </div>
                         </div>
+                        {/* clients icons */}
                         <div className="row row-cols-1 row-cols-md-5 g-5 pt-5 pb-5">
                             <div className="col">
                                 <div className="card">

@@ -1,37 +1,31 @@
 @import "../../main.scss";
-
+// removing carousel indicators when the screen gets small
 @media (max-width: 414px) {
     .carousel-indicators {
         display: none;
     }
 }
-
 .carousel  svg {
     width: 500px;
     height: 9px;
     vertical-align: super;
 }
-
 .carousel  path {
     @include path-white();
 }       
-
 .jumbotron  .carousel-caption {
    @include responsive-carousel-caption();
 }
-
 .jumbotron .carousel-caption h3 {
     @include Amsdam-card-title();
     color: #ffffff;
 }
-
 .jumbotron .caption {
     @include Crimson-card-text();
     font-weight: bold;
     font-style: italic;
     font-size: 0.75em;
 }
-
 .carousel-caption .btn {
     color: #ffffff;
     border-color: #ffffff;

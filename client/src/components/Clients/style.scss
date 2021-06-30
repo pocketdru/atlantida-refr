@@ -1,25 +1,19 @@
 @import "../../main.scss";
-
 .clients {
     background-color: #fff;
 }
-
 .clients h2 {
     @include Amsdam-card-title();
 }
-
 .clients path {
     @include path-dark();
 }
-
 .clients p {
     @include Crimson-card-text();
 }
-
 .clients .g-5 .col {
     padding: 0px;
 }
-
 .clients .g-5 .col .card {
     border: none;
 }

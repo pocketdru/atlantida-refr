@@ -1,10 +1,9 @@
 @import "../../main.scss";
-
 .portfolio .gallery .img-fluid {
     overflow: hidden;
     width: 30rem;
 }
-
+// heights of the images
 .portfolio {
     @include gallery-heights();
 }

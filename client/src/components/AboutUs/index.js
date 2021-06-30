@@ -24,6 +24,7 @@ function AboutUs() {
           </div>
           </div>
         </div>
+        {/* Adding checkbox component  */}
         <Checkbox/>
     </div>
     </section>

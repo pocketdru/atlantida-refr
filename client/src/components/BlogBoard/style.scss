@@ -1,5 +1,5 @@
 @import "../../main.scss";
-
+// board text style
 .bigBlog .carousel-caption {
     @include responsive-board-caption();
 }
@@ -18,7 +18,7 @@
     @include Crimson-card-text();
     color: #ffffff;
 }
-
+// a color for the ">" sign
 .breadcrumb-item+.breadcrumb-item::before {
     content: ">";
     color: #ffffff;
