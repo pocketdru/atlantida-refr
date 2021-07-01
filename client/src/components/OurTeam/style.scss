@@ -1,44 +1,36 @@
 @import "../../main.scss";
-
+// adding border between icons
 .ourteam {
     @include font-awesome-border();
 }
-
 .ourteam .card:hover .card-img-overlay {
     display: block;
 }
-
 .ourteam .card-img-overlay {
     background: rgba(246, 246, 246, 0.8);
     display: none;
 }
-
 .ourteam .card .card-title {
     @include Montserrat-title();
     position: relative;
     top: 17rem;
 }
-
 .ourteam path {
     @include path-dark();
 }
-
 .ourteam .card .card-text {
     @include card-overlay-text();
     position: relative;
     top: 16.5rem;
     border-bottom: 1px solid #515151;
 }
-
 .ourteam .card-text i {
     border-bottom: 1px solid #515151;
 }
-
 .ourteam .svg-inline--fa {
     color:#3e3d3d;
     @include font-awesome();
 }
-
 .ourteam .icons {
     position: relative;
     top: 16.5rem;

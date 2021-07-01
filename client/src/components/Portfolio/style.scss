@@ -1,20 +1,16 @@
 @import "../../main.scss";
-
 .portfolio {
     background-color: #ffffff;
 }
-
 .portfolio h2 {
     @include Amsdam-card-title();
 }
-
 .portfolio path {
     @include path-dark();
 }
 .portfolio p {
     @include Crimson-card-text();
 }
-
 .portfolio .d-grid .btn {
     background-color: inherit;
     border: 2px solid #3e3d3d;
@@ -22,7 +18,6 @@
     padding-top: 4px;
     padding-bottom: 4px;
 }
-
 .portfolio .d-grid .btn:hover {
     background-color: #3e3d3d;
     color: #e3e3e3;

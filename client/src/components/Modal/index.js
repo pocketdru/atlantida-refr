@@ -4,9 +4,8 @@ import { useState } from 'react';
 import { Button} from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 
-
 function ModalWindow() {
-  
+  // modal shows up once the page mounted
     const [show, setShow] = useState(true);
     const handleClose = () => setShow(false);
   

@@ -1,16 +1,13 @@
 @import "../../main.scss";
-
 .modal-header h3 {
     @include Montserrat-title();
     color: #757575;
 }
-
 .modal-body .nav-link {
     @include Montserrat-title();
     color: #aaaaaa;
     border-bottom: 1px solid transparent;
 }
-
 .modal-body .card-text {
     @include Crimson-card-text();
 }

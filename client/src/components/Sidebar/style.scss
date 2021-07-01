@@ -1,74 +1,61 @@
 @import "../../main.scss";
-
 .sidebarBlog {
     background-color: #e3e3e3;
 }
-
 .sidebarBlog .card {
     background-color: inherit;
     flex-direction: row;
     border-bottom: 1px #b7b7b7;
     border-style: none none solid none;
 }
-
 .sidebarBlog .card-body {
     padding: 0em 0em 0em 1em;
 }
-
 .sidebarBlog .form-control, .sidebarBlog .input-group-text   {
     border-radius: 0px;
     background-color: #e3e3e3;
     border-top: 2px solid #a8a8a8;
     border-bottom: 2px solid #a8a8a8;
 }
-
 .sidebarBlog .form-control {
     border-right: 0px;
     border-left: 2px solid #a8a8a8;
     @include Crimson-card-text();
 }
-
 .sidebarBlog .input-group-text {
     border-right: 2px solid #a8a8a8;
     border-left: 0px;
 }
-
 .sidebarBlog .search-title, .sidebarBlog .card .card-title {
     @include Montserrat-title();
     font-weight: 700;
     text-transform: uppercase;
 }
-
 .sidebarBlog .card-img {
     width: unset;
     height: unset;
 }
-
 .sidebarBlog .card .card-title {
     font-size: 11px;
     font-weight: 700;
 
 }
-
 .sidebarBlog .card-text {
     @include Crimson-card-text();
     font-size: 12px;
 }
-
 .sidebarBlog .list-group .list-group-item {
     background-color: inherit;
     @include Crimson-card-text();
     border-bottom: 1px #b7b7b7;
     border-style: none none solid none;
 }
-
 .sidebarBlog .list-group .list-group-item {
     padding-left: 0px;
     display: list-item;
     list-style-position: inside;
     list-style-image: url("/images/sidebarBlog/dot.png");
 }
-
 .sidebarBlog .img-fluid {
     max-width: 90px;
 }

@@ -11,7 +11,7 @@
 .blog p {
     @include Crimson-card-text();
 }
-
+// different background colors for each card
 .blog .gallery .col-md-3:nth-child(4n+1) .card:nth-child(even) {
     background-color: #424244;
 }

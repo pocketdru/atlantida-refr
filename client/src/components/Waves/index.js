@@ -4,9 +4,10 @@ import "./style.css";
 class WavySvg extends Component {
 
     componentDidMount() {
+        // rendering the waves
         this.bigAnimate()
     }
-
+//  creating a diagonal line 
     constructor(props) {
         super(props)
         this.bigAnimate = this.bigAnimate.bind(this);
@@ -14,46 +15,29 @@ class WavySvg extends Component {
             path: "M10,10 L50,100 L90,50"
         };
       }
-
     bigAnimate = () => {
-
         let t = 0;
-
          this.animate = () => {
             let xs = [];
-    
             for (var i=0; i <= 700; i++) {
                 xs.push(i)
             }
-    
             let points = xs.map(x => {
-
                 let y = 5 + 2 * Math.sin((x + t)/2)
-    
                 return [x, y]
             })
-    
             let newPath = "M" + points.map(p => {
                 return p[0] + "," + p[1]
             }).join(" L")
-
             this.setState({
                 path: newPath
             })
-
             t += 1;
-
             requestAnimationFrame(this.animate)
-
             return newPath;
-
-
         }
-
         this.animate()
     }
-
-
 
     render() {
         return(

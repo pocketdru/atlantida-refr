@@ -1,18 +1,14 @@
 @import "../../main.scss";
-
 .quality {
     background-color: #2d2d2f;
 }
-
 .quality .img-fluid {
     display: block;
     margin: auto;
 }
-
 .quality .text-center, .quality .btn {
     @include Montserrat-title();
 }
-
 .quality .quality-title h4 {
     color: #d8d8d8;
     text-align: start;
@@ -20,7 +16,6 @@
     font-size: 16px;
     letter-spacing: 1.81px;
 }
-
 .quality .quality-p {
     font-family: "Crimson Text";
     font-size: 16px;
@@ -43,7 +38,6 @@
     border-radius: 0;
     padding: 0.25rem 1.5rem;
 }
-
 .quality .btn:hover {
     color: #3e3d3d;
     background-color: #e3e3e3;

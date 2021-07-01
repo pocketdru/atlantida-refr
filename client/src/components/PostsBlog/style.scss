@@ -1,19 +1,15 @@
 @import "../../main.scss";
-
 .PostsBlog-container {
     background-color: #e3e3e3;
 }
-
 .PostsBlog {
     @include post-fontAwesome-icons();
     @include post-card();
 }
-
 .PostsBlog .btn-toolbar {
     border-top: 1px solid #3e3d3d;
     justify-content: center;
 }
-
 .PostsBlog .btn-toolbar .btn {
     color: #3e3d3d;
     @include Crimson-card-text();

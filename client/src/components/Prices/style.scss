@@ -1,6 +1,5 @@
 @import "../../main.scss";
 @import "../History/style.scss";
-
 @media (max-width: 991px) {
     .prices .card .card-body .card-text {
         font-size: 55px;
@@ -9,7 +8,6 @@
         top: 16%;
     }
 }
-
 @media (max-width: 767px) {
     .prices .card .card-body .card-text {
         font-size: 75px;
@@ -18,32 +16,25 @@
         top: 20%;
     }
 }
-
 .prices {
     @include scheme-title-responsive();
 }
-
 .prices h2 {
     @include Amsdam-card-title();
 }
-
 .prices path {
     @include path-dark();
 }
-
 .prices p, .prices .list-group li {
     @include Crimson-card-text();
 }
-
 .prices .card {
     padding: 1rem 1.5rem;
 }
-
 .prices .card .card-title {
     @include Montserrat-title();
     text-align: center;
 }
-
 .prices .scheme-title-img img {
     @include title-scheme-img();
     border: 2px solid #3e3d3d;
@@ -56,27 +47,24 @@
     z-index: 5;
     background-color: #ffffff;
 }
-
+//adding horizontal lines, importing from history scss
 .prices .line {
     @include lines();
     top: 20%;
     width: calc(100% - 7em);
     z-index: 1;
 }
-
 .prices .card .card-text {
     @include Montserrat-title();
     text-align: center;
     font-weight: 700;
     font-size: 70px;
 }
-
 .prices .dollar {
     position: relative;
     font-size: 30px;
     top: -35px;
 }
-
 .prices .list-group li {
     font-style: italic;
     text-align: center;
@@ -84,7 +72,6 @@
     border: none;
     padding-top: 0px;
 }
-
 .prices .card .btn {
     @include Montserrat-title();
     display: block;
@@ -93,7 +80,6 @@
     border-radius: 0px;
     padding: 0.25rem 1.5rem;
 }
-
 .prices .card .btn:hover {
     background-color: #3e3d3d;
     color: #ffffff;

@@ -7,6 +7,7 @@ import "./style.css";
 function Nav() {
   return (
     <section className="nav-background">
+      {/* modal window component with quick navigation  */}
       <Modal/>
     <div className="container">
       <div className="row">
@@ -30,6 +31,7 @@ function Nav() {
           </nav>
         </div>
         <div  className="col-6 offset-1 col-sm-6 offset-sm-1 col-md-2 offset-md-0 col-lg-3 offset-lg-0">
+          {/* social media icons  */}
           <Icons />
         </div>
       </div>

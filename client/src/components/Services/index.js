@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import WavySvg from "../Waves";
+// border component to make a gap on the top
 import Border from "./Border";
 
 function Services() {

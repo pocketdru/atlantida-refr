@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import Sidebar from "../Sidebar";
+// importing all the font awesome icons 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCommentDots } from "@fortawesome/free-regular-svg-icons";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
