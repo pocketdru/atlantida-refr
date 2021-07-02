@@ -6,7 +6,7 @@ function PostBoard() {
     return (
         <section className="postBoard">
             <div className="container-fluid">
-            <img class="d-block w-100" src="/images/Layer_57.png" alt="board"/>
+            <img class="d-block w-100" src="/images/layer_57.png" alt="board"/>
                 <div className="carousel carousel-caption">
                     <h3 className="mt-5">POST WITH SIDEBAR</h3>
                     <WavySvg />
