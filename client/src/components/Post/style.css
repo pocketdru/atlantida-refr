@@ -78,6 +78,11 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }
 
+.post-container .icons-post .icons .svg-inline--fa:hover {
+  background-color: #818181;
+  color: #e3e3e3;
+  border: 1px solid #818181; }
+
 .comments .card-title, .comment-form .card-title {
   font-family: Montserrat;
   font-size: 15px;
@@ -127,7 +132,8 @@
   letter-spacing: 1.47px; }
 .comment-form .btn:hover {
   color: #464646;
-  background-color: #e3e3e3; }
+  background-color: #e3e3e3;
+  outline: 1px solid #464646; }
 .comment-form .footer {
   border-top: 0.5px solid #3e3e3e; }
 

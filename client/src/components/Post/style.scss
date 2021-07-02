@@ -27,6 +27,13 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
+.post-container .icons-post .icons .svg-inline--fa:hover {
+    background-color: #818181;
+    color: #e3e3e3;
+    border: 1px solid #818181;
+}
+
 .comments .card-title, .comment-form .card-title {
     @include Montserrat-title();
     font-weight: 700;

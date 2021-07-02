@@ -28,7 +28,8 @@
     letter-spacing: 1.47px; }
   .forms .btn:hover {
     color: #464646;
-    background-color: #e3e3e3; }
+    background-color: #e3e3e3;
+    outline: 1px solid #464646; }
   .forms .footer {
     border-top: 0.5px solid #3e3e3e; }
 
