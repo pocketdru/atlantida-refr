@@ -6,6 +6,16 @@
     @include post-fontAwesome-icons();
     @include post-card();
 }
+
+.PostsBlog .card .card-body .btn {
+    color: #3e3d3d;
+}
+
+.PostsBlog .card .card-body .btn:hover {
+  background-color:#3e3d3d;
+  color: #e3e3e3;
+}
+
 .PostsBlog .btn-toolbar {
     border-top: 1px solid #3e3d3d;
     justify-content: center;

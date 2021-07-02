@@ -54,6 +54,13 @@
 .PostsBlog .card .btn:focus {
   box-shadow: 0 0 0 0.2rem rgba(62, 61, 61, 0.25); }
 
+.PostsBlog .card .card-body .btn {
+  color: #3e3d3d; }
+
+.PostsBlog .card .card-body .btn:hover {
+  background-color: #3e3d3d;
+  color: #e3e3e3; }
+
 .PostsBlog .btn-toolbar {
   border-top: 1px solid #3e3d3d;
   justify-content: center; }
