@@ -47,5 +47,4 @@ function Checkbox() {
     </div>
   );
 }
-
 export default Checkbox;
