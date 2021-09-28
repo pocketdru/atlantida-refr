@@ -7,7 +7,6 @@ function BlogBoard() {
         <section className="bigBlog">
             <div className="container-fluid">
                 <img className="d-block w-100" src="/images/blogBoard/Image.png" alt="board"/>
-
                 <div className="carousel carousel-caption">
                     <h3 className="mt-5">MASONRY BLOG</h3>
                     <WavySvg />
