@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+
 function Checkbox() {
   return (
     <div className="row checkbox pb-5">
@@ -16,7 +17,7 @@ function Checkbox() {
             </div>
             <div className="col-md-3">
                 <div className="card mt-4">
-                <img src="/images/about/icon-2.png" className="card-img-top mx-auto" alt="icon"/>
+                <img src="/images/about/Icon-2.png" className="card-img-top mx-auto" alt="icon"/>
                 <div className="card-body">
                     <h5 className="card-title">JOBS <br/> DONE</h5>
                     <p className="card-text">1054</p>
@@ -25,7 +26,7 @@ function Checkbox() {
             </div>
             <div className="col-md-3">
                 <div className="card mt-4">
-                <img src="/images/about/icon-3.png" className="card-img-top mx-auto" alt="icon"/>
+                <img src="/images/about/Icon-3.png" className="card-img-top mx-auto" alt="icon"/>
                 <div className="card-body">
                     <h5 className="card-title">HAPPY <br/> CLIENTS</h5>
                     <p className="card-text">120</p>
@@ -34,7 +35,7 @@ function Checkbox() {
             </div>
             <div className="col-md-3">
                 <div className="card mt-4">
-                <img src="/images/about/icon-4.png" className="card-img-top mx-auto" alt="icon"/>
+                <img src="/images/about/Icon-4.png" className="card-img-top mx-auto" alt="icon"/>
                 <div className="card-body">
                     <h5 className="card-title">reviews <br/> recieved</h5>
                     <p className="card-text">54</p>
@@ -46,4 +47,5 @@ function Checkbox() {
     </div>
   );
 }
+
 export default Checkbox;
